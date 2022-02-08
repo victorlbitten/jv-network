@@ -2,6 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import networkgraph from 'highcharts/modules/networkgraph';
 
+import { DomServiceService } from 'src/app/services/dom-service.service';
+
+import { FragmentPopupComponent } from '../fragment-popup/fragment-popup.component';
+
+
 declare var require: any;
 let Boost = require('highcharts/modules/boost');
 let noData = require('highcharts/modules/no-data-to-display');
@@ -23,7 +28,8 @@ import { ChartDataService } from 'src/app/services/chart-data.service';
 })
 export class NetworkgraphComponent implements OnInit {
   constructor(
-    private chartDataService: ChartDataService
+    private chartDataService: ChartDataService,
+    private domService: DomServiceService
   ) { }
 
   options = {
@@ -105,10 +111,7 @@ export class NetworkgraphComponent implements OnInit {
           radius: 10
         },
         events: {
-          click: (event: any) => {
-            const index = event.point.id;
-            console.log(this.nodes.find((node: any) => node.name === index));
-          }
+          click: (event: any) => this.createPopup(event)
         },
         dataLabels: {
           enabled: true,
@@ -174,6 +177,17 @@ export class NetworkgraphComponent implements OnInit {
 
       }
     )
+  }
+
+
+  createPopup (event:any) {
+    const clickedNode = this.nodes.find((node:any) => node.name === event.point.id);
+    console.log(clickedNode);
+    const props = {
+      title: clickedNode.name,
+      fragment: clickedNode.fragment
+    }
+    this.domService.appendComponentToBody(FragmentPopupComponent, props);
   }
 
 }
