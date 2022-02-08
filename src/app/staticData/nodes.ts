@@ -390,12 +390,6 @@ export const nodes = [
         "fragment": ""
     },
     {
-        "id": "66",
-        "name": "Livro de Tombos",
-        "group": "Documento",
-        "fragment": ""
-    },
-    {
         "id": "67",
         "name": "Bolsa",
         "group": "Evento",

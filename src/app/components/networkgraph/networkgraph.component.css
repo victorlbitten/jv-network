@@ -1,0 +1,13 @@
+.group-element {
+    display: flex;
+    gap: 10px;
+    user-select: none;
+    cursor: pointer;
+    align-items: center;
+    opacity: 0.4;
+}
+
+.selected-group {
+    opacity: 1;
+}
+

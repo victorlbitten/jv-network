@@ -1,896 +1,598 @@
 export const links = [
     {
-        "source": "José Victor",
-        "target": "Relógio da torre da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Relógio da torre da Matriz do Bação"
     },
     {
-        "source": "José Victor",
-        "target": "Relógio da Feira Permanente de Amostras",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Relógio da Feira Permanente de Amostras"
     },
     {
-        "source": "José Victor",
-        "target": "Relógio de Belo Vale",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Relógio de Belo Vale"
     },
     {
-        "source": "José Victor",
-        "target": "Relógio da casa de José Victor",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Relógio da casa de José Victor"
     },
     {
-        "source": "José Victor",
-        "target": "Tijolos",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Tijolos"
     },
     {
-        "source": "José Victor",
-        "target": "Escultura do Cemitério",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Escultura do Cemitério"
     },
     {
-        "source": "José Victor",
-        "target": "Pia de Batismo",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Pia de Batismo"
     },
     {
-        "source": "José Victor",
-        "target": "Escultura de Anjos",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Escultura de Anjos"
     },
     {
-        "source": "José Victor",
-        "target": "Máquina de Voar",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Máquina de Voar"
     },
     {
-        "source": "José Victor",
-        "target": "Casa de José Victor",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Casa de José Victor"
     },
     {
-        "source": "José Victor",
-        "target": "Adro da Matriz",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Adro da Matriz"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Matriz do Bação"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Construção da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Construção da Matriz do Bação"
     },
     {
-        "source": "Construção da Matriz do Bação",
-        "target": "Padre Antônio Cândido",
-        "class": "",
-        "strength": ""
+        "from": "Construção da Matriz do Bação",
+        "to": "Padre Antônio Cândido"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Padre Bernardo",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Padre Bernardo"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Zé Relojoeiro",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Zé Relojoeiro"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Layla",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Layla"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Adilson",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Adilson"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "D. Divina",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "D. Divina"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Neymer",
-        "class": "Relato de primeira mão",
-        "strength": "10"
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Neymer"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Dr. Senna",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Dr. Senna"
     },
     {
-        "source": "Relógio da torre da Matriz do Bação",
-        "target": "Relógio ou reportagem na Alemanha",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da torre da Matriz do Bação",
+        "to": "Relógio ou reportagem na Alemanha"
     },
     {
-        "source": "Zé Relojoeiro",
-        "target": "Belo Vale",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Zé Relojoeiro",
+        "to": "Belo Vale"
     },
     {
-        "source": "Zé Relojoeiro",
-        "target": "Zé Relojoeiro",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Zé Relojoeiro",
+        "to": "Zé Relojoeiro"
     },
     {
-        "source": "Dr. Senna",
-        "target": "Reportagem Estado de Minas",
-        "class": "",
-        "strength": ""
+        "from": "Dr. Senna",
+        "to": "Reportagem Estado de Minas"
     },
     {
-        "source": "Relógio da Feira Permanente de Amostras",
-        "target": "Belo Horizonte",
-        "class": "",
-        "strength": ""
+        "from": "Relógio da Feira Permanente de Amostras",
+        "to": "Belo Horizonte"
     },
     {
-        "source": "Relógio de Belo Vale",
-        "target": "Belo Vale",
-        "class": "",
-        "strength": ""
+        "from": "Relógio de Belo Vale",
+        "to": "Belo Vale"
     },
     {
-        "source": "Relógio da casa de José Victor",
-        "target": "D. Divina",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Relógio da casa de José Victor",
+        "to": "D. Divina"
     },
     {
-        "source": "Tijolos",
-        "target": "Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Tijolos",
+        "to": "Matriz do Bação"
     },
     {
-        "source": "Tijolos",
-        "target": "Casa de José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Tijolos",
+        "to": "Casa de José Victor"
     },
     {
-        "source": "Tijolos",
-        "target": "D. Divina",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Tijolos",
+        "to": "D. Divina"
     },
     {
-        "source": "Tijolos",
-        "target": "Casa Flusser",
-        "class": "",
-        "strength": ""
+        "from": "Tijolos",
+        "to": "Casa Flusser"
     },
     {
-        "source": "Tijolos",
-        "target": "Jaber",
-        "class": "",
-        "strength": ""
+        "from": "Tijolos",
+        "to": "Jaber"
     },
     {
-        "source": "Escultura do Cemitério",
-        "target": "Padre Antônio Cândido",
-        "class": "",
-        "strength": ""
+        "from": "Escultura do Cemitério",
+        "to": "Padre Antônio Cândido"
     },
     {
-        "source": "Escultura do Cemitério",
-        "target": "Valdecir",
-        "class": "",
-        "strength": ""
+        "from": "Escultura do Cemitério",
+        "to": "Valdecir"
     },
     {
-        "source": "Padre Antônio Cândido",
-        "target": "Casa Flusser",
-        "class": "",
-        "strength": ""
+        "from": "Padre Antônio Cândido",
+        "to": "Casa Flusser"
     },
     {
-        "source": "Pia de Batismo",
-        "target": "Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Pia de Batismo",
+        "to": "Matriz do Bação"
     },
     {
-        "source": "Pia de Batismo",
-        "target": "Livro de Tombos",
-        "class": "",
-        "strength": ""
+        "from": "Pia de Batismo",
+        "to": "Livro de Tombos"
     },
     {
-        "source": "Escultura de Anjos",
-        "target": "Casa de José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Escultura de Anjos",
+        "to": "Casa de José Victor"
     },
     {
-        "source": "Escultura de Anjos",
-        "target": "Mariana",
-        "class": "",
-        "strength": ""
+        "from": "Escultura de Anjos",
+        "to": "Mariana"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "Padre Antônio Cândido",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "Padre Antônio Cândido"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "Adilson",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "Adilson"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "Jaber",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "Jaber"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "Valdecir",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "Valdecir"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "D. Lia",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "D. Lia"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "Dolores",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "Dolores"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "Voo do 14-bis",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "Voo do 14-bis"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "Casa Flusser",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "Casa Flusser"
     },
     {
-        "source": "Máquina de Voar",
-        "target": "D. Divina",
-        "class": "",
-        "strength": ""
+        "from": "Máquina de Voar",
+        "to": "D. Divina"
     },
     {
-        "source": "D. Divina",
-        "target": "Dolores",
-        "class": "",
-        "strength": ""
+        "from": "D. Divina",
+        "to": "Dolores"
     },
     {
-        "source": "Casa de José Victor",
-        "target": "D. Divina",
-        "class": "",
-        "strength": ""
+        "from": "Casa de José Victor",
+        "to": "D. Divina"
     },
     {
-        "source": "Casa de José Victor",
-        "target": "Jaber",
-        "class": "",
-        "strength": ""
+        "from": "Casa de José Victor",
+        "to": "Jaber"
     },
     {
-        "source": "Casa de José Victor",
-        "target": "Valdecir",
-        "class": "",
-        "strength": ""
+        "from": "Casa de José Victor",
+        "to": "Valdecir"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Adro da Matriz",
+        "to": "Matriz do Bação"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Construção da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Adro da Matriz",
+        "to": "Construção da Matriz do Bação"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Padre Antônio Cândido",
-        "class": "",
-        "strength": ""
+        "from": "Adro da Matriz",
+        "to": "Padre Antônio Cândido"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Padre Bernardo",
-        "class": "",
-        "strength": ""
+        "from": "Adro da Matriz",
+        "to": "Padre Bernardo"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Valdecir",
-        "class": "",
-        "strength": ""
+        "from": "Adro da Matriz",
+        "to": "Valdecir"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Livro de Tombos",
-        "class": "",
-        "strength": ""
+        "from": "Adro da Matriz",
+        "to": "Livro de Tombos"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "D. Divina",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Adro da Matriz",
+        "to": "D. Divina"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Pedreira (checar nome)",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Adro da Matriz",
+        "to": "Pedreira (checar nome)"
     },
     {
-        "source": "Pedreira (checar nome)",
-        "target": "D. Divina",
-        "class": "Relato de segunda mão",
-        "strength": "5"
+        "from": "Pedreira (checar nome)",
+        "to": "D. Divina"
     },
     {
-        "source": "Adro da Matriz",
-        "target": "Grupo de Teatro do Bação",
-        "class": "Relato de primeira mão",
-        "strength": "10"
+        "from": "Adro da Matriz",
+        "to": "Grupo de Teatro do Bação"
     },
     {
-        "source": "Construção da Matriz do Bação",
-        "target": "Missão de Padres do Caraça",
-        "class": "",
-        "strength": ""
+        "from": "Construção da Matriz do Bação",
+        "to": "Missão de Padres do Caraça"
     },
     {
-        "source": "Escultura do Cemitério",
-        "target": "Cemitério do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Escultura do Cemitério",
+        "to": "Cemitério do Bação"
     },
     {
-        "source": "Vila Rica",
-        "target": "Dr. Senna",
-        "class": "",
-        "strength": ""
+        "from": "Vila Rica",
+        "to": "Dr. Senna"
     },
     {
-        "source": "Pia de Batismo",
-        "target": "Valdecir",
-        "class": "",
-        "strength": ""
+        "from": "Pia de Batismo",
+        "to": "Valdecir"
     },
     {
-        "source": "Construção da Matriz do Bação",
-        "target": "Mudança de Freguesia",
-        "class": "",
-        "strength": ""
+        "from": "Construção da Matriz do Bação",
+        "to": "Mudança de Freguesia"
     },
     {
-        "source": "Mudança de Freguesia",
-        "target": "Itabira do Campo",
-        "class": "",
-        "strength": ""
+        "from": "Mudança de Freguesia",
+        "to": "Itabira do Campo"
     },
     {
-        "source": "Bação",
-        "target": "Construção da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Bação",
+        "to": "Construção da Matriz do Bação"
     },
     {
-        "source": "José Bastos Bittencourt",
-        "target": "José Victor",
-        "class": "",
-        "strength": ""
+        "from": "José Bastos Bittencourt",
+        "to": "José Victor"
     },
     {
-        "source": "José Bastos Bittencourt",
-        "target": "Itabirito",
-        "class": "",
-        "strength": ""
+        "from": "José Bastos Bittencourt",
+        "to": "Itabirito"
     },
     {
-        "source": "José Bastos Bittencourt",
-        "target": "Capsula do Tempo",
-        "class": "",
-        "strength": ""
+        "from": "José Bastos Bittencourt",
+        "to": "Capsula do Tempo"
     },
     {
-        "source": "José Bastos Bittencourt",
-        "target": "Música",
-        "class": "",
-        "strength": ""
+        "from": "José Bastos Bittencourt",
+        "to": "Música"
     },
     {
-        "source": "Música",
-        "target": "Casa da Banda",
-        "class": "",
-        "strength": ""
+        "from": "Música",
+        "to": "Casa da Banda"
     },
     {
-        "source": "Casa da Banda",
-        "target": "Totonho",
-        "class": "",
-        "strength": ""
+        "from": "Casa da Banda",
+        "to": "Totonho"
     },
     {
-        "source": "José Victor",
-        "target": "Música",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Música"
     },
     {
-        "source": "José Victor",
-        "target": "Totonho",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Totonho"
     },
     {
-        "source": "José Victor",
-        "target": "Capsula do Tempo",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Capsula do Tempo"
     },
     {
-        "source": "Capsula do Tempo",
-        "target": "Vânia",
-        "class": "Relato de primeira mão",
-        "strength": ""
+        "from": "Capsula do Tempo",
+        "to": "Vânia"
     },
     {
-        "source": "Vânia",
-        "target": "D. Divina",
-        "class": "",
-        "strength": ""
+        "from": "Vânia",
+        "to": "D. Divina"
     },
     {
-        "source": "Dolores",
-        "target": "D. Divina",
-        "class": "",
-        "strength": ""
+        "from": "Dolores",
+        "to": "D. Divina"
     },
     {
-        "source": "Dolores",
-        "target": "Rio de Janeiro",
-        "class": "",
-        "strength": ""
+        "from": "Dolores",
+        "to": "Rio de Janeiro"
     },
     {
-        "source": "Dolores",
-        "target": "Vânia",
-        "class": "",
-        "strength": ""
+        "from": "Dolores",
+        "to": "Vânia"
     },
     {
-        "source": "José Victor",
-        "target": "Dolores",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Dolores"
     },
     {
-        "source": "Casa da Banda",
-        "target": "Padre Bernardo",
-        "class": "",
-        "strength": ""
+        "from": "Casa da Banda",
+        "to": "Padre Bernardo"
     },
     {
-        "source": "Padre Bernardo",
-        "target": "Grupo de Seresteiros",
-        "class": "",
-        "strength": ""
+        "from": "Padre Bernardo",
+        "to": "Grupo de Seresteiros"
     },
     {
-        "source": "Semana Santa",
-        "target": "Grupo de Teatro do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Semana Santa",
+        "to": "Grupo de Teatro do Bação"
     },
     {
-        "source": "Semana Santa",
-        "target": "Padre Bernardo",
-        "class": "",
-        "strength": ""
+        "from": "Semana Santa",
+        "to": "Padre Bernardo"
     },
     {
-        "source": "Semana Santa",
-        "target": "Padre Antônio Cândido",
-        "class": "",
-        "strength": ""
+        "from": "Semana Santa",
+        "to": "Padre Antônio Cândido"
     },
     {
-        "source": "Vânia",
-        "target": "Dr. Senna",
-        "class": "Relato de segunda mão",
-        "strength": ""
+        "from": "Vânia",
+        "to": "Dr. Senna"
     },
     {
-        "source": "Seu Benjamin",
-        "target": "Dolores",
-        "class": "",
-        "strength": ""
+        "from": "Seu Benjamin",
+        "to": "Dolores"
     },
     {
-        "source": "Seu Benjamin",
-        "target": "D. Divina",
-        "class": "",
-        "strength": ""
+        "from": "Seu Benjamin",
+        "to": "D. Divina"
     },
     {
-        "source": "Seu Benjamin",
-        "target": "Rio de Janeiro",
-        "class": "",
-        "strength": ""
+        "from": "Seu Benjamin",
+        "to": "Rio de Janeiro"
     },
     {
-        "source": "Seu Benjamin",
-        "target": "José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Seu Benjamin",
+        "to": "José Victor"
     },
     {
-        "source": "Seu Benjamin",
-        "target": "Casa de José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Seu Benjamin",
+        "to": "Casa de José Victor"
     },
     {
-        "source": "Seu Benjamin",
-        "target": "Comércios na R. das Pimentas",
-        "class": "",
-        "strength": ""
+        "from": "Seu Benjamin",
+        "to": "Comércios na R. das Pimentas"
     },
     {
-        "source": "Comércios na R. das Pimentas",
-        "target": "Marilene",
-        "class": "",
-        "strength": ""
+        "from": "Comércios na R. das Pimentas",
+        "to": "Marilene"
     },
     {
-        "source": "José Victor",
-        "target": "Relato da viagem",
-        "class": "",
-        "strength": ""
+        "from": "José Victor",
+        "to": "Relato da viagem"
     },
     {
-        "source": "Relato da viagem",
-        "target": "Marilene",
-        "class": "",
-        "strength": ""
+        "from": "Relato da viagem",
+        "to": "Marilene"
     },
     {
-        "source": "Relato da viagem",
-        "target": "Jaber",
-        "class": "",
-        "strength": ""
+        "from": "Relato da viagem",
+        "to": "Jaber"
     },
     {
-        "source": "Relato da viagem",
-        "target": "Valdecir",
-        "class": "",
-        "strength": ""
+        "from": "Relato da viagem",
+        "to": "Valdecir"
     },
     {
-        "source": "Zé Relojoeiro",
-        "target": "Layla",
-        "class": "",
-        "strength": ""
+        "from": "Zé Relojoeiro",
+        "to": "Layla"
     },
     {
-        "source": "Zé Relojoeiro",
-        "target": "Adilson",
-        "class": "",
-        "strength": ""
+        "from": "Zé Relojoeiro",
+        "to": "Adilson"
     },
     {
-        "source": "Zé Relojoeiro",
-        "target": "Itabirito",
-        "class": "",
-        "strength": ""
+        "from": "Zé Relojoeiro",
+        "to": "Itabirito"
     },
     {
-        "source": "Estrada de Ferro Central do Brasil",
-        "target": "Seu Benjamin",
-        "class": "",
-        "strength": ""
+        "from": "Estrada de Ferro Central do Brasil",
+        "to": "Seu Benjamin"
     },
     {
-        "source": "Estrada de Ferro Central do Brasil",
-        "target": "Rio de Janeiro",
-        "class": "",
-        "strength": ""
+        "from": "Estrada de Ferro Central do Brasil",
+        "to": "Rio de Janeiro"
     },
     {
-        "source": "Estrada de Ferro Central do Brasil",
-        "target": "Belo Horizonte",
-        "class": "",
-        "strength": ""
+        "from": "Estrada de Ferro Central do Brasil",
+        "to": "Belo Horizonte"
     },
     {
-        "source": "Estrada de Ferro Central do Brasil",
-        "target": "Vânia",
-        "class": "Relato de segunda mão",
-        "strength": ""
+        "from": "Estrada de Ferro Central do Brasil",
+        "to": "Vânia"
     },
     {
-        "source": "Música",
-        "target": "Padre Bernardo",
-        "class": "",
-        "strength": ""
+        "from": "Música",
+        "to": "Padre Bernardo"
     },
     {
-        "source": "Música",
-        "target": "Totonho",
-        "class": "",
-        "strength": ""
+        "from": "Música",
+        "to": "Totonho"
     },
     {
-        "source": "Música",
-        "target": "D. Lia",
-        "class": "",
-        "strength": ""
+        "from": "Música",
+        "to": "D. Lia"
     },
     {
-        "source": "D. Lia",
-        "target": "José Victor",
-        "class": "",
-        "strength": ""
+        "from": "D. Lia",
+        "to": "José Victor"
     },
     {
-        "source": "Agostinho Rodrigues",
-        "target": "Itabirito",
-        "class": "",
-        "strength": ""
+        "from": "Agostinho Rodrigues",
+        "to": "Itabirito"
     },
     {
-        "source": "Agostinho Rodrigues",
-        "target": "José Bastos Bittencourt",
-        "class": "",
-        "strength": ""
+        "from": "Agostinho Rodrigues",
+        "to": "José Bastos Bittencourt"
     },
     {
-        "source": "Agostinho Rodrigues",
-        "target": "Música",
-        "class": "",
-        "strength": ""
+        "from": "Agostinho Rodrigues",
+        "to": "Música"
     },
     {
-        "source": "Agostinho Rodrigues",
-        "target": "José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Agostinho Rodrigues",
+        "to": "José Victor"
     },
     {
-        "source": "Grupo de Teatro do Bação",
-        "target": "Marilene",
-        "class": "",
-        "strength": ""
+        "from": "Grupo de Teatro do Bação",
+        "to": "Marilene"
     },
     {
-        "source": "Grupo de Teatro do Bação",
-        "target": "Semana Santa",
-        "class": "",
-        "strength": ""
+        "from": "Grupo de Teatro do Bação",
+        "to": "Semana Santa"
     },
     {
-        "source": "Relógio de Belo Vale",
-        "target": "D. Divina",
-        "class": "",
-        "strength": ""
+        "from": "Relógio de Belo Vale",
+        "to": "D. Divina"
     },
     {
-        "source": "Construção da Matriz do Bação",
-        "target": "Luiz Cheffer",
-        "class": "",
-        "strength": ""
+        "from": "Construção da Matriz do Bação",
+        "to": "Luiz Cheffer"
     },
     {
-        "source": "Construção da Matriz do Bação",
-        "target": "Ilariano Malta",
-        "class": "",
-        "strength": ""
+        "from": "Construção da Matriz do Bação",
+        "to": "Ilariano Malta"
     },
     {
-        "source": "Construção da Matriz do Bação",
-        "target": "D. Divina",
-        "class": "Relato de segunda mão",
-        "strength": ""
+        "from": "Construção da Matriz do Bação",
+        "to": "D. Divina"
     },
     {
-        "source": "Padre Bernardo",
-        "target": "Padre Antônio Cândido",
-        "class": "",
-        "strength": ""
+        "from": "Padre Bernardo",
+        "to": "Padre Antônio Cândido"
     },
     {
-        "source": "Padre Antônio Cândido",
-        "target": "Pedreira (checar nome)",
-        "class": "",
-        "strength": ""
+        "from": "Padre Antônio Cândido",
+        "to": "Pedreira (checar nome)"
     },
     {
-        "source": "Ilariano Malta",
-        "target": "Seu Benjamin",
-        "class": "",
-        "strength": ""
+        "from": "Ilariano Malta",
+        "to": "Seu Benjamin"
     },
     {
-        "source": "Luiz Cheffer",
-        "target": "Seu Benjamin",
-        "class": "",
-        "strength": ""
+        "from": "Luiz Cheffer",
+        "to": "Seu Benjamin"
     },
     {
-        "source": "Marilene",
-        "target": "Jaber",
-        "class": "",
-        "strength": ""
+        "from": "Marilene",
+        "to": "Jaber"
     },
     {
-        "source": "D. Lia",
-        "target": "Totonho",
-        "class": "",
-        "strength": ""
+        "from": "D. Lia",
+        "to": "Totonho"
     },
     {
-        "source": "Comércios na R. das Pimentas",
-        "target": "Rio de Janeiro",
-        "class": "",
-        "strength": ""
+        "from": "Comércios na R. das Pimentas",
+        "to": "Rio de Janeiro"
     },
     {
-        "source": "Estação Engenheiro Correa",
-        "target": "Estrada de Ferro Central do Brasil",
-        "class": "",
-        "strength": ""
+        "from": "Estação Engenheiro Correa",
+        "to": "Estrada de Ferro Central do Brasil"
     },
     {
-        "source": "Declaração da República",
-        "target": "Rio de Janeiro",
-        "class": "",
-        "strength": ""
+        "from": "Declaração da República",
+        "to": "Rio de Janeiro"
     },
     {
-        "source": "Ilariano Malta",
-        "target": "D. Divina",
-        "class": "",
-        "strength": ""
+        "from": "Ilariano Malta",
+        "to": "D. Divina"
     },
     {
-        "source": "Ilariano Malta",
-        "target": "Livro de Tombos",
-        "class": "",
-        "strength": ""
+        "from": "Ilariano Malta",
+        "to": "Livro de Tombos"
     },
     {
-        "source": "Ilariano Malta",
-        "target": "Construção da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Ilariano Malta",
+        "to": "Construção da Matriz do Bação"
     },
     {
-        "source": "Padre Frederico",
-        "target": "Construção da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Padre Frederico",
+        "to": "Construção da Matriz do Bação"
     },
     {
-        "source": "Padre Frederico",
-        "target": "Colégio Arnaldo",
-        "class": "",
-        "strength": ""
+        "from": "Padre Frederico",
+        "to": "Colégio Arnaldo"
     },
     {
-        "source": "Colégio Arnaldo",
-        "target": "Belo Horizonte",
-        "class": "",
-        "strength": ""
+        "from": "Colégio Arnaldo",
+        "to": "Belo Horizonte"
     },
     {
-        "source": "Padre Frederico",
-        "target": "Luiz Cheffer",
-        "class": "",
-        "strength": ""
+        "from": "Padre Frederico",
+        "to": "Luiz Cheffer"
     },
     {
-        "source": "Inscrições",
-        "target": "José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Inscrições",
+        "to": "José Victor"
     },
     {
-        "source": "Inscrições",
-        "target": "Construção da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Inscrições",
+        "to": "Construção da Matriz do Bação"
     },
     {
-        "source": "Inscrições",
-        "target": "Adro da Matriz",
-        "class": "",
-        "strength": ""
+        "from": "Inscrições",
+        "to": "Adro da Matriz"
     },
     {
-        "source": "Estrada de Ferro Central do Brasil",
-        "target": "Construção da Matriz do Bação",
-        "class": "",
-        "strength": ""
+        "from": "Estrada de Ferro Central do Brasil",
+        "to": "Construção da Matriz do Bação"
     },
     {
-        "source": "D. Divina",
-        "target": "Padre Bernardo",
-        "class": "",
-        "strength": ""
+        "from": "D. Divina",
+        "to": "Padre Bernardo"
     },
     {
-        "source": "D. Divina",
-        "target": "Casa da Banda",
-        "class": "",
-        "strength": ""
+        "from": "D. Divina",
+        "to": "Casa da Banda"
     },
     {
-        "source": "Dr. Senna",
-        "target": "Bolsa",
-        "class": "",
-        "strength": ""
+        "from": "Dr. Senna",
+        "to": "Bolsa"
     },
     {
-        "source": "Bolsa",
-        "target": "José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Bolsa",
+        "to": "José Victor"
     },
     {
-        "source": "Dr. Senna",
-        "target": "José Victor",
-        "class": "",
-        "strength": ""
+        "from": "Dr. Senna",
+        "to": "José Victor"
     },
     {
-        "source": "muros de pedra",
-        "target": "Adro da Matriz",
-        "class": "",
-        "strength": ""
+        "from": "muros de pedra",
+        "to": "Adro da Matriz"
     }
   ];
