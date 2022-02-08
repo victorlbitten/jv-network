@@ -16,4 +16,13 @@ export class ChartDataService {
   getLinksData () {
     return links;
   }
+
+  getGroups () {
+    let groups = new Set();
+    nodes.forEach((node) => {
+      groups.add(node.group);
+    });
+
+    return groups;
+  }
 }
