@@ -48,6 +48,22 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
       elementStyle.left = event.clientX - offsetX + 'px';
       elementStyle.top = event.clientY - offsetY + 'px';
     }
+
+
+
+
+    // Scroll
+    const bodyElement = document.getElementById(`cardBody-${this.title}`);
+    bodyElement?.addEventListener('scroll', scrollEvent);
+
+    function scrollEvent (event:any) {
+      const target = event.target;
+      let scrollTop = target.scrollTop;
+      let clientHeight = target.clientHeight;
+      let scrollHeight = target.scrollHeight;
+  
+      let percentage = Math.floor((scrollTop / (scrollHeight - clientHeight)) * 100);
+    }
   }
 
 }
