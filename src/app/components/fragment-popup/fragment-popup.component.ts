@@ -14,12 +14,36 @@ export class FragmentPopupComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.title);
-    console.log(this.fragment)
+    this.setListeners();
   }
 
   destroySelf () {
     this.selfDestroy();
+  }
+
+  setListeners () {
+    // Drag and drop
+    const fragmentContainer = document.getElementById('cardContainer');
+    fragmentContainer?.addEventListener('dragstart', handleDragStart);
+    fragmentContainer?.addEventListener('dragend', handleDragEnd);
+
+
+    let offsetX:any, offsetY:any;
+
+    function handleDragStart (event:any) {
+      const rect = event.target.getBoundingClientRect();
+
+      offsetX = event.clientX - rect.x;
+      offsetY = event.clientY - rect.y;
+    }
+
+    function handleDragEnd (event:any) { 
+      event.stopPropagation();
+
+      let elementStyle: any = fragmentContainer?.style;
+      elementStyle.left = event.clientX - offsetX + 'px';
+      elementStyle.top = event.clientY - offsetY + 'px';
+    }
   }
 
 }
