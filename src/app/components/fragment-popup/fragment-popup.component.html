@@ -5,5 +5,10 @@
             <span (click)="destroySelf()">Close</span>
         </div>
     </div>
-    <div class="card-body" id="cardBody-{{title}}">{{fragment}}</div>
+    <div class="card-body">
+        <span class="card-fragment" id="cardBody-{{title}}">
+            {{fragment}}
+        </span>
+        <image-carousel style="align-self: center;" [percentage]="scrollPercentage" [title]="title"></image-carousel>
+    </div>
 </div>

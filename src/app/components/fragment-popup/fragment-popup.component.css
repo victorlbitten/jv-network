@@ -47,8 +47,15 @@
 }
 
 .card-body {
+    display: flex;
     flex-grow: 1;
-    overflow: auto;
     padding: 7px 15px;
     font-size: 0.9rem;
+    overflow: hidden;
+    gap: 15px;
+}
+
+.card-fragment {
+    overflow: auto;
+    min-width: 20ch;
 }
