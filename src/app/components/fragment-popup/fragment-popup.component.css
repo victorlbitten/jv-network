@@ -2,7 +2,6 @@
     --border: 1px solid #ddd;
 
     overflow: hidden;
-    resize: both;
     display: flex;
     flex-direction: column;
     border: var(--border);
