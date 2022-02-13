@@ -7,6 +7,8 @@ import { AfterContentInit, AfterViewInit, Component, Input, OnInit } from '@angu
 })
 export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
+  scrollPercentage = 0;
+
   @Input() title:string = '';
   @Input() fragment:string = '';
   @Input() selfDestroy:any;
@@ -48,6 +50,22 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
       elementStyle.left = event.clientX - offsetX + 'px';
       elementStyle.top = event.clientY - offsetY + 'px';
     }
+
+
+
+
+    // Scroll
+    const bodyElement = document.getElementById(`cardBody-${this.title}`);
+    console.log(bodyElement);
+    bodyElement?.addEventListener('scroll', (event:any) => {
+      const target = event.target;
+      let scrollTop = target.scrollTop;
+      let clientHeight = target.clientHeight;
+      let scrollHeight = target.scrollHeight;
+  
+      this.scrollPercentage = Math.floor((scrollTop / (scrollHeight - clientHeight)) * 100);
+    });
   }
+
 
 }
