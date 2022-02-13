@@ -6,9 +6,9 @@
         </div>
     </div>
     <div class="card-body">
+        <image-carousel style="align-self: center;" [percentage]="scrollPercentage" [title]="title"></image-carousel>
         <span class="card-fragment" id="cardBody-{{title}}">
             {{fragment}}
         </span>
-        <image-carousel style="align-self: center;" [percentage]="scrollPercentage" [title]="title"></image-carousel>
     </div>
 </div>
