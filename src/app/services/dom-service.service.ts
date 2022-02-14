@@ -6,6 +6,8 @@ import {
   ApplicationRef
   } from '@angular/core';
 
+import { VerbatinContainerComponent } from '../components/verbatin-container/verbatin-container.component';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -17,6 +19,22 @@ export class DomServiceService {
     private injector: Injector
   ) { }
 
+  containerReference: any;
+
+  createReference () {
+    if (!this.containerReference) {
+      this.containerReference = this.componentFactoryResolver
+        .resolveComponentFactory(VerbatinContainerComponent)
+        .create(this.injector);
+  
+      this.appRef.attachView(this.containerReference.hostView);
+  
+      const domElement = (this.containerReference.hostView as EmbeddedViewRef<any>)
+        .rootNodes[0] as HTMLElement;
+  
+      document.body.appendChild(domElement);
+    }
+  }
 
 
   appendComponentToBody (component:any, parameters:any) {
@@ -38,7 +56,9 @@ export class DomServiceService {
       .rootNodes[0] as HTMLElement;
 
     // 4. Append DOM element to the body
-    document.body.appendChild(domElement);
+    // document.body.appendChild(domElement);
+    const containerElement = document.getElementById("verbatinContainer");
+    containerElement?.appendChild(domElement);
     
     const selfDestroy = () => {
       this.appRef.detachView(componentRef.hostView);

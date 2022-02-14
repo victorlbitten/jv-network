@@ -1,0 +1,17 @@
+.verbatin-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+
+    padding: 5px 10px;
+    border: 1px solid red;
+
+    max-height: 85vh;
+    overflow: auto;
+
+    background-color: #fff;
+    box-shadow: 3px 3px 5px #bbb;
+}

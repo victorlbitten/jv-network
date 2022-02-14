@@ -74,6 +74,7 @@ export class NetworkgraphComponent implements OnInit {
 
   ngOnInit(): void {
     this.createGraph();
+    this.createReference();
   }
 
   createGraph() {
@@ -179,6 +180,10 @@ export class NetworkgraphComponent implements OnInit {
     )
   }
 
+
+  createReference () {
+    this.domService.createReference();
+  }
 
   createPopup (event:any) {
     const clickedNode = this.nodes.find((node:any) => node.name === event.point.id);
