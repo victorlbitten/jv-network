@@ -190,7 +190,8 @@ export class NetworkgraphComponent implements OnInit {
     console.log(clickedNode);
     const props = {
       title: clickedNode.name,
-      fragment: clickedNode.fragment
+      fragment: clickedNode.fragment,
+      point: clickedNode
     }
     this.domService.appendComponentToBody(FragmentPopupComponent, props);
   }

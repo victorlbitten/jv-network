@@ -11,12 +11,16 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   @Input() title:string = '';
   @Input() fragment:string = '';
+  @Input() point:any;
   @Input() selfDestroy:any;
+
+  expansionByPassageId:any;
 
   constructor() { }
 
   ngOnInit(): void {
-    // this.setListeners();
+    console.log(this.point);
+    this.setExpansionStateByPassageId();
   }
 
   ngAfterViewInit(): void {
@@ -25,6 +29,19 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   destroySelf () {
     this.selfDestroy();
+  }
+
+  setExpansionStateByPassageId () {
+    this.expansionByPassageId = this.point.verbatin.reduce((expansionState:any, passage:any) => {
+      expansionState[passage.passageId] = 0;
+      return expansionState;
+    }, {});
+
+    console.log(this.expansionByPassageId);
+  }
+
+  toggleExpansionStateById (passageId:number) {
+    this.expansionByPassageId[passageId] = !this.expansionByPassageId[passageId];
   }
 
   setListeners () {
