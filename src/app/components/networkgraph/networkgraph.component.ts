@@ -42,8 +42,8 @@ export class NetworkgraphComponent implements OnInit {
     "Documento": "#8085e9"
   };
   radiusSizes: any = {
-    default: 8,
-    big: 10,
+    default: 7,
+    big: 9,
     small: 6
   }
 
@@ -95,7 +95,9 @@ export class NetworkgraphComponent implements OnInit {
         id: node.name,
         color: this.colorByGroup[node.group],
         marker: {
-          radius: this.radiusSizes.default
+          radius: (this.filteredGroups.has(node.group))
+            ? this.radiusSizes.big
+            : this.radiusSizes.small
         }
       }
     });
