@@ -32,17 +32,8 @@ export class NetworkgraphComponent implements OnInit {
     private domService: DomServiceService
   ) { }
 
+  // Constants used throughout the code
   chart: any;
-
-  links: any;
-  nodes: any;
-  groups: any;
-
-  selectedNodes: any = new Set();
-  defaultColor: string = 'blue';
-
-  filteredLinks: any;
-  filteredGroups: any;
   colorByGroup: any = {
     "Ator": "#7cb5ec",
     "Produção": "#434348",
@@ -50,35 +41,50 @@ export class NetworkgraphComponent implements OnInit {
     "Evento": "#f7a35c",
     "Documento": "#8085e9"
   };
+  radiusSizes: any = {
+    default: 8,
+    big: 10,
+    small: 6
+  }
+
+  // Comes from 'backend'. Never changes
+  allLinks: any;
+  allNodes: any;
+  allGroups: any;
+  
+  // Data that get actually rendered; changes whenever user interacts with the interface
+  filteredLinks: any;
+  filteredGroups: any;
+  nodesToRender: any;
+
 
   ngOnInit(): void {
     this.createGraph();
     this.createReference();
   }
 
-  nodesToRender: any;
   createGraph() {
     this.getData();
     this.render();
   }
 
   getData() {
-    this.groups = this.chartDataService.getGroups();
-    this.filteredGroups = new Set(this.groups);
-    this.nodes = this.chartDataService.getNodesData();
-    this.links = this.chartDataService.getLinksData();
+    this.allGroups = this.chartDataService.getGroups();
+    this.filteredGroups = new Set(this.allGroups);
+    this.allNodes = this.chartDataService.getNodesData();
+    this.allLinks = this.chartDataService.getLinksData();
   }
 
   filterData() {
-    const filteredNodes = this.nodes.filter((node: any) => this.filteredGroups.has(node.group));
+    const filteredNodes = this.allNodes.filter((node: any) => this.filteredGroups.has(node.group));
     const filteredNodesName = filteredNodes.map((node: any) => node.name);
-    this.filteredLinks = this.links.filter((link: any) => filteredNodesName.includes(link.from) || filteredNodesName.includes(link.to));
+    this.filteredLinks = this.allLinks.filter((link: any) => filteredNodesName.includes(link.from) || filteredNodesName.includes(link.to));
     this.nodesToRender = filteredNodes.map((node: any) => {
       return {
         id: node.name,
         color: this.colorByGroup[node.group],
         marker: {
-          radius: 8
+          radius: this.radiusSizes.default
         }
       }
     });
@@ -100,11 +106,11 @@ export class NetworkgraphComponent implements OnInit {
         data: this.filteredLinks,
         nodes: this.nodesToRender,
         marker: {
-          radius: 10,
+          radius: this.radiusSizes.default,
           states: {
             select: {
               fillColor: 'red',
-              radius: 10,
+              radius: this.radiusSizes.big,
               lineColor: 'blue',
               lineWidth: 3
             }
@@ -220,7 +226,7 @@ export class NetworkgraphComponent implements OnInit {
     }
 
     if (this.filteredGroups.size === 0) {
-      this.filteredGroups = new Set(this.groups);
+      this.filteredGroups = new Set(this.allGroups);
     }
 
     this.render();
@@ -228,44 +234,16 @@ export class NetworkgraphComponent implements OnInit {
 
 
 
-  addEvent() {
-    Highcharts.addEvent(
-      Highcharts.Series,
-      'afterSetOptions',
-      (event: Highcharts.Dictionary<any>) => {
-        const colors: any = Highcharts.getOptions().colors, i = 0, nodes: any = {};
-
-        event.options.data.forEach((link: any) => {
-          const a = this.nodes.find((node: any) => node.name === link.from);
-          const b = this.nodes.find((node: any) => node.name === link.to);
-          nodes[link.from] = {
-            id: link.from,
-            color: this.colorByGroup[a.group],
-            marker: {
-              radius: (this.filteredGroups.has(a.group)) ? 10 : 5
-            }
-          };
-          nodes[link.to] = {
-            id: link.to,
-            color: this.colorByGroup[b.group],
-            marker: {
-              radius: (this.filteredGroups.has(b.group)) ? 10 : 5,
-            }
-          }
-        })
-
-        event.options.nodes = Object.keys(nodes).map((id: any) => nodes[id]);
-      }
-    )
-  }
 
 
+
+  // FUNCTIONS USED TO CREATE THE nci
   createReference() {
     this.domService.createReference();
   }
 
   createPopup(event: any) {
-    const clickedNode = this.nodes.find((node: any) => node.name === event.point.id);
+    const clickedNode = this.allNodes.find((node: any) => node.name === event.point.id);
     const props = {
       title: clickedNode.name,
       fragment: clickedNode.fragment,
