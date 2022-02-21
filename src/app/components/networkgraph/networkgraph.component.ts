@@ -76,10 +76,21 @@ export class NetworkgraphComponent implements OnInit {
   }
 
   filterData() {
-    const filteredNodes = this.allNodes.filter((node: any) => this.filteredGroups.has(node.group));
-    const filteredNodesName = filteredNodes.map((node: any) => node.name);
-    this.filteredLinks = this.allLinks.filter((link: any) => filteredNodesName.includes(link.from) || filteredNodesName.includes(link.to));
-    this.nodesToRender = filteredNodes.map((node: any) => {
+    const directlyFilteredNodes = this.allNodes.filter((node: any) => this.filteredGroups.has(node.group));
+    const directlyFilteredNodesName = directlyFilteredNodes.map((node: any) => node.name);
+    this.filteredLinks = this.allLinks.filter((link: any) => 
+      directlyFilteredNodesName.includes(link.from) || directlyFilteredNodesName.includes(link.to)
+    );
+
+    const relatedNodeNames = new Set();
+    this.filteredLinks.forEach((link:any) => {
+      relatedNodeNames.add(link.to);
+      relatedNodeNames.add(link.from);
+    })
+
+    const allFilteredNodes = this.allNodes.filter((node:any) => relatedNodeNames.has(node.name));
+
+    this.nodesToRender = allFilteredNodes.map((node: any) => {
       return {
         id: node.name,
         color: this.colorByGroup[node.group],
