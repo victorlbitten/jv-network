@@ -99,9 +99,16 @@ export class NetworkgraphComponent implements OnInit {
         type: 'networkgraph',
         data: this.filteredLinks,
         nodes: this.nodesToRender,
-        // allowPointSelect: true,
         marker: {
-          radius: 10
+          radius: 10,
+          states: {
+            select: {
+              fillColor: 'red',
+              radius: 10,
+              lineColor: 'blue',
+              lineWidth: 3
+            }
+          },
         },
         events: {
           // click: (event: any) => this.onClick(event)
@@ -111,33 +118,62 @@ export class NetworkgraphComponent implements OnInit {
           enabled: true,
           linkFormat: '',
           style: {
-            opacity: 0,
+            opacity: 1,
             transition: '',
             fontSize: '12px'
-          }
+          },
         },
         point: {
           events: {
+            unselect: (event:any) => {
+              event.target.dataLabel.hide();
+            },
+            select: (event:any) => {
+              event.target.dataLabel.show();
+            },
             click: (event: any) => this.onClick(event),
             mouseOver: (event: any) => this.turnLabelsOn(event),
+            mouseOut: (event: any) => this.turnLabelsOff(event)
           }
         }
       }]
     });
 
+    this.hideLabelsForAllPoints();
   }
 
-  extractPointsFromNode(node: any) {
+  hideLabelsForAllPoints () {
+    const points = this.chart.series[0].points;
+    points.forEach((point: any) => {
+      point.fromNode.dataLabel.hide();
+      point.toNode.dataLabel.hide();
+    })
+  }
+
+  extractPointsFromNode(node: any, includeCurrentNode: boolean = false) {
     const extractedPoints = new Set();
     node.linksTo.forEach((node: any) => extractedPoints.add(node.fromNode));
     node.linksFrom.forEach((node: any) => extractedPoints.add(node.toNode));
+    if (includeCurrentNode) {
+      extractedPoints.add(node);
+    }
     return extractedPoints;
   }
 
   turnLabelsOn(event: any) {
-    const pointsToIterate = this.extractPointsFromNode(event.target);
-    event.target.dataLabel.css({ opacity: 1 });
-    pointsToIterate.forEach((point: any) => point.dataLabel.css({ opacity: 1 }));
+    const pointsToIterate = this.extractPointsFromNode(event.target, true);
+    pointsToIterate.forEach((point: any) => {
+      point.dataLabel.show();
+    });
+  }
+
+  turnLabelsOff(event: any) {
+    const pointsToIterate = this.extractPointsFromNode(event.target, true);
+    pointsToIterate.forEach((point: any) => {
+      if(point.state !== 'select') {
+        point.dataLabel.hide();
+      }
+    });
   }
 
   onClick(event: any) {
