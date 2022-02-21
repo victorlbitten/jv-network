@@ -7,8 +7,8 @@
     border: var(--border);
     border-radius: 5px;
 
-    max-width: 50ch;
-    max-height: 15vh;
+    max-width: 75ch;
+    max-height: 25vh;
 
     min-width: 200px;
     min-height: 200px;
@@ -52,4 +52,14 @@
 .card-fragment {
     overflow: auto;
     min-width: 20ch;
+}
+
+.passage-card {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+    cursor: pointer;
 }
