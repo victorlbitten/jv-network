@@ -45,7 +45,8 @@ export class NetworkgraphComponent implements OnInit {
     default: 7,
     big: 9,
     small: 6
-  }
+  };
+  verbatinReferenceByPointId:any = {};
 
   // Comes from 'backend'. Never changes
   allLinks: any;
@@ -146,9 +147,11 @@ export class NetworkgraphComponent implements OnInit {
           events: {
             unselect: (event:any) => {
               event.target.dataLabel.hide();
+              this.closeVerbatin(event.target);
             },
             select: (event:any) => {
               event.target.dataLabel.show();
+              this.openVerbatin(event.target);
             },
             click: (event: any) => this.onClick(event),
             mouseOver: (event: any) => this.turnLabelsOn(event),
@@ -255,14 +258,26 @@ export class NetworkgraphComponent implements OnInit {
     this.domService.createReference();
   }
 
-  createPopup(event: any) {
-    const clickedNode = this.allNodes.find((node: any) => node.name === event.point.id);
+  openVerbatin(point:any) {
+    this.createPopup(point);
+  }
+
+  closeVerbatin(point:any) {
+    this.verbatinReferenceByPointId[point.id].selfDestroy();
+  }
+
+  getNodeByPointId (pointId:string) {
+    return this.allNodes.find((node: any) => node.name === pointId);
+  }
+
+  createPopup(point: any) {
+    const clickedNode = this.allNodes.find((node: any) => node.name === point.id);
     const props = {
-      title: clickedNode.name,
-      fragment: clickedNode.fragment,
-      point: clickedNode
-    }
-    this.domService.appendComponentToBody(FragmentPopupComponent, props);
+      point,
+      node: this.getNodeByPointId(point.id)
+    };
+    this.verbatinReferenceByPointId[point.id] = this.domService.appendComponentToBody(FragmentPopupComponent, props);
+    console.log(this.verbatinReferenceByPointId[point.id]);
   }
 
 }

@@ -9,7 +9,7 @@
         <image-carousel style="align-self: center;" [percentage]="scrollPercentage" [title]="title"></image-carousel>
         <span class="card-fragment" id="cardBody-{{title}}">
             <!-- {{fragment}} -->
-            <ng-container *ngFor="let passage of point.verbatin">
+            <ng-container *ngFor="let passage of node.verbatin">
                 <div class="passage-card">
                     <ng-container *ngIf="!expansionByPassageId[passage.passageId]">
                         <span (click)="toggleExpansionStateById(passage.passageId)">
