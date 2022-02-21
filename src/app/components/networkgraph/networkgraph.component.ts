@@ -32,35 +32,14 @@ export class NetworkgraphComponent implements OnInit {
     private domService: DomServiceService
   ) { }
 
-  options = {
-    credits: {
-      enabled: false
-    },
-    chart: {
-      type: 'networkgraph'
-    },
-    title: {
-      text: 'Testing with Highcharts'
-    },
-    plotOptions: {
-      networkgraph: {
-        keys: ['from', 'to'],
-        layoutAlgorithm: {
-          enableSimulation: true,
-          friction: -0.9
-        }
-      }
-    },
-    series: {
-      type: 'networkgraph'
-    }
-  }
-
   chart: any;
 
   links: any;
   nodes: any;
   groups: any;
+
+  selectedNodes: any = new Set();
+  defaultColor: string = 'blue';
 
   filteredLinks: any;
   filteredGroups: any;
@@ -77,9 +56,9 @@ export class NetworkgraphComponent implements OnInit {
     this.createReference();
   }
 
+  nodesToRender: any;
   createGraph() {
     this.getData();
-    this.addEvent();
     this.render();
   }
 
@@ -93,8 +72,17 @@ export class NetworkgraphComponent implements OnInit {
   filterData() {
     const filteredNodes = this.nodes.filter((node: any) => this.filteredGroups.has(node.group));
     const filteredNodesName = filteredNodes.map((node: any) => node.name);
-
     this.filteredLinks = this.links.filter((link: any) => filteredNodesName.includes(link.from) || filteredNodesName.includes(link.to));
+    this.nodesToRender = filteredNodes.map((node: any) => {
+      return {
+        id: node.name,
+        color: this.colorByGroup[node.group],
+        marker: {
+          radius: 8
+        }
+      }
+    });
+
   }
 
   render() {
@@ -104,23 +92,79 @@ export class NetworkgraphComponent implements OnInit {
         type: 'networkgraph',
         renderTo: 'container'
       },
-
+      tooltip: {
+        enabled: false
+      },
       series: [{
         type: 'networkgraph',
         data: this.filteredLinks,
+        nodes: this.nodesToRender,
+        // allowPointSelect: true,
         marker: {
           radius: 10
         },
         events: {
-          click: (event: any) => this.createPopup(event)
+          // click: (event: any) => this.onClick(event)
         },
         dataLabels: {
+          allowOverlap: false,
           enabled: true,
-          linkFormat: ''
+          linkFormat: '',
+          style: {
+            opacity: 0,
+            transition: '',
+            fontSize: '12px'
+          }
+        },
+        point: {
+          events: {
+            click: (event: any) => this.onClick(event),
+            mouseOver: (event: any) => this.turnLabelsOn(event),
+          }
         }
       }]
     });
-    console.log(this.chart);
+
+  }
+
+  extractPointsFromNode(node: any) {
+    const extractedPoints = new Set();
+    node.linksTo.forEach((node: any) => extractedPoints.add(node.fromNode));
+    node.linksFrom.forEach((node: any) => extractedPoints.add(node.toNode));
+    return extractedPoints;
+  }
+
+  turnLabelsOn(event: any) {
+    const pointsToIterate = this.extractPointsFromNode(event.target);
+    event.target.dataLabel.css({ opacity: 1 });
+    pointsToIterate.forEach((point: any) => point.dataLabel.css({ opacity: 1 }));
+  }
+
+  onClick(event: any) {
+    const clickedPoint: any = event.point;
+    const newSelectionState = !clickedPoint.selected;
+    const cumulative = event.ctrlKey;
+
+    this.togglePointSelection(clickedPoint, newSelectionState, cumulative);
+
+    if (event.altKey) {
+      this.toggleConnectedPointsSelection(clickedPoint);
+    }
+  }
+
+  togglePointSelection(point: any, newSelectionState: Boolean, cumulative: Boolean) {
+    /*
+      newSelectionState: true, selects; false, unselects
+      cumulative: true, add to selection; false, change selection
+    */
+    point.select(newSelectionState, cumulative);
+  }
+
+  toggleConnectedPointsSelection(clickedPoint: any) {
+    const connectedPoints = this.extractPointsFromNode(clickedPoint);
+    connectedPoints.forEach((point: any) => {
+      point.select(true, true);
+    })
   }
 
   toggleGroup(group: any) {
@@ -174,20 +218,18 @@ export class NetworkgraphComponent implements OnInit {
           }
         })
 
-        event.options.nodes = Object.keys(nodes).map((id: any) => nodes[id])
-
+        event.options.nodes = Object.keys(nodes).map((id: any) => nodes[id]);
       }
     )
   }
 
 
-  createReference () {
+  createReference() {
     this.domService.createReference();
   }
 
-  createPopup (event:any) {
-    const clickedNode = this.nodes.find((node:any) => node.name === event.point.id);
-    console.log(clickedNode);
+  createPopup(event: any) {
+    const clickedNode = this.nodes.find((node: any) => node.name === event.point.id);
     const props = {
       title: clickedNode.name,
       fragment: clickedNode.fragment,
