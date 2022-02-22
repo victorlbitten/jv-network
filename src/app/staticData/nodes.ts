@@ -6,8 +6,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -29,8 +29,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -52,8 +52,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -75,8 +75,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -98,8 +98,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -121,8 +121,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -144,8 +144,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -167,8 +167,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -190,8 +190,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -213,8 +213,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -236,8 +236,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -259,8 +259,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -282,8 +282,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -305,8 +305,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -328,8 +328,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -351,8 +351,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -374,8 +374,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -397,8 +397,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -420,8 +420,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -443,8 +443,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -466,8 +466,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -489,8 +489,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -512,8 +512,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -535,8 +535,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -558,8 +558,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -581,8 +581,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -604,8 +604,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -627,8 +627,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -650,8 +650,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -673,8 +673,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -696,8 +696,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -719,8 +719,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -742,8 +742,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -765,8 +765,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -788,8 +788,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -811,8 +811,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -834,8 +834,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -857,8 +857,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -880,8 +880,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -903,8 +903,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -926,8 +926,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -949,8 +949,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -972,8 +972,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -995,8 +995,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1018,8 +1018,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1041,8 +1041,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1064,8 +1064,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1087,8 +1087,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1110,8 +1110,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1133,8 +1133,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1156,8 +1156,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1179,8 +1179,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1202,8 +1202,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1225,8 +1225,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1248,8 +1248,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1271,8 +1271,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1294,8 +1294,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1317,8 +1317,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1340,8 +1340,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1363,8 +1363,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1386,8 +1386,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1409,8 +1409,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1432,8 +1432,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1455,8 +1455,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1478,8 +1478,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1501,8 +1501,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1524,8 +1524,8 @@ export const nodes = [
         "verbatin": [
             {
                 "passageId": "201",
-                "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-                "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+                "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+                "longText": `<div>this is a longer text</div>`
             },
             {
                 "passageId": "202",
@@ -1550,8 +1550,8 @@ export const nodes = [
 //     "verbatin": [
 //         {
 //             "passageId": "201",
-//             "shortText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o Grupo de Seresteiros e a Casa da Banda.",
-//             "longText": "Padre Bernardo se tornou responsável pela Matriz do Bação após o falecimento de padre Antônio Cândido. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a Casa da Banda terminasse seus bailes às nove da noite. Quando ele chegou ao Bação, o Grupo de Seresteiros foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração."
+//             "shortText": `<div class="test-class" (click)="clickTest(1)">this is short</div>`,
+//   `<div>this is a longer text</div>`
 //         },
 //         {
 //             "passageId": "202",
