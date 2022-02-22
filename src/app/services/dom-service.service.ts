@@ -64,9 +64,9 @@ export class DomServiceService {
       this.appRef.detachView(componentRef.hostView);
       componentRef.destroy();
     }
-
     instance.selfDestroy = selfDestroy;
 
+    return instance;
   }
 
 

@@ -9,17 +9,19 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   scrollPercentage = 0;
 
-  @Input() title:string = '';
-  @Input() fragment:string = '';
+  // @Input() title:string = '';
+  // @Input() fragment:string = '';
   @Input() point:any;
+  @Input() node:any;
   @Input() selfDestroy:any;
 
+  title:string = '';
   expansionByPassageId:any;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.point);
+    this.title = this.node.name;
     this.setExpansionStateByPassageId();
   }
 
@@ -28,16 +30,15 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
   }
 
   destroySelf () {
+    this.point.select(false, true);
     this.selfDestroy();
   }
 
   setExpansionStateByPassageId () {
-    this.expansionByPassageId = this.point.verbatin.reduce((expansionState:any, passage:any) => {
+    this.expansionByPassageId = this.node.verbatin.reduce((expansionState:any, passage:any) => {
       expansionState[passage.passageId] = 0;
       return expansionState;
     }, {});
-
-    console.log(this.expansionByPassageId);
   }
 
   toggleExpansionStateById (passageId:number) {
@@ -73,7 +74,6 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
     // Scroll
     const bodyElement = document.getElementById(`cardBody-${this.title}`);
-    console.log(bodyElement);
     bodyElement?.addEventListener('scroll', (event:any) => {
       const target = event.target;
       let scrollTop = target.scrollTop;
