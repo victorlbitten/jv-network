@@ -48,6 +48,8 @@ export class NetworkgraphComponent implements OnInit {
   };
   verbatinReferenceByPointId:any = {};
 
+  csvReader:any = new FileReader ();
+
   // Comes from 'backend'. Never changes
   allLinks: any;
   allNodes: any;
@@ -60,6 +62,8 @@ export class NetworkgraphComponent implements OnInit {
 
 
   ngOnInit(): void {
+    const test = this.csvReader.readAsDataURL('../staticData/rede1.csv');
+    console.log(test);
     this.createGraph();
     this.createReference();
   }
@@ -162,6 +166,7 @@ export class NetworkgraphComponent implements OnInit {
     });
 
     this.hideLabelsForAllPoints();
+    console.log(this.chart);
   }
 
   hideLabelsForAllPoints () {
@@ -274,10 +279,10 @@ export class NetworkgraphComponent implements OnInit {
     const clickedNode = this.allNodes.find((node: any) => node.name === point.id);
     const props = {
       point,
+      allPoints: this.chart.series[0].nodes,
       node: this.getNodeByPointId(point.id)
     };
     this.verbatinReferenceByPointId[point.id] = this.domService.appendComponentToBody(FragmentPopupComponent, props);
-    console.log(this.verbatinReferenceByPointId[point.id]);
   }
 
 }

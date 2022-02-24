@@ -8,8 +8,7 @@
     <div class="card-body">
         <image-carousel style="align-self: center;" [percentage]="scrollPercentage" [title]="title"></image-carousel>
         <span class="card-fragment" id="cardBody-{{title}}">
-            <!-- {{fragment}} -->
-            <ng-container *ngFor="let passage of node.verbatin">
+            <!-- <ng-container *ngFor="let passage of passages">
                 <div class="passage-card">
                     <ng-container *ngIf="!expansionByPassageId[passage.passageId]">
                         <span (click)="toggleExpansionStateById(passage.passageId)">
@@ -22,7 +21,15 @@
                         </span>
                     </ng-container>
                 </div>
+            </ng-container> -->
+
+            <ng-container *ngFor="let passage of passages">
+                <div class="passage-card">
+                    <span [innerHTML]="passage.short" *ngIf="true"></span>
+                    <i>&darr;</i>
+                </div>
             </ng-container>
+
         </span>
     </div>
 </div>
