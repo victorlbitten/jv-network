@@ -91,11 +91,9 @@ links: any;
   }
 
   onNodeClick (node: any) {
-    console.log(node);
   }
 
   setNetworkTicks () {
-      console.log(this.simulation);
     this.simulation.nodes(this.nodes).on('tick', () => {
       this.nodeElements
         .attr('cx', (node: any) => node.x)

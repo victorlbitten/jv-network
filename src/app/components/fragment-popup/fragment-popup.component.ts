@@ -1,4 +1,5 @@
 import { AfterContentInit, AfterViewInit, Component, Input, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-fragment-popup',
@@ -12,21 +13,35 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
   // @Input() title:string = '';
   // @Input() fragment:string = '';
   @Input() point:any;
+  @Input() allPoints:any;
   @Input() node:any;
   @Input() selfDestroy:any;
 
   title:string = '';
   expansionByPassageId:any;
+  passages:any = [];
 
-  constructor() { }
+
+  constructor(private sanitizer:DomSanitizer) { }
 
   ngOnInit(): void {
     this.title = this.node.name;
     this.setExpansionStateByPassageId();
+    this.node.verbatin.forEach((passage:any) => {
+      let trustedPassageHTML = {
+        id: passage.id,
+        short: this.sanitizer.bypassSecurityTrustHtml(passage.shortText),
+        long: this.sanitizer.bypassSecurityTrustHtml(passage.longText)
+      };
+      this.passages.push(trustedPassageHTML);
+    })
+    console.log(this.passages);
   }
 
   ngAfterViewInit(): void {
     this.setListeners();
+
+   this.renderLinks();
   }
 
   destroySelf () {
@@ -81,6 +96,26 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
       let scrollHeight = target.scrollHeight;
   
       this.scrollPercentage = Math.floor((scrollTop / (scrollHeight - clientHeight)) * 100);
+    });
+  }
+
+  openNode (nodeId:string) {
+    const desiredPoint = this.allPoints.find((point:any) => point.id === nodeId);
+    if (desiredPoint.state !== "select") {
+      desiredPoint.select(true, true);
+    }
+  }
+
+  renderLinks () {
+    const linkElements = document.querySelectorAll('a');
+
+    linkElements.forEach((link:any) => {
+      link.style.color = "blue";
+      link.style.cursor = "pointer";
+
+      link.addEventListener("click", (event:any) => {
+        this.openNode(event.target.innerHTML);
+      })
     });
   }
 
