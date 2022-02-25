@@ -3,6 +3,8 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
+
+    position: relative;
 }
 
 .network-container {
@@ -10,10 +12,9 @@
     flex-grow: 1;
 }
 
-.left-bar {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
+.filters-placeholder {
+    width: 335px;
+    background-color: #fff;
 }
 
 .groups-container {
@@ -42,5 +43,41 @@
 }
 
 .group-name {
+    font-size: 18px;
     white-space: nowrap;
+}
+
+.filters-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1px;   
+}
+
+.filter-btn-retracted {
+    padding: 10px 15px 10px 15px;
+    background-color: var(--text-color-dark);
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+    text-align: center;
+    user-select: none;
+}
+
+.filters-body {
+    padding: 10px;
+    border: 1px solid var(--text-color-dark);;
+    border-radius: 0 0 7px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.filter-element {
+    font-size: 14px;
 }

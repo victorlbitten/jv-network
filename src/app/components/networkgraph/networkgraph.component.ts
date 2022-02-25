@@ -36,27 +36,16 @@ export class NetworkgraphComponent implements OnInit {
   chart: any;
   colorByGroup: any = {
     "José Victor": "#8085e9",
-    "Produção": "#f7a35c",
-    "Local": "90ed7d",
-    "Evento": "#434348",
-    "Se relacionou com José Victor": "#7cb5ec",
-    "Escutou histórias sobre José Victor": "#DDAAFF",
-    "Conheceu José Victor": "#11F4F4",
-    "Documento": "#FF4A4A",
-    "Instituição": "#70F186"
+    "Produção": "#a5460e",
+    "Local": "#025939",
+    "Evento": "#f29f05",
+    "Se relacionou com José Victor": "#aeccf2",
+    "Escutou histórias sobre José Victor": "#65758c",
+    "Conheceu José Victor": "#060940",
+    "Documento": "#a6a6a6",
+    "Instituição": "#8c6d12"
   };
 
-  test:any = {
-    "José Victor": "#8085e9",
-    "Produção": "#f7a35c",
-    "Local": "90ed7d",
-    "Evento": "#434348",
-    "Se relacionou com José Victor": "#7cb5ec",
-    "Escutou histórias sobre José Victor": "#DDAAFF",
-    "Conheceu José Victor": "#11F4F4",
-    "Documento": "#FF4A4A",
-    "Instituição": "#70F186"
-  }
   radiusSizes: any = {
     default: 7,
     big: 9,
@@ -75,6 +64,7 @@ export class NetworkgraphComponent implements OnInit {
   filteredLinks: any;
   filteredGroups: any;
   nodesToRender: any;
+  displayFilters:Boolean = false;
 
 
   ngOnInit(): void {
@@ -89,9 +79,7 @@ export class NetworkgraphComponent implements OnInit {
 
   getData() {
     this.allGroups = this.chartDataService.getGroups();
-    console.log(this.allGroups);
     this.filteredGroups = new Set(this.allGroups);
-    console.log(this.filteredGroups);
     this.allNodes = this.chartDataService.getNodesData();
     this.allLinks = this.chartDataService.getLinksData();
   }
@@ -112,6 +100,15 @@ export class NetworkgraphComponent implements OnInit {
     const allFilteredNodes = this.allNodes.filter((node:any) => relatedNodeNames.has(node.name));
 
     this.nodesToRender = allFilteredNodes.map((node: any) => {
+      if (node.name === "José Victor") {
+        return {
+          id: node.name,
+          color: this.colorByGroup[node.group],
+          marker: {
+            radius: 14
+          }
+        }
+      }
       return {
         id: node.name,
         color: this.colorByGroup[node.group],
@@ -130,6 +127,11 @@ export class NetworkgraphComponent implements OnInit {
     this.chart = Highcharts.chart({
       title: {
         text: 'O que permanece sobre José Victor?',
+        style: {
+          fontFamily: "Alternate Gothic N2",
+          fontSize: '36px',
+          color: `var(--text-color-dark)`
+        }
       },
       credits: {
         enabled: false
@@ -143,6 +145,10 @@ export class NetworkgraphComponent implements OnInit {
       },
       series: [{
         type: 'networkgraph',
+        draggable: false,
+        layoutAlgorithm: {
+          linkLength: 30
+        },
         data: this.filteredLinks,
         nodes: this.nodesToRender,
         marker: {
@@ -156,30 +162,30 @@ export class NetworkgraphComponent implements OnInit {
             }
           },
         },
-        events: {
-          // click: (event: any) => this.onClick(event)
-        },
         dataLabels: {
-          allowOverlap: false,
           enabled: true,
           linkFormat: '',
+          padding: 0,
           style: {
+            backgroundColor: "transparent",
             opacity: 1,
             transition: '',
-            fontSize: '12px'
+            fontSize: '13px'
           },
         },
         point: {
           events: {
             unselect: (event:any) => {
-              event.target.dataLabel.hide();
+              if (event.target.id !=="José Victor")  {
+                event.target.dataLabel.hide();
+              }
               this.closeVerbatin(event.target);
             },
             select: (event:any) => {
               event.target.dataLabel.show();
               this.openVerbatin(event.target);
             },
-            click: (event: any) => this.onClick(event),
+            click: (event: any) => this.toggleNodeSelection(event),
             mouseOver: (event: any) => this.turnLabelsOn(event),
             mouseOut: (event: any) => this.turnLabelsOff(event)
           }
@@ -188,14 +194,14 @@ export class NetworkgraphComponent implements OnInit {
     });
 
     this.hideLabelsForAllPoints();
-    console.log(this.chart);
   }
 
   hideLabelsForAllPoints () {
-    const points = this.chart.series[0].points;
-    points.forEach((point: any) => {
-      point.fromNode.dataLabel.hide();
-      point.toNode.dataLabel.hide();
+    const nodes = this.chart.series[0].nodes;
+    nodes.forEach((node: any) => {
+      if (node.name !== "José Victor") {
+        node.dataLabel.hide();
+      }
     })
   }
 
@@ -225,7 +231,7 @@ export class NetworkgraphComponent implements OnInit {
     });
   }
 
-  onClick(event: any) {
+  toggleNodeSelection(event: any) {
     const clickedPoint: any = event.point;
     const newSelectionState = !clickedPoint.selected;
     const cumulative = event.ctrlKey;
@@ -305,6 +311,10 @@ export class NetworkgraphComponent implements OnInit {
       node: this.getNodeByPointId(point.id)
     };
     this.verbatinReferenceByPointId[point.id] = this.domService.appendComponentToBody(FragmentPopupComponent, props);
+  }
+
+  toggleFiltersDisplay () {
+    this.displayFilters = !this.displayFilters;
   }
 
 }

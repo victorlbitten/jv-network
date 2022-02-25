@@ -13,9 +13,23 @@
 </div> -->
 
 <div class="page-container">
-    <div class="left-bar">
-        <div class="groups-container">Grupos aqui</div>
-        <div class="cards-container stack stack-small" id="verbatinContainer"></div>
+    <div class="filters-placeholder"></div>
+
+    <div class="filters-container">
+        <div class="filter-btn-retracted">
+            Filtros
+        </div>
+        <div class="filters-body">
+            <ng-container *ngFor="let item of colorByGroup | keyvalue">
+                <div class="group-element" (click)="toggleGroup(item.key)"
+                    [ngClass]="{'selected-group': filteredGroups.has(item.key)}">
+                    <div style="height: 15px; width: 15px; border-radius: 50%;"
+                        [ngStyle]="{'background-color': item.value}"></div>
+                    <span class="group-name">{{item.key}}</span>
+                </div>
+            </ng-container> 
+        </div>
     </div>
+
     <div id="container" class="network-container"></div>
 </div>

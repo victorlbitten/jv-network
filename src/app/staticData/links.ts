@@ -592,7 +592,7 @@ export const links = [
         "to": "José Victor"
     },
     {
-        "from": "muros de pedra",
+        "from": "Muros de pedra",
         "to": "Adro da Matriz"
     }
   ];
