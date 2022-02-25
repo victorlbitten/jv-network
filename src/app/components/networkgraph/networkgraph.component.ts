@@ -35,15 +35,15 @@ export class NetworkgraphComponent implements OnInit {
   // Constants used throughout the code
   chart: any;
   colorByGroup: any = {
-    "José Victor": "#8085e9",
     "Produção": "#a5460e",
-    "Local": "#025939",
-    "Evento": "#f29f05",
-    "Se relacionou com José Victor": "#aeccf2",
-    "Escutou histórias sobre José Victor": "#65758c",
-    "Conheceu José Victor": "#060940",
     "Documento": "#a6a6a6",
-    "Instituição": "#8c6d12"
+    "Evento": "#f29f05",
+    "Local": "#025939",
+    "Se relacionou com José Victor": "#aeccf2",
+    "Conheceu José Victor": "#060940",
+    "Escutou histórias sobre José Victor": "#65758c",
+    "Instituição": "#8c6d12",
+    "José Victor": "#8085e9",
   };
 
   radiusSizes: any = {
@@ -170,7 +170,7 @@ export class NetworkgraphComponent implements OnInit {
             backgroundColor: "transparent",
             opacity: 1,
             transition: '',
-            fontSize: '13px'
+            fontSize: '14px'
           },
         },
         point: {
@@ -317,4 +317,18 @@ export class NetworkgraphComponent implements OnInit {
     this.displayFilters = !this.displayFilters;
   }
 
+  isHelpVisible:Boolean = false;
+
+  toggleHelpVisibility () {
+    this.isHelpVisible = !this.isHelpVisible;
+  }
+
+
+  desselectAll () {
+    console.log(this.chart)
+    const selectedPoints = this.chart.getSelectedPoints();
+    selectedPoints.forEach((point:any) => point.select(false, true))
+  }
+
 }
+

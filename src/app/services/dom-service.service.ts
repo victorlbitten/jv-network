@@ -56,8 +56,22 @@ export class DomServiceService {
     this.appRef.attachView(componentRef.hostView);
 
      // 3. Get DOM element from component
-    const domElement = (componentRef.hostView as EmbeddedViewRef<any>)
+    const domElement:any = (componentRef.hostView as EmbeddedViewRef<any>)
       .rootNodes[0] as HTMLElement;
+
+
+    // Getting random number to simulate chaos
+    const maxValue = 50;
+    const bases = [50, 10];
+    const firsImprecision = `${this.getRandomInteger(maxValue, bases[0])}px`;
+    const secondImprecision = `${this.getRandomInteger(maxValue, bases[1])}px`;
+    domElement.firstElementChild.style.right = firsImprecision;
+    domElement.firstElementChild.style.top += secondImprecision;
+
+    console.log([firsImprecision, secondImprecision]);
+    console.log(domElement);
+
+
 
     // 4. Append DOM element to the body
     document.body.appendChild(domElement);
@@ -71,6 +85,10 @@ export class DomServiceService {
     instance.selfDestroy = selfDestroy;
 
     return instance;
+  }
+
+  getRandomInteger (maximumValue:number = 10, base:number = 0) {
+    return Math.floor(Math.random() *maximumValue) + base;
   }
 
 

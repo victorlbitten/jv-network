@@ -3,6 +3,7 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 
     position: relative;
 }
@@ -13,7 +14,7 @@
 }
 
 .filters-placeholder {
-    width: 335px;
+    width: 345px;
     background-color: #fff;
 }
 
@@ -80,4 +81,68 @@
 
 .filter-element {
     font-size: 14px;
+}
+
+
+.helper-btn-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.helper-btn-container {
+    width: min-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 1px 17px;
+    box-shadow: 2px 2px 3px #bbb;
+    background-color: var(--text-color-dark);
+}
+
+.help-msg-container {
+    position: absolute;
+    box-shadow: -3px 2px 7px 1px #ddd;
+    width: 33vw;
+    max-width: 750px;
+    right: -34vw;
+    height: 100%;
+    padding: 10px 15px 10px 35px;
+    background-color: var(--bg-color);
+    transition: all .19s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.close-helper-btn {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: -19px;
+}
+
+.helper-title {
+    height: min-content;
+    font-family: "Alternate Gothic N2";
+    font-size: 36px;
+    color: var(--text-color-dark);
+}
+
+.deselect-btn {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--bg-color);
+    box-shadow: 2px 2px 3px #ddd;
+    align-self: center;
+    padding: 10px 15px;
+    width:min-content;
+    font-weight: 600;
+    color: var(--text-color-dark);
+    background-color: var(--bg-color);
 }
