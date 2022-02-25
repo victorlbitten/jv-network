@@ -79,9 +79,7 @@ export class NetworkgraphComponent implements OnInit {
 
   getData() {
     this.allGroups = this.chartDataService.getGroups();
-    console.log(this.allGroups);
     this.filteredGroups = new Set(this.allGroups);
-    console.log(this.filteredGroups);
     this.allNodes = this.chartDataService.getNodesData();
     this.allLinks = this.chartDataService.getLinksData();
   }
@@ -120,13 +118,16 @@ export class NetworkgraphComponent implements OnInit {
     this.chart = Highcharts.chart({
       title: {
         text: 'O que permanece sobre José Victor?',
+        style: {
+          fontFamily: "Alternate Gothic N2",
+          fontSize: '36px',
+          color: `var(--text-color-dark)`
+        }
       },
       credits: {
         enabled: false
       },
       chart: {
-        borderColor: "#ccc",
-        borderWidth: 1,
         type: 'networkgraph',
         renderTo: 'container',
       },
@@ -180,7 +181,6 @@ export class NetworkgraphComponent implements OnInit {
     });
 
     this.hideLabelsForAllPoints();
-    console.log(this.chart);
   }
 
   hideLabelsForAllPoints () {

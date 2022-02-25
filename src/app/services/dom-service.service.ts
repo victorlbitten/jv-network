@@ -38,11 +38,11 @@ export class DomServiceService {
 
 
   appendComponentToBody (component:any, parameters:any) {
-    if (!this.containerReference) {
-      this.createReference();
-    }
+    // if (!this.containerReference) {
+    //   this.createReference();
+    // }
 
-    // 1. Create a component reference from the component 
+    // 1. Create a component reference from the component
     const componentRef = this.componentFactoryResolver
       .resolveComponentFactory(component)
       .create(this.injector);
@@ -60,9 +60,9 @@ export class DomServiceService {
       .rootNodes[0] as HTMLElement;
 
     // 4. Append DOM element to the body
-    // document.body.appendChild(domElement);
-    const containerElement = document.getElementById("verbatinContainer");
-    containerElement?.appendChild(domElement);
+    document.body.appendChild(domElement);
+    // const containerElement = document.getElementById("verbatinContainer");
+    // containerElement?.appendChild(domElement);
     
     const selfDestroy = () => {
       this.appRef.detachView(componentRef.hostView);

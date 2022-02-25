@@ -1026,18 +1026,6 @@ representava a República. A associação desse tipo de representação com a Re
 		]
 	},
 	{
-		"id": 66,
-		"name": "Livro de Tombos",
-		"group": "Documento",
-		verbatin: [
-			{
-				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
-			}
-		]
-	},
-	{
 		"id": 67,
 		"name": "Bolsa",
 		"group": "Evento",
@@ -1059,7 +1047,7 @@ representava a República. A associação desse tipo de representação com a Re
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					Os muros de pedra do [[Bação]] datam do século XVI, era um tipo de construção comum nas cidades da colônia, [[Vila Rica]] também tinha vários muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no [[Adro da Matriz]], bem como no alicerce da [[casa de José Victor]]. 
+					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>casa de José Victor</a>. 
 				</div>`,
 				longText: ``
 			}
@@ -1073,7 +1061,7 @@ representava a República. A associação desse tipo de representação com a Re
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					Os muros de pedra do [[Bação]] datam do século XVI, era um tipo de construção comum nas cidades da colônia, [[Vila Rica]] também tinha vários muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no [[Adro da Matriz]], bem como no alicerce da [[casa de José Victor]]. 
+					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>casa de José Victor</a>. 
 				</div>`,
 				longText: ``
 			}

@@ -4,12 +4,17 @@
     font-size: 1rem;
 }
 
+html {
+    overflow-y: overlay;
+}
+
 body {
     --cta-color: #33230A;
     --container-elements-bg-color: #f2e8dc;
     --text-color-dark: #401a04;
     --bg-color: #f2e8dc;
     
+    font-family: "PT Serif";
     
     background-color: #faf6f1;
     height: 100vh;
@@ -27,4 +32,14 @@ body {
 
 .stack-small > * + * {
     margin-top: 8px;
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url(./assets/fonts/PT_Serif/PTSerif-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Alternate Gothic N2";
+    src: url(./assets/fonts/Alternate_Gothic_N_2/alternate-gothic-no-2.otf) format("opentype");
 }
