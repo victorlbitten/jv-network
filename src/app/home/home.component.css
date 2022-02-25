@@ -1,0 +1,112 @@
+.page-container {
+    height: 100%;
+    width: 100%;
+    max-width: 1800px;
+    padding: 3rem 5rem;
+    margin: 0 auto;
+    color: var(--text-color-dark);
+    overflow: hidden;
+}
+
+.description-box {
+    position: relative;
+    background-color: var(--bg-color);
+    height: 100%;
+    padding-right: 11rem;
+}
+
+.title {
+    font-size: 60px;
+    padding: 3rem;
+    padding-left: 4rem;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-left: 10rem;
+}
+
+.small-text {
+    font-size: 24px;
+}
+
+.horizontal-divider {
+    margin-left: 4rem;
+    width: 30%;
+    height: 1px;
+    max-width: 650px;
+    min-width: 500px;
+    border: 1px solid #707070;
+    margin-bottom: 15px;
+}
+
+.description-text {
+    font-size: 24px;
+    padding: 3rem 4rem;
+}
+
+.start-btn {
+    position: absolute;
+    right: 1rem;
+    top: calc(50% - 22px);
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #401a04;
+    border: none;
+}
+
+.cards-container {
+    position: absolute;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.card-and-title {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card-body {
+    font-size: 1rem;
+    padding: 8px 15px;
+    background-color: #fff;
+}
+
+
+.switcher {
+    --grid-breakpoint: 40rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.switcher-30 {
+    --grid-breakpoint: 30rem;
+}
+
+.switcher > * {
+    flex-grow: 1;
+    /*
+        Horizontal layout when container is bigger than breakpoint
+        Otherwise, vertical layout
+    */
+    flex-basis: calc((var(--grid-breakpoint) - 100%) * 9999);
+}
+
+.switcher-full-span {
+    flex: 1 0 100%;
+}

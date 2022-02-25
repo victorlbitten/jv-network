@@ -19,7 +19,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Durante a <a>Construção da Matriz</a>, <a>José Victor</a> também foi responsável por construir um relógio para a torre da <a>Matriz do Bação</a>. Esse relógio causou grande admiração na população, com pessoas da região, como <a>Zé Relojoeiro</a> e <a>Dr. Senna</a>, que foram até o <a>Bação</a> conhecê-lo. Relógio de torre de Igreja geralmene são construídos com engrenagens bronze, porém o relógio de <a>José Victor</a> foi construído com engrenagens de madeira, nas quais o polímata pregava pregos e depois cortava a cabeça dos mesmos para que as engrenagens pudessem rodar entre si. A estrutura do relógio também é feita de madeira, <a>José Victor</a> usava os materiais que estavam disponíveis para ele na época, usando até cabo de vassoura em algumas partes do relógio. Para o controle do relógio, haviam três pesos de cimento, que o polímata esculpiu e fez inscrições das <a>virtudes teologais</a>: Fé, esperança e caridade. Por conta do material utilizado para a produção do relógio, era comum que ele se atrasasse nos tempos de chuva, pois a madeira inchava e expandia, causando atrasos de 15 minutos a meia hora. <a>José Victor</a> era chamado pelo <a>padre Bernardo</a> sempre que isso acontecia para que o relógio pudesse ser ajustado.
+					Durante a <a>Construção da Matriz</a>, <a>José Victor</a> também foi responsável por construir um relógio para a torre da <a>Matriz do Bação</a>. Esse relógio causou grande admiração na população, com pessoas da região, como <a>Zé Relojoeiro</a> e <a>Dr. Senna</a>, que foram até o <a>Bação</a> conhecê-lo. Relógio de torre de Igreja geralmene são construídos com engrenagens bronze, porém o relógio de <a>José Victor</a> foi construído com engrenagens de madeira, nas quais o polímata pregava pregos e depois cortava a cabeça dos mesmos para que as engrenagens pudessem rodar entre si. A estrutura do relógio também é feita de madeira, <a>José Victor</a> usava os materiais que estavam disponíveis para ele na época, usando até cabo de vassoura em algumas partes do relógio. Para o controle do relógio, haviam três pesos de cimento, que o polímata esculpiu e fez inscrições das <a>virtudes teologais</a>: Fé, esperança e caridade. Por conta do material utilizado para a produção do relógio, era comum que ele se atrasasse nos tempos de chuva, pois a madeira inchava e expandia, causando atrasos de 15 minutos a meia hora. <a>José Victor</a> era chamado pelo <a>Padre Bernardo</a> sempre que isso acontecia para que o relógio pudesse ser ajustado.
 				</div>`,
 				longText: ``
 			}
@@ -75,10 +75,10 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Dentre as produções de <a>José Victor</a>, os tijolos são emblemáticos por serem uma expressão da inventividade do artesão, que esculpia frases e datas nas formas para que os tijolos secassem com os escritos "impressos" em suas faces. Eles foram utilizados na <a>Construção da Matriz</a>, apesar do <a>padre Frederico</a> ter pedido que viessem da <a>Estrada de Ferro Central do Brasil</a>. Os tijolos da <a>casa de José Victor</a> também foram produzidos pela artesão. Atualmente, no <a>Bação</a> ainda se encontram alguns exemplares desses tijolos, tantos soltos - que estão com <a>D. Divina</a> e <a>Jaber</a>- ou compondo construções em que não se sabe se o <a>José Victor</a> chegou a trabalhar, como é o caso da <a>Casa Flusser</a>. 
+					Dentre as produções de <a>José Victor</a>, os tijolos são emblemáticos por serem uma expressão da inventividade do artesão, que esculpia frases e datas nas formas para que os tijolos secassem com os escritos "impressos" em suas faces. Eles foram utilizados na <a>Construção da Matriz</a>, apesar do <a>Padre Frederico</a> ter pedido que viessem da <a>Estrada de Ferro Central do Brasil</a>. Os tijolos da <a>casa de José Victor</a> também foram produzidos pela artesão. Atualmente, no <a>Bação</a> ainda se encontram alguns exemplares desses tijolos, tantos soltos - que estão com <a>D. Divina</a> e <a>Jaber</a>- ou compondo construções em que não se sabe se o <a>José Victor</a> chegou a trabalhar, como é o caso da <a>Casa Flusser</a>. 
 				</div>`,
 				longText: `
-					No <a>Livro de Tombos</a> está registrado que o engenheiro chamado para a <a>Construção da Matriz</a>, <a>padre Frederico</a>, recomendou que tijolos viessem da <a>Estrada de Ferro Central do Brasil</a> por serem mais seguros. Como a <a>Estrada de Ferro Central do Brasil</a> era uma importante conexão para o <a>Bação</a>, acredito que o engenheiro fez essa recomendação para que os tijolos viessem de alguma indústria. Porém, no mesmo <a>Livro de Tombos</a>, há uma passagem escrita por <a>José Victor</a> no qual ele fala sobre a falta de materiais devido à <a>Gripe Espanhola</a>. Acredito que seja esse o motivo (ou talvez a falta de dinheiro comentada na <a>Missão de Padres do Caraça</a>) para que <a>José Victor</a> tenha sido responsável pela produção dos tijolos. Para que esses tijolos fossem feitos, foi construída uma olaria próxima à <a>casa de José Victor</a>, onde a <a>D. Divina</a> encontrou anos depois tijolos feitos pelo construtor. Os tijolos feitos por <a>José Victor</a> são feitos de argila, que é um material comum no território mineiro, nas formas de madeira o artesão talhou frases como "Ave Maria", "São Gonçalo" e "Deus abençoe a todos que trabalharam na construção dessa Matriz em 1917", há também tijolos com datas de 1920 e 1922, que ficam nas faces dos tijolos em que faz a junção com argamassa, impossibilitando que as pessoas que visitam locais em que eles foram utilizados na construção possam ver as inscrições. 
+					No <a>Livro de Tombos</a> está registrado que o engenheiro chamado para a <a>Construção da Matriz</a>, <a>Padre Frederico</a>, recomendou que tijolos viessem da <a>Estrada de Ferro Central do Brasil</a> por serem mais seguros. Como a <a>Estrada de Ferro Central do Brasil</a> era uma importante conexão para o <a>Bação</a>, acredito que o engenheiro fez essa recomendação para que os tijolos viessem de alguma indústria. Porém, no mesmo <a>Livro de Tombos</a>, há uma passagem escrita por <a>José Victor</a> no qual ele fala sobre a falta de materiais devido à <a>Gripe Espanhola</a>. Acredito que seja esse o motivo (ou talvez a falta de dinheiro comentada na <a>Missão de Padres do Caraça</a>) para que <a>José Victor</a> tenha sido responsável pela produção dos tijolos. Para que esses tijolos fossem feitos, foi construída uma olaria próxima à <a>casa de José Victor</a>, onde a <a>D. Divina</a> encontrou anos depois tijolos feitos pelo construtor. Os tijolos feitos por <a>José Victor</a> são feitos de argila, que é um material comum no território mineiro, nas formas de madeira o artesão talhou frases como "Ave Maria", "São Gonçalo" e "Deus abençoe a todos que trabalharam na construção dessa Matriz em 1917", há também tijolos com datas de 1920 e 1922, que ficam nas faces dos tijolos em que faz a junção com argamassa, impossibilitando que as pessoas que visitam locais em que eles foram utilizados na construção possam ver as inscrições. 
 				`
 			}
 		]
@@ -91,7 +91,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					<a>José Victor</a> era conhecido por ter uma relação próxima com a <a>Igreja Católica</a>, tendo relação com os padres que passaram pelo <a>Bação</a>. Um dos padres que tinha amizade com <a>José Victor</a> era o <a>padre Antônio Cândido</a>. Por conta disso, o padre encomendou que o polímata fizesse uma escultura de anjo que fica em cima do túmulo da mãe de <a>padre Antônio Cândido</a>, na entrada do <a>Cemitério do Bação</a>.
+					<a>José Victor</a> era conhecido por ter uma relação próxima com a <a>Igreja Católica</a>, tendo relação com os Padres que passaram pelo <a>Bação</a>. Um dos Padres que tinha amizade com <a>José Victor</a> era o <a>Padre Antônio Cândido</a>. Por conta disso, o Padre encomendou que o polímata fizesse uma escultura de anjo que fica em cima do túmulo da mãe de <a>Padre Antônio Cândido</a>, na entrada do <a>Cemitério do Bação</a>.
 				</div>`,
 				longText: ``
 			}
@@ -133,7 +133,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					A máquina de voar é uma das invenções de <a>José Victor</a> que consistia em uma bicicleta com um motor movido a manivela e asas feitas com armação de madeira e pano encerado, essa descrição faz com que o objeto parece ter sido inspirado pelo <a>14-bis</a>, que era notícia mundial na época. O polímata chegou a voar na máquina, como maneira de pedir <a>Dolores</a> em casamento. Como teve certo sucesso na sua empreitada, o episódio do voo de José Victor ficou marcado no imaginário do <a>Bação</a>. Porém, esse projeto do artesão terminou após ele cair no quintal da casa de <a>padre Antônio Cândido</a>. 
+					A máquina de voar é uma das invenções de <a>José Victor</a> que consistia em uma bicicleta com um motor movido a manivela e asas feitas com armação de madeira e pano encerado, essa descrição faz com que o objeto parece ter sido inspirado pelo <a>14-bis</a>, que era notícia mundial na época. O polímata chegou a voar na máquina, como maneira de pedir <a>Dolores</a> em casamento. Como teve certo sucesso na sua empreitada, o episódio do voo de José Victor ficou marcado no imaginário do <a>Bação</a>. Porém, esse projeto do artesão terminou após ele cair no quintal da casa de <a>Padre Antônio Cândido</a>. 
 				</div>`,
 				longText: `
 					A máquina de voar é uma das invenções de <a>José Victor</a> que consistia em uma bicicleta com um motor movido a manivela e asas feitas com armação de madeira e pano encerado, essa descrição faz com que o objeto parece ter sido inspirado pelo <a>14-bis</a>, que era notícia mundial na época. O voo do 14-bis, realizado por Santos Drummond na Feira de Paris em XXXX foi um acontecimento que abalou o mundo por ser a primeira vez que se voava com um aparelho mais pesado que o ar. No Brasil, o evento foi noticiado por diversos jornais, alguns até mostrando esquemas de como era a estrutura do 14-bis. Acredito que <a>José Victor</a> possa ter tido contado com essas notícias, inspirando-o a construir seu próprio avião.
@@ -161,7 +161,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					O adro da <a>Matriz do Bação</a> foi e ainda é um local essencial para os encontros da comunidade do <a>Bação</a>, ele era ocupado durante a época do <a>padre Antônio Cândido</a> para as festas religiosas, como a <a>Semana Santa</a>. O <a>Grupo de Teatro do Bação</a> também utiliza o local como palco para os seus espetáculos. O adro só não foi ocupado pela população na época do <a>padre Bernardo</a>, que considerava o local sagrado e, por isso, intocável. O adro foi feito durante a <a>Construção da Matriz</a>e os <a>artesãos</a> responsáveis foram <a>José Victor</a>, José Adalberto de Sousa e José Pereira. A mão de obra com pedras é comum no <a>Bação</a> por conta dos <a>muros de pedra</a> presentes na cidade. Esses materiais foram reutilizados da <a>antiga igreja</a> e também foram trazidos pelos <a>tropeiros</a> e pela própria população do distrito que ia buscar na <a>Pedreira do João pedreiro</a>. 
+					O adro da <a>Matriz do Bação</a> foi e ainda é um local essencial para os encontros da comunidade do <a>Bação</a>, ele era ocupado durante a época do <a>Padre Antônio Cândido</a> para as festas religiosas, como a <a>Semana Santa</a>. O <a>Grupo de Teatro do Bação</a> também utiliza o local como palco para os seus espetáculos. O adro só não foi ocupado pela população na época do <a>Padre Bernardo</a>, que considerava o local sagrado e, por isso, intocável. O adro foi feito durante a <a>Construção da Matriz</a>e os <a>artesãos</a> responsáveis foram <a>José Victor</a>, José Adalberto de Sousa e José Pereira. A mão de obra com pedras é comum no <a>Bação</a> por conta dos <a>muros de pedra</a> presentes na cidade. Esses materiais foram reutilizados da <a>antiga igreja</a> e também foram trazidos pelos <a>tropeiros</a> e pela própria população do distrito que ia buscar na <a>Pedreira do João pedreiro</a>. 
 				
 				</div>`,
 				longText: ``
@@ -190,7 +190,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Após a <a>mudança de freguesia</a> do <a>Bação</a>, o <a>padre Antônio Cândido</a> se tornou o padre da <a>Matriz do Bação</a>. Nesse momento, o <a>Bação</a> recebe uma <a>Missão de Padres do Caraça</a> e, durante essa visita, foi decidido que uma nova matriz iria ser construída. Para começar a empreitada, foi chamado um engenheiro de <a>Belo Horizonte</a>, <a>padre Frederico</a> do <a>Colégio Arnaldo</a>, que fez uma vala de 8 metros no chão para demarcar onde seria construída a nave da nova <a>Matriz do Bação</a>. Após essa visita, o <a>padre Frederico</a>voltou ao Bação novamente para levar o construtor <a>Luiz Cheffer</a> e começar a construção. Outros <a>artesãos</a> foram chamados das proximidades para trabalhar na construção da <a>Matriz do Bação</a>, <a>Ilarino Malta</a>. Foi iniciada uma comissão para a construção da matriz, na qual <a>José Victor</a> fez parte, ele acentou o <a>adro da Matriz</a>, fez as <a>inscrições</a> e também a sua mais importante obra: o <a>Relógio da torre da Matriz</a>. Os <a>Tijolos</a> também foram produzidos por causa dessa construção, apesar do <a>padre Frederico</a> ter recomendado que viessem da <a>Estrada de Ferro Central do Brasil</a>.
+					Após a <a>mudança de freguesia</a> do <a>Bação</a>, o <a>Padre Antônio Cândido</a> se tornou o Padre da <a>Matriz do Bação</a>. Nesse momento, o <a>Bação</a> recebe uma <a>Missão de Padres do Caraça</a> e, durante essa visita, foi decidido que uma nova matriz iria ser construída. Para começar a empreitada, foi chamado um engenheiro de <a>Belo Horizonte</a>, <a>Padre Frederico</a> do <a>Colégio Arnaldo</a>, que fez uma vala de 8 metros no chão para demarcar onde seria construída a nave da nova <a>Matriz do Bação</a>. Após essa visita, o <a>Padre Frederico</a>voltou ao Bação novamente para levar o construtor <a>Luiz Cheffer</a> e começar a construção. Outros <a>artesãos</a> foram chamados das proximidades para trabalhar na construção da <a>Matriz do Bação</a>, <a>Ilarino Malta</a>. Foi iniciada uma comissão para a construção da matriz, na qual <a>José Victor</a> fez parte, ele acentou o <a>adro da Matriz</a>, fez as <a>inscrições</a> e também a sua mais importante obra: o <a>Relógio da torre da Matriz</a>. Os <a>Tijolos</a> também foram produzidos por causa dessa construção, apesar do <a>Padre Frederico</a> ter recomendado que viessem da <a>Estrada de Ferro Central do Brasil</a>.
 				</div>`,
 				longText: `-TODO evento e verificar nome`
 			}
@@ -204,7 +204,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Padre Antônio Cândido é lembrado como um padre que era muito amigo da população do <a>Bação</a>, ele era um padre festeiro, que organizava eventos na Igreja e a população da cidade e dos arredores se reunia para celebrar sua cultura. Durante as comemorações da <a>Semana Santa</a> era comum que as pessoas da região - do Saboeiro ou Barbosa -  viajassem para o <a>Bação</a> e morassem em pequenas casas que foram construídas para mantê-los durante poucos dias.  Foi ele o responsável pela <a>Construção da Matriz</a>, empreendimento que começou a com a <a>Missão de Padres do Caraça</a>. Ele também era amigo de <a>José Victor</a>, que foi responsável pela <a>Escultura do cemitério</a>, que está no túmulo da mãe do padre. 
+					Padre Antônio Cândido é lembrado como um Padre que era muito amigo da população do <a>Bação</a>, ele era um Padre festeiro, que organizava eventos na Igreja e a população da cidade e dos arredores se reunia para celebrar sua cultura. Durante as comemorações da <a>Semana Santa</a> era comum que as pessoas da região - do Saboeiro ou Barbosa -  viajassem para o <a>Bação</a> e morassem em pequenas casas que foram construídas para mantê-los durante poucos dias.  Foi ele o responsável pela <a>Construção da Matriz</a>, empreendimento que começou a com a <a>Missão de Padres do Caraça</a>. Ele também era amigo de <a>José Victor</a>, que foi responsável pela <a>Escultura do cemitério</a>, que está no túmulo da mãe do Padre. 
 				</div>`,
 				longText: `
 					Durante as comemorações da <a>Semana Santa</a> era comum que as pessoas da região - do Saboeiro ou Barbosa -  viajassem para o <a>Bação</a> e morassem em pequenas casas que foram construídas para mantê-los durante poucos dias. As crianças que moravam no <a>Bação</a> costumavam tratar essas casas como casas de boneca, de tão pequenas que eram, pois  havia apenas uma cozinha e um quarto. Os visitantes iam para cidade no lombo de burro e levavam com eles tudo que precisavam para passar dias no distrito, giral, colchão, as panelas, bancos e mesas. Chegando na cidade, eles pediam para <a>Sr. Benjamin</a> para colocarem o burro no pasto dele. As festas tinham tanto impacto no cotidiano dessas pessoas que elas deixavam suas fazendas sozinhas ou com apenas uma pessoa para cuidar, voltavam um vez no dia para tratar dos animais. Além disso, essas festas também ficaram na memória da população por sua beleza e pela graça de ser as pessoas que eles conviviam fazendo espetáculos, vestido roupas de reis, como era o caso de Antônio Ribeiro, avô de <a>Mauro</a> que vestia a roupa de rei e saia com seu sapato e paletó vermelhos. 
@@ -234,7 +234,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					A missão de padres do Caraça foi uma visita de padres que foram do Colégio Caraça até o <a>Bação</a>, essa visita foi responsável pela <a>Construção da Matriz</a>, como é melhor relatado no <a>Livro de Tombos</a>: !<a>Livro de Tombos#missão de padres do caraça</a>
+					A missão de Padres do Caraça foi uma visita de Padres que foram do Colégio Caraça até o <a>Bação</a>, essa visita foi responsável pela <a>Construção da Matriz</a>, como é melhor relatado no <a>Livro de Tombos</a>: !<a>Livro de Tombos#missão de Padres do caraça</a>
 				</div>`,
 				longText: ``
 			}
@@ -262,7 +262,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Vila Rica, atualmente chamado de <a>Ouro Preto</a>, foi a capital mineira de 1711 até 1897 e o <a>Bação</a> foi filial da freguesia de Vila Rica de 1711 até 1923 . <a>Dr. Senna</a> foi prefeito da cidade por volta de 1908 ano, quando foi apoiado pelo <a>padre Antônio Cândido</a>. O professor de música da <a>Casa da Banda</a>, chamado por <a>professor Virgílio</a>, era de Vila Rica. 
+					Vila Rica, atualmente chamado de <a>Ouro Preto</a>, foi a capital mineira de 1711 até 1897 e o <a>Bação</a> foi filial da freguesia de Vila Rica de 1711 até 1923 . <a>Dr. Senna</a> foi prefeito da cidade por volta de 1908 ano, quando foi apoiado pelo <a>Padre Antônio Cândido</a>. O professor de música da <a>Casa da Banda</a>, chamado por <a>professor Virgílio</a>, era de Vila Rica. 
 				</div>`,
 				longText: ``
 			}
@@ -276,10 +276,10 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Padre Bernardo se tornou responsável pela <a>Matriz do Bação</a> após o falecimento de <a>padre Antônio Cândido</a>. Sua gestão era completamente diferente do padre anterior, ele gostava do silêncio, era contra o <a>Grupo de Seresteiros</a> e a <a>Casa da Banda</a>.
+					Padre Bernardo se tornou responsável pela <a>Matriz do Bação</a> após o falecimento de <a>Padre Antônio Cândido</a>. Sua gestão era completamente diferente do Padre anterior, ele gostava do silêncio, era contra o <a>Grupo de Seresteiros</a> e a <a>Casa da Banda</a>.
 				</div>`,
 				longText: `
-					Padre Bernardo se tornou responsável pela <a>Matriz do Bação</a> após o falecimento de <a>padre Antônio Cândido</a>. Sua gestão era completamente diferente do padre anterior, padre Bernardo prefiria o silêncio, insistia para que a <a>Casa da Banda</a> terminasse seus bailes às nove da noite. Quando ele chegou ao <a>Bação</a>, o <a>Grupo de Seresteiros</a> foi fazer uma apresentação para recebê-lo na cidade e o padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração. Havia também 
+					Padre Bernardo se tornou responsável pela <a>Matriz do Bação</a> após o falecimento de <a>Padre Antônio Cândido</a>. Sua gestão era completamente diferente do Padre anterior, Padre Bernardo prefiria o silêncio, insistia para que a <a>Casa da Banda</a> terminasse seus bailes às nove da noite. Quando ele chegou ao <a>Bação</a>, o <a>Grupo de Seresteiros</a> foi fazer uma apresentação para recebê-lo na cidade e o Padre pediu para que parassem com a apresentação, pois ele não gostava desse tipo de comemoração. Havia também 
 				`
 			},
 			{
@@ -288,7 +288,7 @@ export const nodes = [
 					Não fazia festas no <a>Adro da Matriz</a> nem gostava que a população permanesse lá.
 				</div>`,
 				longText: `
-					O novo padre não organizava festas, preferia que a população apenas rezasse, começando a missa às cinco da manhã nos dias úteis e às sete horas nos finais de semana. Por conta disso, ele não ocupava o <a>Adro da Matriz</a> com eventos e também não gostava que a população ficasse lá depois da missa. Quando as crianças se reuniam no <a>Adro da Matriz</a>, o padre Bernardo saia atrás delas com sua bengala, esbravejando para que fossem embora. 
+					O novo Padre não organizava festas, preferia que a população apenas rezasse, começando a missa às cinco da manhã nos dias úteis e às sete horas nos finais de semana. Por conta disso, ele não ocupava o <a>Adro da Matriz</a> com eventos e também não gostava que a população ficasse lá depois da missa. Quando as crianças se reuniam no <a>Adro da Matriz</a>, o Padre Bernardo saia atrás delas com sua bengala, esbravejando para que fossem embora. 
 				`
 			},
 			{
@@ -297,7 +297,7 @@ export const nodes = [
 					Se incomodava quando o <a>Relógio da torre da Matriz</a> se atrasava, chamando <a>José Victor</a> para consertá-lo sempre ocorria. 
 				</div>`,
 				longText: `
-					O <a>Relógio da torre da Matriz</a> costumava atrasar nos tempos de chuva, pois a madeira inchava e o relógio, que precisava dos pesos de cimento para funcionar, ficava mais pesado e atrasava. <a>José Victor</a> era chamado pelo padre para ajustar o relógio, mas parece que o padre Bernardo se incomodava tanto com o atraso do relógio que <a>José Victor</a> passou a perder o interesse no <a>Relógio da torre da Matriz</a>.
+					O <a>Relógio da torre da Matriz</a> costumava atrasar nos tempos de chuva, pois a madeira inchava e o relógio, que precisava dos pesos de cimento para funcionar, ficava mais pesado e atrasava. <a>José Victor</a> era chamado pelo Padre para ajustar o relógio, mas parece que o Padre Bernardo se incomodava tanto com o atraso do relógio que <a>José Victor</a> passou a perder o interesse no <a>Relógio da torre da Matriz</a>.
 				`
 			}
 		]
@@ -411,7 +411,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Dr Senna também foi responsável por mandar água para os <a>chafarizes</a> da cidade, após ganhar a eleição para prefeito contanto com o apoio de <a>padre Antônio Cândido</a>.
+					Dr Senna também foi responsável por mandar água para os <a>chafarizes</a> da cidade, após ganhar a eleição para prefeito contanto com o apoio de <a>Padre Antônio Cândido</a>.
 				</div>`,
 				longText: `-TODO entrevista com valdecir`
 			}
@@ -453,7 +453,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					É nome dado pelo <a>Cabral</a> para a casa em que ele vive e pretende construir o Centro de Estudos Villém Flusser. A casa também é importante por ter sido a <a>casa de Padre Antônio Cândido</a>. Se trata de uma casa semi-rural e foi nela que houve a primeira TV, <a>José Victor</a> também caiu no quintal da casa com sua <a>máquina de voar</a>. A casa conta bastante da história através da sua história construtiva, com os anexos e diferentes fases de construção. Havia antes um curral na frente da casa e há também um quintal de café, onde <a>padre Antônio Cândido</a> plantava seu café. 
+					É nome dado pelo <a>Cabral</a> para a casa em que ele vive e pretende construir o Centro de Estudos Villém Flusser. A casa também é importante por ter sido a <a>casa de Padre Antônio Cândido</a>. Se trata de uma casa semi-rural e foi nela que houve a primeira TV, <a>José Victor</a> também caiu no quintal da casa com sua <a>máquina de voar</a>. A casa conta bastante da história através da sua história construtiva, com os anexos e diferentes fases de construção. Havia antes um curral na frente da casa e há também um quintal de café, onde <a>Padre Antônio Cândido</a> plantava seu café. 
 				</div>`,
 				longText: ``
 			}
@@ -541,7 +541,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Aqui chegaram vindos do famoso e tradicional Colégio do Caraça os padres: Tiago Natanael (de origem persa, superior da missão), Francisco Frombert e Ignácio 	(português) em princípios do mês de março. O Padre Tiago chamando o vigário [Antônio Cândido](), manifestou-lhe que desejava deixar uma lembrança material na freguesia. Respondendo-lhe o vigário: "O que aqui agora mais precisamos é uma Matriz, mas o povo é muito pobre e não aguenta." O padre Tiago, homem apostólico e de muito jeito disse em poucas palavras: "Vamos tentar e do céu virá a benção." Foi ao púlpito, animou, explicou e soube fazer as armadilhas, e no fim de 6 dias tinha angariado em dinheiro a quantia de 11:600:000. 
+					Aqui chegaram vindos do famoso e tradicional Colégio do Caraça os Padres: Tiago Natanael (de origem persa, superior da missão), Francisco Frombert e Ignácio 	(português) em princípios do mês de março. O Padre Tiago chamando o vigário [Antônio Cândido](), manifestou-lhe que desejava deixar uma lembrança material na freguesia. Respondendo-lhe o vigário: "O que aqui agora mais precisamos é uma Matriz, mas o povo é muito pobre e não aguenta." O Padre Tiago, homem apostólico e de muito jeito disse em poucas palavras: "Vamos tentar e do céu virá a benção." Foi ao púlpito, animou, explicou e soube fazer as armadilhas, e no fim de 6 dias tinha angariado em dinheiro a quantia de 11:600:000. 
 				</div>`,
 				longText: `
 				
@@ -559,7 +559,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Fez-se mão à obra, às vezes era preciso parar por falta de material. Veio a gripe espanhola e foi preciso parar. Depois vagarosamente foi-se movimentando o serviço e o Vigário viajando por fora passando. Às vezes até fome e mal dormindo, nunca mal recebido, a pescar esmolas. De julho de 1918 até fevereiro de 1924, foi pesadíssimo para o Padre Antônio Cândido a tarefa do serviço da nova Matriz. Quem está de fora nada pode avaliar, pois quem carrega o peso sabe melhor avaliar as dificuldades de chegar ao fim. O saudoso padre Tiago, constituiu tesoureiro o sr. Benjamim Gonçalves Pimenta que de fato tem ocupado esse cargo com muita honestidade e critério. 
+					Fez-se mão à obra, às vezes era preciso parar por falta de material. Veio a gripe espanhola e foi preciso parar. Depois vagarosamente foi-se movimentando o serviço e o Vigário viajando por fora passando. Às vezes até fome e mal dormindo, nunca mal recebido, a pescar esmolas. De julho de 1918 até fevereiro de 1924, foi pesadíssimo para o Padre Antônio Cândido a tarefa do serviço da nova Matriz. Quem está de fora nada pode avaliar, pois quem carrega o peso sabe melhor avaliar as dificuldades de chegar ao fim. O saudoso Padre Tiago, constituiu tesoureiro o sr. Benjamim Gonçalves Pimenta que de fato tem ocupado esse cargo com muita honestidade e critério. 
 				</div>`,
 				longText: `
 				
@@ -568,7 +568,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Antes de se iniciar o serviço da igreja formou-se uma Comissão infelizmente só de nome porque os membros da mesma escafederam devagar. Ficou somente os seguintes: o padre Antônio para pescar esmolas, o Benjamim como tesoureiro e o muito patriota e muito serviçal Antônio José Macário de Sousa para o andamento e direção de muitas coisas, sempre combinando com o Vigário e afinal prestou muitos bons serviços. anotação feita por josé victor no livro de tombos
+					Antes de se iniciar o serviço da igreja formou-se uma Comissão infelizmente só de nome porque os membros da mesma escafederam devagar. Ficou somente os seguintes: o Padre Antônio para pescar esmolas, o Benjamim como tesoureiro e o muito patriota e muito serviçal Antônio José Macário de Sousa para o andamento e direção de muitas coisas, sempre combinando com o Vigário e afinal prestou muitos bons serviços. anotação feita por josé victor no livro de tombos
 				</div>`,
 				longText: `
 				
@@ -665,7 +665,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Quando o <a>Adro da Matriz</a> estava sendo construído, <a>padre Antônio Cândido</a> teve a esperteza se entender como envolver a população com o empreendimento. Ele falava com os moradores após a missa e eles saiam da Igreja para ir à pedreira próxima à Matriz e buscar pedras para a construção. Essas viagens em conjunto para buscar pedra eram um momento de contato com a população do <a>Bação</a>, antigamente não era possível que as pessoas que estavam interessadas em alguém romanticamente tivesse uma oportunidade para conversarem, mas o momento de buscar as pedras era um momento em que os jovens podiam caminhar perto das suas pessoas de interesse. Isso fazia com que a troca de olhares, o flerte velado fosse algo que os estimulava para fazer essa empreitada. 
+					Quando o <a>Adro da Matriz</a> estava sendo construído, <a>Padre Antônio Cândido</a> teve a esperteza se entender como envolver a população com o empreendimento. Ele falava com os moradores após a missa e eles saiam da Igreja para ir à pedreira próxima à Matriz e buscar pedras para a construção. Essas viagens em conjunto para buscar pedra eram um momento de contato com a população do <a>Bação</a>, antigamente não era possível que as pessoas que estavam interessadas em alguém romanticamente tivesse uma oportunidade para conversarem, mas o momento de buscar as pedras era um momento em que os jovens podiam caminhar perto das suas pessoas de interesse. Isso fazia com que a troca de olhares, o flerte velado fosse algo que os estimulava para fazer essa empreitada. 
 					Além disso, havia também os momentos em que se faziam brincadeiras, há outros momentos como quando um homem muito grande, alto, forte, ia buscar pedras e todos ficavam na expectativa dele pegar uma grande pedra para levar para a <a>Construção da Matriz</a>, mas esse homem quebrava as expectativas de todos, levando em sua cabeça uma pedra pequeninha, menor que as pessoas menores conseguiam levar. 
 				</div>`,
 				longText: ``
@@ -750,7 +750,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					A Casa da Banda foi construída no quintal de Sr. Antônio Ribeiro, avô de <a>Mauro</a>, que cedeu seu terreno para que a casa fosse feita. Vários moradores do <a>Bação</a> se juntaram à banda, criando um ambiente no qual as pessoas se reuniam para aprender a tocar e fazer bailes que varavam a madrugada tocando marchinhas de carnaval. A Casa da Banda também participava dos eventos da Igreja organizados peo <a>padre Antônio Cândido</a>. Quando <a>padre Bernardo</a> se tornou o padre da cidade, ele não apoiava que essas festas acontecessem, ele trabalhou para que os instrumentos da banda fossem vendidos e que, quando havia bailes, que fossem até nove horas da noite apenas. 
+					A Casa da Banda foi construída no quintal de Sr. Antônio Ribeiro, avô de <a>Mauro</a>, que cedeu seu terreno para que a casa fosse feita. Vários moradores do <a>Bação</a> se juntaram à banda, criando um ambiente no qual as pessoas se reuniam para aprender a tocar e fazer bailes que varavam a madrugada tocando marchinhas de carnaval. A Casa da Banda também participava dos eventos da Igreja organizados peo <a>Padre Antônio Cândido</a>. Quando <a>Padre Bernardo</a> se tornou o Padre da cidade, ele não apoiava que essas festas acontecessem, ele trabalhou para que os instrumentos da banda fossem vendidos e que, quando havia bailes, que fossem até nove horas da noite apenas. 
 				</div>`,
 				longText: `-TODO Relato da D divina`
 			}
@@ -818,7 +818,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Havia no <a>Bação</a> um grupo de seresteiros formado por alguns integrantes da <a>Casa da Banda</a>. O grupo acabou porque foi firmemente desestimulado por <a>padre Bernardo</a>, que tinha uma fala que marcou o imaginário da cidade: "Se você ver um seresteiro, faça de seu violão a sua gravata". 
+					Havia no <a>Bação</a> um grupo de seresteiros formado por alguns integrantes da <a>Casa da Banda</a>. O grupo acabou porque foi firmemente desestimulado por <a>Padre Bernardo</a>, que tinha uma fala que marcou o imaginário da cidade: "Se você ver um seresteiro, faça de seu violão a sua gravata". 
 				</div>`,
 				longText: `-TODO imagem`
 			}
@@ -832,7 +832,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					A Semana Santa é uma das comemorações da <a>Igreja Católica</a> que começa no Domingo de Ramos e terminar do Domingo de Páscoa. Quando <a>padre Antônio Cândido</a> vivia no <a>Bação</a>, a Semana Santa era uma festa que chamava várias pessoas para o distrito para comemorações. Na época de <a>padre Bernardo</a> a situação era diferente porque ele não fazia festas. Foi durante os eventos da Semana Santa que houve a primeira apresentação do <a>Grupo de Teatro do Bação</a>, que foi realizado no <a>Adro da Matriz</a> e até os dias atuais eles mantém essa relação, com um espetáculo do <a>Grupo de Teatro do Bação</a> em relação a Igreja. 
+					A Semana Santa é uma das comemorações da <a>Igreja Católica</a> que começa no Domingo de Ramos e terminar do Domingo de Páscoa. Quando <a>Padre Antônio Cândido</a> vivia no <a>Bação</a>, a Semana Santa era uma festa que chamava várias pessoas para o distrito para comemorações. Na época de <a>Padre Bernardo</a> a situação era diferente porque ele não fazia festas. Foi durante os eventos da Semana Santa que houve a primeira apresentação do <a>Grupo de Teatro do Bação</a>, que foi realizado no <a>Adro da Matriz</a> e até os dias atuais eles mantém essa relação, com um espetáculo do <a>Grupo de Teatro do Bação</a> em relação a Igreja. 
 				</div>`,
 				longText: `-TODO links`
 			}
@@ -890,7 +890,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					No início de sua construção, em 1858, se chamava Estrada de Ferro Dom Pedro I e mudou de nome para Central do Brasil após a <a>Declaração da República</a>. A estrada de ferro foi construída para uma integração do território nacional a partir do <a>Rio de Janeiro</a>, após a transposição da Serra do Mar, ela se dividiu com um ramal para São Paulo e outro para Minas Gerais, este último com o objetivo de chegar a Queluz de Minas (atual Conselheiro Lafaiete). No ano de 1896, com sua contínua expansão, chegou ao <a>Bação</a> pela <a>Estação Engenheiro Corrêa</a>. Durante a <a>Construção da Matriz</a>, padre Frederico pediu para que os <a>tijolos</a> viessem por esse meio de transporte.
+					No início de sua construção, em 1858, se chamava Estrada de Ferro Dom Pedro I e mudou de nome para Central do Brasil após a <a>Declaração da República</a>. A estrada de ferro foi construída para uma integração do território nacional a partir do <a>Rio de Janeiro</a>, após a transposição da Serra do Mar, ela se dividiu com um ramal para São Paulo e outro para Minas Gerais, este último com o objetivo de chegar a Queluz de Minas (atual Conselheiro Lafaiete). No ano de 1896, com sua contínua expansão, chegou ao <a>Bação</a> pela <a>Estação Engenheiro Corrêa</a>. Durante a <a>Construção da Matriz</a>, Padre Frederico pediu para que os <a>tijolos</a> viessem por esse meio de transporte.
 				</div>`,
 				longText: ``
 			}
@@ -918,7 +918,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					Luiz Cheffer era um imigrante alemão que foi para o <a>Bação</a> trabalhar como construtor durante a <a>Construção da Matriz</a> depois que foi indicado pelo <a>padre Frederico</a>.  Junto ao engenheiro, o construtor fez marcas em escala 1:1 já no local da <a>Matriz do Bação</a> do que seria construído, já que eles não estavam utilizando projetos nessa época. 
+					Luiz Cheffer era um imigrante alemão que foi para o <a>Bação</a> trabalhar como construtor durante a <a>Construção da Matriz</a> depois que foi indicado pelo <a>Padre Frederico</a>.  Junto ao engenheiro, o construtor fez marcas em escala 1:1 já no local da <a>Matriz do Bação</a> do que seria construído, já que eles não estavam utilizando projetos nessa época. 
 				</div>`,
 				longText: ``
 			}
@@ -1005,7 +1005,7 @@ representava a República. A associação desse tipo de representação com a Re
 			{
 				id: "",
 				shortText: `<div>
-					Colégio Arnaldo é um colégio fundado pela Congregação do Verbo Divino no ano de 1912 em <a>Belo Horizonte</a>. <a>padre Antônio Cândido</a> tinha contato com o colégio e foi de lá chamado o <a>padre Frederico</a>, engenheiro da <a>Construção da Matriz</a>. 
+					Colégio Arnaldo é um colégio fundado pela Congregação do Verbo Divino no ano de 1912 em <a>Belo Horizonte</a>. <a>Padre Antônio Cândido</a> tinha contato com o colégio e foi de lá chamado o <a>Padre Frederico</a>, engenheiro da <a>Construção da Matriz</a>. 
 				</div>`,
 				longText: ``
 			}
