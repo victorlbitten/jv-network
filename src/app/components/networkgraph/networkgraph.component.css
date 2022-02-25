@@ -11,3 +11,6 @@
     opacity: 1;
 }
 
+.group-name {
+    white-space: nowrap;
+}

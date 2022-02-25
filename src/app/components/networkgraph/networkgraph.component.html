@@ -3,7 +3,7 @@
         <ng-container *ngFor="let item of colorByGroup | keyvalue">
             <div class="group-element" (click)="toggleGroup(item.key)" [ngClass]="{'selected-group': filteredGroups.has(item.key)}">
                 <div style="height: 10px; width: 10px; border-radius: 50%;" [ngStyle]="{'background-color': item.value}"></div>
-                <span>{{item.key}}</span>
+                <span class="group-name">{{item.key}}</span>
             </div>
         </ng-container>
     </div>  

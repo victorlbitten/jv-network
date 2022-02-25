@@ -2,7 +2,7 @@ export const nodes = [
 	{
 		"id": 1,
 		"name": "José Victor",
-		"group": "Ator",
+		"group": "José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -161,7 +161,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div>
-					O adro da <a>Matriz do Bação</a> foi e ainda é um local essencial para os encontros da comunidade do <a>Bação</a>, ele era ocupado durante a época do <a>Padre Antônio Cândido</a> para as festas religiosas, como a <a>Semana Santa</a>. O <a>Grupo de Teatro do Bação</a> também utiliza o local como palco para os seus espetáculos. O adro só não foi ocupado pela população na época do <a>Padre Bernardo</a>, que considerava o local sagrado e, por isso, intocável. O adro foi feito durante a <a>Construção da Matriz</a>e os <a>artesãos</a> responsáveis foram <a>José Victor</a>, José Adalberto de Sousa e José Pereira. A mão de obra com pedras é comum no <a>Bação</a> por conta dos <a>muros de pedra</a> presentes na cidade. Esses materiais foram reutilizados da <a>antiga igreja</a> e também foram trazidos pelos <a>tropeiros</a> e pela própria população do distrito que ia buscar na <a>Pedreira do João pedreiro</a>. 
+					O adro da <a>Matriz do Bação</a> foi e ainda é um local essencial para os encontros da comunidade do <a>Bação</a>, ele era ocupado durante a época do <a>Padre Antônio Cândido</a> para as festas religiosas, como a <a>Semana Santa</a>. O <a>Grupo de Teatro do Bação</a> também utiliza o local como palco para os seus espetáculos. O adro só não foi ocupado pela população na época do <a>Padre Bernardo</a>, que considerava o local sagrado e, por isso, intocável. O adro foi feito durante a <a>Construção da Matriz</a>e os <a>artesãos</a> responsáveis foram <a>José Victor</a>, José Adalberto de Sousa e José Pereira. A mão de obra com pedras é comum no <a>Bação</a> por conta dos <a>Muros de pedra</a> presentes na cidade. Esses materiais foram reutilizados da <a>antiga igreja</a> e também foram trazidos pelos <a>tropeiros</a> e pela própria população do distrito que ia buscar na <a>Pedreira do João pedreiro</a>. 
 				
 				</div>`,
 				longText: ``
@@ -199,7 +199,7 @@ export const nodes = [
 	{
 		"id": 15,
 		"name": "Padre Antônio Cândido",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -271,7 +271,7 @@ export const nodes = [
 	{
 		"id": 20,
 		"name": "Padre Bernardo",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -333,7 +333,7 @@ export const nodes = [
 	{
 		"id": 23,
 		"name": "Zé Relojoeiro",
-		"group": "Ator",
+		"group": "Escutou histórias sobre José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -347,7 +347,7 @@ export const nodes = [
 	{
 		"id": 24,
 		"name": "Layla",
-		"group": "Ator",
+		"group": "Escutou histórias sobre José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -361,7 +361,7 @@ export const nodes = [
 	{
 		"id": 25,
 		"name": "Adilson",
-		"group": "Ator",
+		"group": "Escutou histórias sobre José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -373,7 +373,7 @@ export const nodes = [
 	{
 		"id": 26,
 		"name": "D. Divina",
-		"group": "Ator",
+		"group": "Conheceu José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -387,7 +387,7 @@ export const nodes = [
 	{
 		"id": 27,
 		"name": "Neymer",
-		"group": "Ator",
+		"group": "Escutou histórias sobre José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -399,7 +399,7 @@ export const nodes = [
 	{
 		"id": 28,
 		"name": "Dr. Senna",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -462,12 +462,12 @@ export const nodes = [
 	{
 		"id": 32,
 		"name": "Jaber",
-		"group": "Ator",
+		"group": "Escutou histórias sobre José Victor",
 		verbatin: [
 			{
 				id: "",
 				shortText: `<div>
-					Jaber é um dos moradores do <a>Bação</a>, ele mudou-se para cidade quando se casou com <a>Marilene</a>, ambos se encantaram com a cidade quando foram passar a lua de mel no <a>Bação</a> e resolveram comprar ali uma casa. A casa que eles compraram naquela época é a casa que Jaber atualmente mora, na rua <a>Dr. Senna</a>, há um lote de distância da <a>Casa de José Victor</a>. O morador não chegou a conhecer <a>José Victor</a> pessoalmente, mas conheceu alguns membros de sua família que lhe contaram histórias sobre a produção de <a>José Victor</a>. Jaber se tornou bastante interessado pelo polímata, tendo ido atrás de documentos sobre o <a>José Victor</a>, no qual um deles ele mantém em sua casa, o único <a>manuscrito</a> que se tem notícia que sobreviveu à passagem do tempo. Ele também guardou alguns <a>tijolos</a> produzidos por <a>José Victor</a> e é uma das poucas pessoas que chegou a ler o <a>relato da viagem</a> escrito pelo artesão, que Jaber ter uma interpretação diferente das outras duas pessoas - <a>Entrevista Valdecir</a> e <a>Marilene</a> - que também leram essas páginas. 
+					Professor.
 				</div>`,
 				longText: ``
 			}
@@ -504,7 +504,7 @@ export const nodes = [
 	{
 		"id": 35,
 		"name": "Valdecir",
-		"group": "Ator",
+		"group": "Escutou histórias sobre José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -620,7 +620,7 @@ export const nodes = [
 	{
 		"id": 38,
 		"name": "D. Lia",
-		"group": "Ator",
+		"group": "Conheceu José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -632,7 +632,7 @@ export const nodes = [
 	{
 		"id": 39,
 		"name": "Dolores",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -675,7 +675,7 @@ export const nodes = [
 	{
 		"id": 42,
 		"name": "Grupo de Teatro do Bação",
-		"group": "Ator",
+		"group": "Instituição",
 		verbatin: [
 			{
 				id: "",
@@ -689,7 +689,7 @@ export const nodes = [
 	{
 		"id": 43,
 		"name": "José Bastos Bittencourt",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -759,7 +759,7 @@ export const nodes = [
 	{
 		"id": 48,
 		"name": "Totonho",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -773,7 +773,7 @@ export const nodes = [
 	{
 		"id": 49,
 		"name": "Vânia",
-		"group": "Ator",
+		"group": "Conheceu José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -801,7 +801,7 @@ export const nodes = [
 	{
 		"id": 51,
 		"name": "Seu Benjamin",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -813,7 +813,7 @@ export const nodes = [
 	{
 		"id": 52,
 		"name": "Grupo de Seresteiros",
-		"group": "Ator",
+		"group": "Instituição",
 		verbatin: [
 			{
 				id: "",
@@ -855,7 +855,7 @@ export const nodes = [
 	{
 		"id": 55,
 		"name": "Comércios na R. das Pimentas",
-		"group": "Ator",
+		"group": "Local",
 		verbatin: [
 			{
 				id: "",
@@ -871,7 +871,7 @@ export const nodes = [
 	{
 		"id": 56,
 		"name": "Marilene",
-		"group": "Ator",
+		"group": "Escutou histórias sobre José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -885,7 +885,7 @@ export const nodes = [
 	{
 		"id": 57,
 		"name": "Estrada de Ferro Central do Brasil",
-		"group": "Ator",
+		"group": "Local",
 		verbatin: [
 			{
 				id: "",
@@ -899,7 +899,7 @@ export const nodes = [
 	{
 		"id": 58,
 		"name": "Agostinho Rodrigues",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -913,7 +913,7 @@ export const nodes = [
 	{
 		"id": 59,
 		"name": "Luiz Cheffer",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -927,7 +927,7 @@ export const nodes = [
 	{
 		"id": 60,
 		"name": "Ilariano Malta",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -986,7 +986,7 @@ representava a República. A associação desse tipo de representação com a Re
 	{
 		"id": 63,
 		"name": "Padre Frederico",
-		"group": "Ator",
+		"group": "Se relacionou com José Victor",
 		verbatin: [
 			{
 				id: "",
@@ -1046,6 +1046,34 @@ representava a República. A associação desse tipo de representação com a Re
 				id: "",
 				shortText: `<div>
 					A bolsa foi uma constribuição concedida a <a>José Victor</a> pelo antigo prefeito de <a>Vila Rica</a>, <a>Dr. Senna</a>, para que o polímata continuasse trabalhando em suas invenções. Por a rua da <a>casa de José Victor</a> se chama R. <a>Dr. Senna</a>.  
+				</div>`,
+				longText: ``
+			}
+		]
+	},
+	{
+		"id": 68,
+		"name": "Muros de pedra",
+		"group": "Local",
+		verbatin: [
+			{
+				id: "",
+				shortText: `<div>
+					Os muros de pedra do [[Bação]] datam do século XVI, era um tipo de construção comum nas cidades da colônia, [[Vila Rica]] também tinha vários muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no [[Adro da Matriz]], bem como no alicerce da [[casa de José Victor]]. 
+				</div>`,
+				longText: ``
+			}
+		]
+	},
+	{
+		"id": 69,
+		"name": "Cabral",
+		"group": "Escutou histórias sobre José Victor",
+		verbatin: [
+			{
+				id: "",
+				shortText: `<div>
+					Os muros de pedra do [[Bação]] datam do século XVI, era um tipo de construção comum nas cidades da colônia, [[Vila Rica]] também tinha vários muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no [[Adro da Matriz]], bem como no alicerce da [[casa de José Victor]]. 
 				</div>`,
 				longText: ``
 			}
