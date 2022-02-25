@@ -110,7 +110,9 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
     const linkElements = document.querySelectorAll('a');
 
     linkElements.forEach((link:any) => {
-      link.style.color = "blue";
+      link.style.color = "#fff";
+      link.style.fontWeight = 600;
+      link.style.textDecoration = "underline";
       link.style.cursor = "pointer";
 
       link.addEventListener("click", (event:any) => {

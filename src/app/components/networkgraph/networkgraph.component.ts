@@ -131,6 +131,9 @@ export class NetworkgraphComponent implements OnInit {
       title: {
         text: 'O que permanece sobre José Victor?',
       },
+      credits: {
+        enabled: false
+      },
       chart: {
         type: 'networkgraph',
         renderTo: 'container',
@@ -279,7 +282,7 @@ export class NetworkgraphComponent implements OnInit {
 
   // FUNCTIONS USED TO CREATE THE nci
   createReference() {
-    this.domService.createReference();
+    // this.domService.createReference();
   }
 
   openVerbatin(point:any) {
