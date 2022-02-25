@@ -6,8 +6,20 @@ export const nodes = [
 		verbatin: [
 			{
 				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl.
+				</div>`,
+				longText: `<div class="node-text">
+					Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallisNam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallisNam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
+				</div>
+				`
+			},
+			{
+				id: "",
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl.
+				</div>`,
+				longText: ""
 			}
 		]
 	},
@@ -21,7 +33,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Durante a <a>Construção da Matriz</a>, <a>José Victor</a> também foi responsável por construir um relógio para a torre da <a>Matriz do Bação</a>. Esse relógio causou grande admiração na população, com pessoas da região, como <a>Zé Relojoeiro</a> e <a>Dr. Senna</a>, que foram até o <a>Bação</a> conhecê-lo. Relógio de torre de Igreja geralmene são construídos com engrenagens bronze, porém o relógio de <a>José Victor</a> foi construído com engrenagens de madeira, nas quais o polímata pregava pregos e depois cortava a cabeça dos mesmos para que as engrenagens pudessem rodar entre si. A estrutura do relógio também é feita de madeira, <a>José Victor</a> usava os materiais que estavam disponíveis para ele na época, usando até cabo de vassoura em algumas partes do relógio. Para o controle do relógio, haviam três pesos de cimento, que o polímata esculpiu e fez inscrições das <a>virtudes teologais</a>: Fé, esperança e caridade. Por conta do material utilizado para a produção do relógio, era comum que ele se atrasasse nos tempos de chuva, pois a madeira inchava e expandia, causando atrasos de 15 minutos a meia hora. <a>José Victor</a> era chamado pelo <a>Padre Bernardo</a> sempre que isso acontecia para que o relógio pudesse ser ajustado.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -35,7 +47,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Em 1935, foi inaugurado em <a>Belo Horizonte</a> o prédio mais alto da cidade, um projeto do arquiteto Rafaello Berti que iria abrigar a Feira Permanente de Amostras, local onde ficavam expostos os trabalhos de diversos mineiros que vinham até a capital. Um desses trabalhos expostos era um relógio de <a>José Victor</a>, que o funcionamento era semelhante ao <a>Relógio da torre da Matriz</a>, porém em escala menor.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -49,7 +61,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					A fama de <a>José Victor</a> como construtor de relógios correu a região após o polímata construir o <a>Relógio da torre da Matriz</a>, fazendo com que outros locais o contratassem para construir os relógios de torre de suas igrejas, que foi o que ocorreu com <a>Belo Vale</a>, que existem suspeitas que o polímata construiu um relógio pra Igreja de lá.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -63,7 +75,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Na <a>casa de José Victor</a> havia um relógio que <a>José Victor</a> construiu com um funcionamento igual ao do <a>Relógio da torre da Matriz</a>, a única diferença é que esse relógio era em menor escala. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -93,7 +105,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					<a>José Victor</a> era conhecido por ter uma relação próxima com a <a>Igreja Católica</a>, tendo relação com os Padres que passaram pelo <a>Bação</a>. Um dos Padres que tinha amizade com <a>José Victor</a> era o <a>Padre Antônio Cândido</a>. Por conta disso, o Padre encomendou que o polímata fizesse uma escultura de anjo que fica em cima do túmulo da mãe de <a>Padre Antônio Cândido</a>, na entrada do <a>Cemitério do Bação</a>.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -121,7 +133,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					A fachada da <a>casa de José Victor</a> que dava para a R. <a>Dr. Senna</a> tem três colunas, uma em cada ponta e uma coluna no meio. Acompanhando as colunas da ponta, haviam anjos que <a>José Victor</a> esculpiu e colocou no telhado de sua casa. Existe uma suspeita que esses anjos tenham sido vendidos para um morador de <a>Mariana</a>.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -148,8 +160,10 @@ export const nodes = [
 		verbatin: [
 			{
 				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
+				</div>`,
+				longText: ""
 			}
 		]
 	},
@@ -164,7 +178,7 @@ export const nodes = [
 					O adro da <a>Matriz do Bação</a> foi e ainda é um local essencial para os encontros da comunidade do <a>Bação</a>, ele era ocupado durante a época do <a>Padre Antônio Cândido</a> para as festas religiosas, como a <a>Semana Santa</a>. O <a>Grupo de Teatro do Bação</a> também utiliza o local como palco para os seus espetáculos. O adro só não foi ocupado pela população na época do <a>Padre Bernardo</a>, que considerava o local sagrado e, por isso, intocável. O adro foi feito durante a <a>Construção da Matriz</a>e os <a>artesãos</a> responsáveis foram <a>José Victor</a>, José Adalberto de Sousa e José Pereira. A mão de obra com pedras é comum no <a>Bação</a> por conta dos <a>Muros de pedra</a> presentes na cidade. Esses materiais foram reutilizados da <a>antiga igreja</a> e também foram trazidos pelos <a>tropeiros</a> e pela própria população do distrito que ia buscar na <a>Pedreira do João pedreiro</a>. 
 				
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -178,7 +192,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					A Matriz do Bação é uma combinação de três diferentes obras, primeiro ela foi a <a>capela do Bação</a>, depois foi reformada e se tornou o que estou chamando aqui de <a>antiga igreja</a> e, por fim, se tornou Matriz após a <a>Construção da Matriz</a>. O <a>Adro da Matriz</a> tem uma grande importância para o <a>Grupo de Teatro do Bação</a> por ser o palco das suas apresentações. Além disso, o espaço é usado para outras atividades culturais do <a>Bação</a>, ocorrendo apresentações de música popular e música sacra dentro da Matriz, como forma de aproveitar a acústica do local que permite que as pessoas cantem e falem sem microfone. Ela é um dos principais patrimônios do <a>Bação</a>, é a Matriz que está em evidência nas fotos e divulgações do distrito. Ela está em um local central da cidade, perto dos bares, que permite que as pessoas fiquem nesses bares e assistam às apresentações que ocorrem no <a>Adro da Matriz</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -236,7 +250,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					A missão de Padres do Caraça foi uma visita de Padres que foram do Colégio Caraça até o <a>Bação</a>, essa visita foi responsável pela <a>Construção da Matriz</a>, como é melhor relatado no <a>Livro de Tombos</a>: !<a>Livro de Tombos#missão de Padres do caraça</a>
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -250,7 +264,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Atualmente <a>Itabirito</a>, Itabira do Campo era um dos distritos de <a>Vila Rica</a>. Funcionava como uma centralidade econômica para população do <a>Bação</a>. Eles iam para a cidade adquirir mercadorias diversas em locais como as <a>Loja do Sr. Farid</a>.  Para manter essa riqueza, a cidade dependia da mineração, sendo um dos grande empreendimentos minerários da cidade a <a>mina de Cata Branca</a>, porém, após o <a>acidente de Cata Branca</a>, a cidade passou por um momento de dificuldade econômica até que foi instalada no local a <a>Usina Esperança</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -264,7 +278,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Vila Rica, atualmente chamado de <a>Ouro Preto</a>, foi a capital mineira de 1711 até 1897 e o <a>Bação</a> foi filial da freguesia de Vila Rica de 1711 até 1923 . <a>Dr. Senna</a> foi prefeito da cidade por volta de 1908 ano, quando foi apoiado pelo <a>Padre Antônio Cândido</a>. O professor de música da <a>Casa da Banda</a>, chamado por <a>professor Virgílio</a>, era de Vila Rica. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -312,7 +326,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					A primeira cidade planejada do Brasil moderno foi inaugurada em 1897. Durante os anos de XXXX, houve a instalação da Estrada de Ferro XXXXX, alguns moradores do <a>Bação</a> chegaram a trabalhar nessas estações. A criação da <a>Estrada de Ferro Central do Brasil</a> e rodovias foram conexões que aumentaram a proximidade entre as cidade. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -326,7 +340,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Belo Vale é um distrito de 7 mil habitantes que ficam há cerca de 48 km do <a>Bação</a>, onde <a>José Victor</a> também foi chamado para construir o <a>Relógio de Belo Vale</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -340,7 +354,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					A notícia da genialidade de José Victor a produzir um relógio para a torre com engrenagens produzidas com pregos e madeira correu a região. Ela chegou aos ouvidos de Zé Relojoeiro — primeiro relojoeiro de <a>Itabirito</a> e um de seus serviços era a manutenção do relógio da Igreja São Sebastião — que logo se interessou por conhecer tal obra de engenharia. Zé Relojoeiro tratou de reunir sua família, a esposa grávida, sua irmã— que só visitou o <a>Bação</a> naquela vez em 70 anos de vida — e foram para a <a>Matriz do Bação</a> visitar o tão falado <a>Relógio da torre da Matriz</a>. O relojoeiro ficou encantado e perguntou aos moradores do Bação mais sobre o tal inventor. Eles lhe contaram sobre a <a>máquina de voar</a> de <a>José Victor</a>, outra história que também marcou a memória de Zé Relojoeiro. Por conta de seu interesse e respeito a esse curioso personagem do <a>Bação</a>, Zé Relojoeiro decidiu que chamaria seu filho de José Victor em homenagem ao inventor Baçônico. Essa história acabou fazendo parte da família, sendo lembrada por <a>Layla</a>, que é neta de Zé Relojoeiro, e <a>Adilson</a>, que é o filho de Zé Relojoeiro. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -354,7 +368,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Moradora de <a>Itabirito</a> e neta de <a>Zé Relojoeiro</a>, Layla conheceu as histórias de <a>José Victor</a> através de seu avô.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -365,8 +379,10 @@ export const nodes = [
 		verbatin: [
 			{
 				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
+				</div>`,
+				longText: ""
 			}
 		]
 	},
@@ -380,7 +396,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					D. Divina é uma das moradoras antigas do <a>Bação</a>, ela é filha de <a>Sr. Benjamin</a> e lembra-se do <a>José Victor</a> por conta da relação do seu pai com o polímata, pois ela era muito nova quando o polímata estava vivo.  Ela mora no mesmo casarão na praça da <a>Matriz do Bação</a> que sua família morava quando era criança. D. Divina também conta histórias sobre sua irmã <a>Dolores</a>. É mãe de <a>Vânia</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -391,8 +407,10 @@ export const nodes = [
 		verbatin: [
 			{
 				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
+				</div>`,
+				longText: ""
 			}
 		]
 	},
@@ -427,7 +445,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					É contato que <a>Dr. Senna</a>, quando visitou o <a>Relógio da torre da Matriz</a>, ficou muito impressionado com o trabalho de <a>José Victor</a> e chegou até a escrever uma reportagem no Estado de Minas sobre o artesão. Não foi possível encontrar essa reportagem durante o processo da pesquisa, porém os exemplares do jornal estão na Biblioteca Pública de <a>Belo Horizonte</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -441,7 +459,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Alguns moradores mais velhos do <a>Bação</a> contam que <a>José Victor</a> construiu um relógio que foi para Alemanha, existem outros que acham que, na verdade, se tratava de uma reportagem sobre o <a>Relógio da torre da Matriz</a> que foi publicada no país. Não foi possível confirmar a existência de nenhum dos dois, mas vale lembrar que <a>José Victor</a> chegou a ter contato com o imigrante alemão <a>Luiz Cheffer</a> durante a <a>Construção da Matriz</a>, o que pode ter sido um contato para que algo assim acontecesse. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -455,7 +473,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					É nome dado pelo <a>Cabral</a> para a casa em que ele vive e pretende construir o Centro de Estudos Villém Flusser. A casa também é importante por ter sido a <a>casa de Padre Antônio Cândido</a>. Se trata de uma casa semi-rural e foi nela que houve a primeira TV, <a>José Victor</a> também caiu no quintal da casa com sua <a>máquina de voar</a>. A casa conta bastante da história através da sua história construtiva, com os anexos e diferentes fases de construção. Havia antes um curral na frente da casa e há também um quintal de café, onde <a>Padre Antônio Cândido</a> plantava seu café. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -467,9 +485,9 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					Professor.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -483,7 +501,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Localizado há 1,5km da saída do <a>Bação</a> pelo lado oeste está o cemitério da cidade, junto à Capela do Rosário, que foi construída com madeira em 1901, porém passou uma reforma em 1905 na qual passou a ser uma capela de tijolos. Lá está localizada uma das obras de <a>José Victor</a>, a <a>Escultura do cemitério</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -497,7 +515,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Atualmente, o Bação é um distrito de <a>Itabirito</a>. A cidade foi construída após
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -511,7 +529,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Valdecir é um escutor que mora no <a>Bação</a>, sua família vem da mesma linha da família de <a>José Victor</a> e ele cresceu escutando histórias sobre a loucura de <a>José Victor</a>. Mais tarde, quando Valdecir resolveu se dedicar às artes, eles começou a conversar com parentes de <a>José Victor</a> que sabiam sobre  a produção do artesão, ele chegou até a pegar um livro que <a>José Victor</a> utilizada para fazer seus estudos e também teve contato com o <a>Relato da Viagem</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -613,7 +631,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					É dito que as <a>Escultura de Anjos</a> que ficavam na <a>casa de José Victor</a> foram vendidas para uma pessoa que vivia em Mariana. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -624,8 +642,10 @@ export const nodes = [
 		verbatin: [
 			{
 				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
+				</div>`,
+				longText: ""
 			}
 		]
 	},
@@ -639,7 +659,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					O interesse romântico de <a>José Victor</a>, Dolores, era filha de <a>Sr. Benjamin</a>, ela chamava atenção da população do <a>Bação</a> por sua beleza, era uma mulher vaidosa, que sempre andava com os cabelos arrumados e com pele hidratada com cremes chiques.  O artesão a via nas missas, onde ele tocava o <a>Harmônico</a> e Dolores cantava no coral. Por conta de como funcionavam os namoros na época, <a>José Victor</a> não tentava se aproximar de Dolores para conversar. Mas ele chegou a pedir a pedir a mão dela em casamento para seu pai.  <a>Sr. Benjamin</a> acreditava que a filha não deveria se casar porque ela não se interessava pelas tarefas que envolviam cuidar de uma casa, nisso Dolores era diferente das mulheres da sua família, que faziam esse trabalhos de dona de casa. Mesmo assim, após o pedido de <a>José Victor</a>, ele deixou que Dolores decidisse qual seria sua resposta. Em algum momento entre o pedido da mão dela pro <a>Sr. Benjamin</a>e a resposta de Dolores, o polímata decidiu que iria construir uma <a>máquina de voar</a>, o episódio do <a>Voo de José Victor</a> foi justamente para pedir seu interesse romântico em casamento. Porém Dolores não se interessava por <a>José Victor</a> como um par romântico, achava-o pequeno e magrelo demais. O artesão quase não tinha cabelos na cabeça e ainda lhe faltavam alguns dentes, o que acarretou na recusa de seu pedido de casamento. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -668,7 +688,7 @@ export const nodes = [
 					Quando o <a>Adro da Matriz</a> estava sendo construído, <a>Padre Antônio Cândido</a> teve a esperteza se entender como envolver a população com o empreendimento. Ele falava com os moradores após a missa e eles saiam da Igreja para ir à pedreira próxima à Matriz e buscar pedras para a construção. Essas viagens em conjunto para buscar pedra eram um momento de contato com a população do <a>Bação</a>, antigamente não era possível que as pessoas que estavam interessadas em alguém romanticamente tivesse uma oportunidade para conversarem, mas o momento de buscar as pedras era um momento em que os jovens podiam caminhar perto das suas pessoas de interesse. Isso fazia com que a troca de olhares, o flerte velado fosse algo que os estimulava para fazer essa empreitada. 
 					Além disso, havia também os momentos em que se faziam brincadeiras, há outros momentos como quando um homem muito grande, alto, forte, ia buscar pedras e todos ficavam na expectativa dele pegar uma grande pedra para levar para a <a>Construção da Matriz</a>, mas esse homem quebrava as expectativas de todos, levando em sua cabeça uma pedra pequeninha, menor que as pessoas menores conseguiam levar. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -682,7 +702,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					O Grupo de Teatro do Bação foi fundado por <a>Mauro</a> e <a>Marilene</a>, a primeira apresentação do grupo foi em uma <a>Semana Santa</a>, apresentada no <a>Adro da Matriz</a>. O grupo trabalha hoje no <a>Bação</a> restaurando e contando a história da cidade. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -724,7 +744,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Antigamente chamado de <a>Itabira do Campo</a>, a freguesia de Itabirito foi inaugurada em 1923 após a cidade conseguir se reerguer economicamente com a <a>Usina Esperança</a>. <a>José Victor</a> também visitava a cidade à pé para ir à casa de <a>Agostinho Rodrigues</a> fazer <a>música</a>. <a>Zé Relojoeiro</a> foi o primeiro relojoeiro da cidade. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -738,7 +758,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Além de construtor e inventor, <a>José Victor</a> também era conhecido por ser um exímio músico. Sua formação foi feita por um professor de música que foi de <a>Vila Rica</a> ao <a>Bação</a> à convite do <a>professor Virgílio</a>. <a>José Victor</a>, então, passou a tocar <a>harmônio</a> nas missas da Igreja e também participou da <a>Casa da Banda</a>, com seu irmão <a>Totonho</a>, onde os dois tocavam e também davam aula de música para quem tivesse interesse.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -766,7 +786,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Totonho era irmão de <a>José Victor</a>, ele também compartilhava do talento para <a>Música</a>, sendo a única pessoa além de seu irmão capaz de tocar todas as colcheias do <a>harmônio</a>. Participava da <a>Casa da Banda</a>, onde ele tocava e dava aulas de clarineta e saxofone. Ele se mantinha cuidando para que a água chegasse aos <a>chafarizes</a> do <a>Bação</a> e com dinheiro das aulas. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -780,7 +800,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Cresci em São Gonçalo do <a>Bação</a> entre belas manifestações culturais e muito aconchego. Guardo na memória e no coração lembranças de momentos especiais do cotidiano deste lugar, especialmente do Mês de Maria, o período mais movimentado da nossa comunidade. Era o mês inteiro de preparação para a Festa do Sagrado Coração de Maria e a presença do <a>José Vitor</a> era muito forte em toda aquela movimentação. Todas as tardes as crianças eram chamadas para ensaiar os cantos da coroação e à noite os católicos se reuniam para rezar o terço, tendo o José Vitor ao harmônio, entoando os cantos e fazendo a leitura do evangelho. Todo ano, um altar com fundo ornado de estrelas era construído para que as crianças com suas vestes de anjos pudessem coroar Nossa Senhora. Eu e as outras meninas nos sentíamos como anjos chegando ao céu, entoando aqueles cantos. <a>José Vitor</a> era primoroso na execução das músicas e nos acompanhava em todos as coroações. Ajudava a catequista nos ensaios e, quando necessário, nos colocava sentadas a seu lado para aprimorar nossa afinação. Tocava acompanhando partituras e se esforçava em vão para que entendêssemos suas explicações. Lembro-me dele também fazendo a Via Sacra em Latim e me intrigava muito a forma com que tocava os sinos para dar avisos fúnebres. Pelo tocar dos sinos os adultos sabiam se o falecido era homem, mulher ou criança. Sei o quanto ele foi importante para nossa comunidade e guardo ainda a lembrança de sua ilustre figura em minha memória.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -794,7 +814,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Após a <a>Declaração da República</a>, o <a>Rio de Janeiro</a> teve uma nova importância para o cenário nacional, funcionando como um coração da República e sendo centro cultural de todo país. E por conta da conexão do <a>Bação</a> com a capital pela <a>Estrada de Ferro Central do Brasil</a>, a moda do Rio chegou aos <a>comércios na Rua da Pimenta</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -805,8 +825,10 @@ export const nodes = [
 		verbatin: [
 			{
 				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
+				</div>`,
+				longText: ""
 			}
 		]
 	},
@@ -848,7 +870,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Uma das manifestações da religiosidade de <a>José Victor</a> é um relato que ele escreveu sobre uma visita que ele recebeu de anjos que o levaram para voar num aparelho. As páginas de caderno que contém esse relato foram perdidas em um incêndio, porém existem ainda três pessoas no <a>Bação</a> que leram esse relato e elas contam de maneiras diferentes: <a>Marilene</a>, <a>Jaber</a> e <a>Valdecir</a>.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -878,7 +900,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Marilene é uma das fundadoras do <a>Grupo de Teatro do Bação</a>. No <a>Bação</a> há uma piada de que, após tomar a água do <a>Bação</a> quando foi à cidade passar sua lua de mel com <a>Jaber</a>, Marilene teve que ficar na cidade. Ela morava na rua <a>Dr. Senna</a>, vizinha da família de <a>José Victor</a>, onde escutou as histórias sobre o artesão. Marilene também foi uma das pessoas que resgatou o <a>Relato da Viagem</a> e se lembra dele até hoje. Atualmente, ela mora em outra casa no <a>Bação</a>, na qual cria seus cachorros e gatos, planta suas ervas  
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -892,7 +914,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					No início de sua construção, em 1858, se chamava Estrada de Ferro Dom Pedro I e mudou de nome para Central do Brasil após a <a>Declaração da República</a>. A estrada de ferro foi construída para uma integração do território nacional a partir do <a>Rio de Janeiro</a>, após a transposição da Serra do Mar, ela se dividiu com um ramal para São Paulo e outro para Minas Gerais, este último com o objetivo de chegar a Queluz de Minas (atual Conselheiro Lafaiete). No ano de 1896, com sua contínua expansão, chegou ao <a>Bação</a> pela <a>Estação Engenheiro Corrêa</a>. Durante a <a>Construção da Matriz</a>, Padre Frederico pediu para que os <a>tijolos</a> viessem por esse meio de transporte.
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -906,7 +928,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Agostinho Rodrigues era um morador de <a>Itabirito</a> que <a>José Victor</a> costumava visitar, o artesão ia à pé e descalço para a cidade, chegando lá, ele lavava os pés e se sentava à frente do piano de Agostinho Rodrigues e tocava a noite toda. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -920,7 +942,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					Luiz Cheffer era um imigrante alemão que foi para o <a>Bação</a> trabalhar como construtor durante a <a>Construção da Matriz</a> depois que foi indicado pelo <a>Padre Frederico</a>.  Junto ao engenheiro, o construtor fez marcas em escala 1:1 já no local da <a>Matriz do Bação</a> do que seria construído, já que eles não estavam utilizando projetos nessa época. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -931,8 +953,10 @@ export const nodes = [
 		verbatin: [
 			{
 				id: "",
-				shortText: `<div class="node-text"></div>`,
-				longText: ``
+				shortText: `<div class="node-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu odio. Maecenas lacinia tortor eget nisi dictum, sed pulvinar risus volutpat. Curabitur quis mollis nisl. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
+				</div>`,
+				longText: ""
 			}
 		]
 	},
@@ -946,7 +970,7 @@ export const nodes = [
 				shortText: `<div class="node-text">
 					A Estação Engenheiro Correa foi inaugurada em 1896, seu nome é em homenagem ao engenheiro Manoel Francisco Corrêa que faleceu em um desastre na ferrovia no km 510, 5km a frente da Estação. Em 1928 a estação servia aos municípios de Amarante, Casa Branca e <a>Bação</a>. A população do <a>Bação</a> ia até a estação para receber carga de suas mercadorias, trazidas pelos <a>tropeiros</a>, caixeiros viajantes e até mesmo pela <a>Estrada de Ferro Central do Brasil</a>. Pela Estrada de Ferro, a Estação também servia para pegar o trem para viagens ao <a>Rio de Janeiro</a> e <a>Belo Horizonte</a>. Na época, a decoração usada com argamassa na estação influenciou a construção da Igreja do Rosário, em <a>Itabirito</a>, onde eles reproduziram a mesma técnica para fazer os adornos da construção. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -993,7 +1017,7 @@ representava a República. A associação desse tipo de representação com a Re
 				shortText: `<div class="node-text">
 					Padre Frederico está registrado no <a>Livro de Tombos</a> como um engenheiro chamado do <a>Colégio Arnaldo</a>, em <a>Belo Horizonte</a>, para ir ao <a>Bação</a> ajudar na <a>Construção da Matriz</a>. Seu trabalho foi traçar a partir da <a>antiga igreja</a> um sulco de 18 metros no chão que iria demarcar o local da nova <a>Matriz do Bação</a>. Ele também indicou de onde deveriam vir os tijolos e também o construtor <a>Luiz Cheffer</a>, que foi ao <a>Bação</a> na segunda visita do engenheiro para fazer as demarcações com escala 1:1 com mais detalhes de como seria a <a>Matriz do Bação</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -1007,7 +1031,7 @@ representava a República. A associação desse tipo de representação com a Re
 				shortText: `<div class="node-text">
 					Colégio Arnaldo é um colégio fundado pela Congregação do Verbo Divino no ano de 1912 em <a>Belo Horizonte</a>. <a>Padre Antônio Cândido</a> tinha contato com o colégio e foi de lá chamado o <a>Padre Frederico</a>, engenheiro da <a>Construção da Matriz</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -1035,7 +1059,7 @@ representava a República. A associação desse tipo de representação com a Re
 				shortText: `<div class="node-text">
 					A bolsa foi uma constribuição concedida a <a>José Victor</a> pelo antigo prefeito de <a>Vila Rica</a>, <a>Dr. Senna</a>, para que o polímata continuasse trabalhando em suas invenções. Por a rua da <a>casa de José Victor</a> se chama R. <a>Dr. Senna</a>.  
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -1049,7 +1073,7 @@ representava a República. A associação desse tipo de representação com a Re
 				shortText: `<div class="node-text">
 					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>casa de José Victor</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	},
@@ -1063,7 +1087,7 @@ representava a República. A associação desse tipo de representação com a Re
 				shortText: `<div class="node-text">
 					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>casa de José Victor</a>. 
 				</div>`,
-				longText: ``
+				longText: ""
 			}
 		]
 	}

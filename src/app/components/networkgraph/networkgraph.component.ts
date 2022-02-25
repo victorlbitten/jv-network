@@ -100,6 +100,15 @@ export class NetworkgraphComponent implements OnInit {
     const allFilteredNodes = this.allNodes.filter((node:any) => relatedNodeNames.has(node.name));
 
     this.nodesToRender = allFilteredNodes.map((node: any) => {
+      if (node.name === "José Victor") {
+        return {
+          id: node.name,
+          color: this.colorByGroup[node.group],
+          marker: {
+            radius: 14
+          }
+        }
+      }
       return {
         id: node.name,
         color: this.colorByGroup[node.group],
@@ -136,6 +145,10 @@ export class NetworkgraphComponent implements OnInit {
       },
       series: [{
         type: 'networkgraph',
+        draggable: false,
+        layoutAlgorithm: {
+          linkLength: 30
+        },
         data: this.filteredLinks,
         nodes: this.nodesToRender,
         marker: {
@@ -149,30 +162,30 @@ export class NetworkgraphComponent implements OnInit {
             }
           },
         },
-        events: {
-          // click: (event: any) => this.onClick(event)
-        },
         dataLabels: {
-          allowOverlap: false,
           enabled: true,
           linkFormat: '',
+          padding: 0,
           style: {
+            backgroundColor: "transparent",
             opacity: 1,
             transition: '',
-            fontSize: '12px'
+            fontSize: '13px'
           },
         },
         point: {
           events: {
             unselect: (event:any) => {
-              event.target.dataLabel.hide();
+              if (event.target.id !=="José Victor")  {
+                event.target.dataLabel.hide();
+              }
               this.closeVerbatin(event.target);
             },
             select: (event:any) => {
               event.target.dataLabel.show();
               this.openVerbatin(event.target);
             },
-            click: (event: any) => this.onClick(event),
+            click: (event: any) => this.toggleNodeSelection(event),
             mouseOver: (event: any) => this.turnLabelsOn(event),
             mouseOut: (event: any) => this.turnLabelsOff(event)
           }
@@ -184,10 +197,11 @@ export class NetworkgraphComponent implements OnInit {
   }
 
   hideLabelsForAllPoints () {
-    const points = this.chart.series[0].points;
-    points.forEach((point: any) => {
-      point.fromNode.dataLabel.hide();
-      point.toNode.dataLabel.hide();
+    const nodes = this.chart.series[0].nodes;
+    nodes.forEach((node: any) => {
+      if (node.name !== "José Victor") {
+        node.dataLabel.hide();
+      }
     })
   }
 
@@ -217,7 +231,7 @@ export class NetworkgraphComponent implements OnInit {
     });
   }
 
-  onClick(event: any) {
+  toggleNodeSelection(event: any) {
     const clickedPoint: any = event.point;
     const newSelectionState = !clickedPoint.selected;
     const cumulative = event.ctrlKey;

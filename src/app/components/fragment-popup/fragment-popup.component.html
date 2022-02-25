@@ -1,4 +1,5 @@
 <div id="cardContainer-{{title}}" class="card-container" draggable="true">
+    <!-- header -->
     <div class="card-header">
         <span class="card-title">{{title}}</span>
         <div class="card-action-btns">
@@ -7,30 +8,34 @@
             </div>
         </div>
     </div>
+
     <div class="card-body">
         <!-- <div class="image-placeholder"></div> -->
         <span class="card-fragment" id="cardBody-{{title}}">
-            <!-- <ng-container *ngFor="let passage of passages">
-                <div class="passage-card">
-                    <ng-container *ngIf="!expansionByPassageId[passage.passageId]">
-                        <span (click)="toggleExpansionStateById(passage.passageId)">
-                            {{passage.shortText}}
-                        </span>
-                    </ng-container>
-                    <ng-container *ngIf="expansionByPassageId[passage.passageId]">
-                        <span (click)="toggleExpansionStateById(passage.passageId)">
-                            {{passage.longText}}
-                        </span>
-                    </ng-container>
-                </div>
-            </ng-container> -->
-
             <ng-container *ngFor="let passage of passages">
                 <div class="passage-card">
-                    <span [innerHTML]="passage.short"></span>
+
+                    <ng-container *ngIf="!expansionByPassageId[passage.id]">
+                        <span [innerHTML]="passage.shortText"></span>
+                    </ng-container>
+
+                    <ng-container *ngIf="expansionByPassageId[passage.id]">
+                        <span [innerHTML]="passage.longText"></span>
+                    </ng-container>
+
+                    <ng-container *ngIf="expansiblePassageIds.includes(passage.id)">
+                        <div class="expand-arrow" (click)="toggleExpansionStateById(passage.id)">
+                            <span *ngIf="!expansionByPassageId[passage.id]">
+                                Expandir
+                            </span>
+                            <span *ngIf="expansionByPassageId[passage.id]">
+                                Retrair
+                            </span>
+                        </div>
+                    </ng-container>
+
                 </div>
             </ng-container>
-
         </span>
     </div>
 </div>

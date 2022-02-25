@@ -19,6 +19,7 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   title:string = '';
   expansionByPassageId:any;
+  expansiblePassageIds:any = [];
   passages:any = [];
 
 
@@ -29,11 +30,15 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
     this.setExpansionStateByPassageId();
     this.node.verbatin.forEach((passage:any, index:number) => {
       let trustedPassageHTML = {
-        id: passage.id,
-        short: this.sanitizer.bypassSecurityTrustHtml(passage.shortText),
-        long: this.sanitizer.bypassSecurityTrustHtml(passage.longText)
+        id: `${this.node.name}-${index}`,
+        shortText: this.sanitizer.bypassSecurityTrustHtml(passage.shortText),
+        longText: this.sanitizer.bypassSecurityTrustHtml(passage.longText)
       };
       this.passages.push(trustedPassageHTML);
+
+      if (passage.longText !== "") {
+        this.expansiblePassageIds.push(trustedPassageHTML.id);
+      }
     })
   }
 
@@ -50,7 +55,7 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   setExpansionStateByPassageId () {
     this.expansionByPassageId = this.node.verbatin.reduce((expansionState:any, passage:any) => {
-      expansionState[passage.passageId] = 0;
+      expansionState[passage.id] = 0;
       return expansionState;
     }, {});
   }
