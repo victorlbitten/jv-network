@@ -1,0 +1,2 @@
+# rascunho
+A fama de [[José Victor]] como construtor de relógios correu a região após o polímata construir o [[Relógio da torre da Matriz]], fazendo com que outros locais o contratassem para construir os relógios de torre de suas igrejas, que foi o que ocorreu com [[Belo Vale]], que existem suspeitas que o polímata construiu um relógio pra Igreja de lá.

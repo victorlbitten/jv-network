@@ -1,0 +1,1 @@
+A missão de padres do Caraça foi uma visita de padres que foram do Colégio Caraça até o [[Bação]], essa visita foi responsável pela [[Construção da Matriz]], como é melhor relatado no [[Livro de Tombos]]: ![[Livro de Tombos#missão de padres do caraça]]

@@ -1,0 +1,2 @@
+# Verbete
+Luiz Cheffer era um imigrante alemão que foi para o [[Bação]] trabalhar como construtor durante a [[Construção da Matriz]] depois que foi indicado pelo [[padre Frederico]].  Junto ao engenheiro, o construtor fez marcas em escala 1:1 já no local da [[Matriz do Bação]] do que seria construído, já que eles não estavam utilizando projetos nessa época. 

@@ -1,0 +1,2 @@
+# Verbete
+A primeira cidade planejada do Brasil moderno foi inaugurada em 1897. Durante os anos de XXXX, houve a instalação da Estrada de Ferro XXXXX, alguns moradores do [[Bação]] chegaram a trabalhar nessas estações. A criação da [[Estrada de Ferro Central do Brasil]] e rodovias foram conexões que aumentaram a proximidade entre as cidade. 

@@ -62,8 +62,6 @@ export class NetworkgraphComponent implements OnInit {
 
 
   ngOnInit(): void {
-    const test = this.csvReader.readAsDataURL('../staticData/rede1.csv');
-    console.log(test);
     this.createGraph();
     this.createReference();
   }

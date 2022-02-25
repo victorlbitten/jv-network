@@ -1,0 +1,1 @@
+É contato que [[Dr. Senna]], quando visitou o [[Relógio da torre da Matriz]], ficou muito impressionado com o trabalho de [[José Victor]] e chegou até a escrever uma reportagem no Estado de Minas sobre o artesão. Não foi possível encontrar essa reportagem durante o processo da pesquisa, porém os exemplares do jornal estão na Biblioteca Pública de [[Belo Horizonte]]. 

@@ -1,0 +1,2 @@
+# Verbete
+A mina de Cata Branca foi um empreendimento minerário instalado por uma companhia britânica chamada *The Brazilian Company Ltd.* em [[Itabira do Campo]] no ano de 1832. A atividade minerária começou na região na primeira década de XIX, porém a companhia estrangeira só se instalou no local nos anos 1830, por conta da aproximação do império com a *National Brazilian Mining Association* que permitiu uma abertura legislativa para que companhias estrangeiras passassem a realizar extração de ouro na país. A mina foi fechada em 1844, após o [[acidente de Cata Branca]].  

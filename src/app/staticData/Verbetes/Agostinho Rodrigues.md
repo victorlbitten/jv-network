@@ -1,0 +1,2 @@
+# Verbete
+Agostinho Rodrigues era um morador de [[Itabirito]] que [[José Victor]] costumava visitar, o artesão ia à pé e descalço para a cidade, chegando lá, ele lavava os pés e se sentava à frente do piano de Agostinho Rodrigues e tocava a noite toda. 

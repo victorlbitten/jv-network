@@ -1,0 +1,2 @@
+# Verbete
+Colégio Arnaldo é um colégio fundado pela Congregação do Verbo Divino no ano de 1912 em [[Belo Horizonte]]. [[padre Antônio Cândido]] tinha contato com o colégio e foi de lá chamado o [[padre Frederico]], engenheiro da [[Construção da Matriz]]. 

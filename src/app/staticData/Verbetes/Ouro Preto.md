@@ -1,0 +1,2 @@
+# Verbete
+Antigamente [[Vila Rica]], foi a capital mineira até 1897. Uma das pessoas que se lembra de [[José Victor]] em vida, [[Maurílio]], atualmente vive lá. [[padre Bernardo]] morava lá antes de se mudar para o [[Bação]]. 

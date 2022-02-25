@@ -1,0 +1,1 @@
+[[José Victor]] construiu sua casa na rua [[Dr. Senna]], seu alicerce é feito de pedra, os [[Tijolos]] da alvenaria foram produzidas pelo próprio artesão, as aberturas das janelas parece com os arcos da [[Matriz do Bação]], que ele provavelmente aprendeu a fazer durante a [[Construção da Matriz]] com os [[artesãos]] que foram chamados para o [[Bação]].

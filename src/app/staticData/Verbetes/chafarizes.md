@@ -1,0 +1,1 @@
+Em 1908, o prefeito de [[Vila Rica]], [[Dr. Senna]], fez com que fosse instalada uma rede de chafarizes no [[Bação]], a água encanada chegava ao chafarizes e a população abastecia suas casas em local público. Quando a água encanada chegou às casas, os chafarizes deixaram de serem usados pelo público e chegaram até a serem cercados por lotes privados de alguns moradores. 

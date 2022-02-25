@@ -1,0 +1,4 @@
+# Verbete
+A capsula do tempo foi um projeto criado por [[José Bastos Bittencourt]] para eternizar a história, a ideia é que essa capsula fosse enterrada na praça de [[Itabirito]] com documentos, cartas escritas por estudantes e outros registros da região, dentre eles estão alguns registros da obra de [[José Victor]].  Essa capsula foi desenterrada anos depois quando a praça foi reformada, porém a população só encontrou a capsula de madeira apodrecida com o material que estava estragado, porque a praça na qual foi enterrada a Capsula inundava nos dias de chuva e o material não resistiu aos interpéres. 
+
+[Vídeo sobre José Bastos](https://www.youtube.com/watch?v=WtAQWjafvXs&list=PLwMXQ15KcH_xEpSSOUkLARnWcnmbvkM3t&index=31)

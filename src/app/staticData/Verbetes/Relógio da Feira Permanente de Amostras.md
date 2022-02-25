@@ -1,0 +1,2 @@
+# Verbete
+Em 1935, foi inaugurado em [[Belo Horizonte]] o prédio mais alto da cidade, um projeto do arquiteto Rafaello Berti que iria abrigar a Feira Permanente de Amostras, local onde ficavam expostos os trabalhos de diversos mineiros que vinham até a capital. Um desses trabalhos expostos era um relógio de [[José Victor]], que o funcionamento era semelhante ao [[Relógio da torre da Matriz]], porém em escala menor.

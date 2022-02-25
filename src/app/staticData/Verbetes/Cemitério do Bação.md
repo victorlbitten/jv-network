@@ -1,0 +1,2 @@
+# Verbete
+Localizado há 1,5km da saída do [[Bação]] pelo lado oeste está o cemitério da cidade, junto à Capela do Rosário, que foi construída com madeira em 1901, porém passou uma reforma em 1905 na qual passou a ser uma capela de tijolos. Lá está localizada uma das obras de [[José Victor]], a [[Escultura do cemitério]]. 
