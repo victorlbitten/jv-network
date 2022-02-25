@@ -1,0 +1,13 @@
+# rascunho
+A máquina de voar é uma das invençoes -- provavelmente inspirada pelo [[14-bis]] -- de José Victor para pedir [[Dolores]] em casamento. José Victor chegou a voar com a máquina, porém ele caiu no quintal da [[casa de Padre Antônio Cândido]]. Por conta disso objeto não existe mais, mas ainda assim o episódio do [[Voo de José Victor]] ficou marcado no imaginário das pessoas do [[Bação]]. 
+
+# Verbete
+A máquina de voar é uma das invenções de [[José Victor]] que consistia em uma bicicleta com um motor movido a manivela e asas feitas com armação de madeira e pano encerado, essa descrição faz com que o objeto parece ter sido inspirado pelo [[14-bis]], que era notícia mundial na época. O polímata chegou a voar na máquina, como maneira de pedir [[Dolores]] em casamento. Como teve certo sucesso na sua empreitada, o episódio do voo de José Victor ficou marcado no imaginário do [[Bação]]. Porém, esse projeto do artesão terminou após ele cair no quintal da casa de [[padre Antônio Cândido]]. 
+
+## máquina de voar + 14-bis
+A máquina de voar é uma das invenções de [[José Victor]] que consistia em uma bicicleta com um motor movido a manivela e asas feitas com armação de madeira e pano encerado, essa descrição faz com que o objeto parece ter sido inspirado pelo [[14-bis]], que era notícia mundial na época. O voo do 14-bis, realizado por Santos Drummond na Feira de Paris em XXXX foi um acontecimento que abalou o mundo por ser a primeira vez que se voava com um aparelho mais pesado que o ar. No Brasil, o evento foi noticiado por diversos jornais, alguns até mostrando esquemas de como era a estrutura do 14-bis. Acredito que [[José Victor]] possa ter tido contado com essas notícias, inspirando-o a construir seu próprio avião.
+## máquina de voar + Dolores 
+![[Dolores#dolores josé victor]]
+## máquina de voar + voo de josé victor 
+
+O polímata chegou a voar na máquina, como maneira de pedir [[Dolores]] em casamento e o episódio do [[Voo de José Victor]] ficou marcado no imaginário do [[Bação]]. A população se reuniu para assistir o mais novo feito de [[José Victor]], alguns achando-o louco e outros um gênio. O artesão subiu a ladeira da R. Nova, aproveitou a inclinação para pegar velocidade na bicicleta e foi pedalando, após alguns metros ele conseguiu alcançar voo. Porém, o voo foi curto e acabou com José Victor caindo no quintal da [[casa de Padre Antônio Cândido]], em cima de um pé de mexirica. [[padre Antônio Cândido]] se assustou com o que o artesão estava tentando fazer e falou para que não tentasse mais voar, pois considerava o risco que [[José Victor]] estava correndo ao tentar voar uma tentativa de suicídio. [[José Victor]], sendo muito religioso, obedeceu o padre e não tentou voar mais. 

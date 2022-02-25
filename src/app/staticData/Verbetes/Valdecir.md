@@ -1,0 +1,2 @@
+# rascunho
+Valdecir é um escutor que mora no [[Bação]], sua família vem da mesma linha da família de [[José Victor]] e ele cresceu escutando histórias sobre a loucura de [[José Victor]]. Mais tarde, quando Valdecir resolveu se dedicar às artes, eles começou a conversar com parentes de [[José Victor]] que sabiam sobre  a produção do artesão, ele chegou até a pegar um livro que [[José Victor]] utilizada para fazer seus estudos e também teve contato com o [[Relato da Viagem]]. 

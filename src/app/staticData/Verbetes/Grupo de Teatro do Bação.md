@@ -1,0 +1,2 @@
+# rascunho
+O Grupo de Teatro do Bação foi fundado por [[Mauro]] e [[Marilene]], a primeira apresentação do grupo foi em uma [[Semana Santa]], apresentada no [[Adro da Matriz]]. O grupo trabalha hoje no [[Bação]] restaurando e contando a história da cidade. 

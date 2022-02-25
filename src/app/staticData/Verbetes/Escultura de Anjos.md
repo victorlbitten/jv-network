@@ -1,0 +1,1 @@
+A fachada da [[casa de José Victor]] que dava para a R. [[Dr. Senna]] tem três colunas, uma em cada ponta e uma coluna no meio. Acompanhando as colunas da ponta, haviam anjos que [[José Victor]] esculpiu e colocou no telhado de sua casa. Existe uma suspeita que esses anjos tenham sido vendidos para um morador de [[Mariana]].

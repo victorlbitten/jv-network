@@ -1,0 +1,2 @@
+# rascunho
+Uma das manifestações da religiosidade de [[José Victor]] é um relato que ele escreveu sobre uma visita que ele recebeu de anjos que o levaram para voar num aparelho. As páginas de caderno que contém esse relato foram perdidas em um incêndio, porém existem ainda três pessoas no [[Bação]] que leram esse relato e elas contam de maneiras diferentes: [[Marilene]], [[Jaber]] e [[Valdecir]].

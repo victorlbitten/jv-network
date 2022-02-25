@@ -1,0 +1,4 @@
+A Semana Santa é uma das comemorações da [[Igreja Católica]] que começa no Domingo de Ramos e terminar do Domingo de Páscoa. Quando [[padre Antônio Cândido]] vivia no [[Bação]], a Semana Santa era uma festa que chamava várias pessoas para o distrito para comemorações. Na época de [[padre Bernardo]] a situação era diferente porque ele não fazia festas. Foi durante os eventos da Semana Santa que houve a primeira apresentação do [[Grupo de Teatro do Bação]], que foi realizado no [[Adro da Matriz]] e até os dias atuais eles mantém essa relação, com um espetáculo do [[Grupo de Teatro do Bação]] em relação a Igreja. 
+
+![[padre Antônio Cândido#Bação Semana Santa]]
+![[padre Bernardo#mark style background FF5582A6 adro padre Bernardo mark]]

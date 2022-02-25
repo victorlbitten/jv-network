@@ -1,0 +1,1 @@
+Atualmente, o Bação é um distrito de [[Itabirito]]. A cidade foi construída após

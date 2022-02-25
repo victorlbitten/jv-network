@@ -1,0 +1,2 @@
+# Verbete
+A antiga igreja do [[Bação]] foi construída na reforma da [[capela do Bação]] em 1870 na qual eles acrecentaram uma nave de estilo neo-gótico à antiga construção, que atualmente é o altar-mor da [[Matriz do Bação]]. 

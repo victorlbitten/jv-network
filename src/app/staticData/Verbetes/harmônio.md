@@ -1,0 +1,3 @@
+# Verbete
+Há um harmônio na [[Matriz do Bação]] que era o instrumento tocado por [[José Victor]] nas missas. Ele tinha um talento especial para fazer as colcheas, o que impressionava bastante os moradores do [[Bação]], pois apenas ele e seu irmão, [[Totonho]] conseguiam fazer essa proeza. 
+![Harmônio](file:///home/luisa/Imagens/fotos%20do%20ba%C3%A7%C3%A3o/Viagem%20Ba%C3%A7%C3%A3o%2011_12-12_12/IMG_20211211_171706061_HDR.jpg)

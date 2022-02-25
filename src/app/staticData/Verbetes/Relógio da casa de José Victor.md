@@ -1,0 +1,1 @@
+Na [[casa de José Victor]] havia um relógio que [[José Victor]] construiu com um funcionamento igual ao do [[Relógio da torre da Matriz]], a única diferença é que esse relógio era em menor escala. 

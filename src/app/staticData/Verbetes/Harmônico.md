@@ -1,0 +1,2 @@
+# rascunho
+Quando tocava harmônio na missa, [[José Victor]] impressionava por ser um dos únicos músicos do [[Bação]] que conseguia tocar as colcheias, notas que, por conta de sua curta duração, eram difíceis de serem reproduzidas. A outra pessoa que conseguia tocar essas notas era o irmão de [[José Victor]], [[Totonho]].

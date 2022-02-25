@@ -1,0 +1,2 @@
+# Verbete
+Totonho era irmão de [[José Victor]], ele também compartilhava do talento para [[Música]], sendo a única pessoa além de seu irmão capaz de tocar todas as colcheias do [[harmônio]]. Participava da [[Casa da Banda]], onde ele tocava e dava aulas de clarineta e saxofone. Ele se mantinha cuidando para que a água chegasse aos [[chafarizes]] do [[Bação]] e com dinheiro das aulas. 

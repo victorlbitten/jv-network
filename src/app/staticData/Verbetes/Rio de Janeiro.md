@@ -1,0 +1,2 @@
+# Verbete
+Após a [[Declaração da República]], o [[Rio de Janeiro]] teve uma nova importância para o cenário nacional, funcionando como um coração da República e sendo centro cultural de todo país. E por conta da conexão do [[Bação]] com a capital pela [[Estrada de Ferro Central do Brasil]], a moda do Rio chegou aos [[comércios na Rua da Pimenta]]. 

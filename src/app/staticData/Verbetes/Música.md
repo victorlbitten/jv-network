@@ -1,0 +1,2 @@
+# Verbete
+Além de construtor e inventor, [[José Victor]] também era conhecido por ser um exímio músico. Sua formação foi feita por um professor de música que foi de [[Vila Rica]] ao [[Bação]] à convite do [[professor Virgílio]]. [[José Victor]], então, passou a tocar [[harmônio]] nas missas da Igreja e também participou da [[Casa da Banda]], com seu irmão [[Totonho]], onde os dois tocavam e também davam aula de música para quem tivesse interesse.

@@ -1,0 +1,2 @@
+# rascunho
+Seu Benjamin era um dos comerciantes que viveu no Bação na época de José Victor, chegando até a conhecê-lo pessoalmente. Ele tinha um [[comércios na Rua da Pimenta]], o qual mantinha com mercadorias que ele comprava pelo [[Rio de Janeiro]] através das viagens pela [[Estrada de Ferro Central do Brasil]].Casado com xx e pai de xx filhas, era pai do interesse romântico de [[José Victor]], [[Dolores]]. Foi em seu casarão na praça da [[Matriz do Bação]] que ficaram hospedados os [[artesãos]] que vieram para a [[Construção da Matriz]].

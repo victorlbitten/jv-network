@@ -1,0 +1,2 @@
+# Verbete
+Antigamente chamado de [[Itabira do Campo]], a freguesia de Itabirito foi inaugurada em 1923 após a cidade conseguir se reerguer economicamente com a [[Usina Esperança]]. [[José Victor]] também visitava a cidade à pé para ir à casa de [[Agostinho Rodrigues]] fazer [[música]]. [[Zé Relojoeiro]] foi o primeiro relojoeiro da cidade. 

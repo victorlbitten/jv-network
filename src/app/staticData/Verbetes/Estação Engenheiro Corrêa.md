@@ -1,0 +1,3 @@
+# rascunho
+A estação de Engenheiro Corrêa foi inaugurada em 1896. O nome homenageia o eng. Manoel Francisco Corrêa Jr., engenheiro residente da ferrovia morto em um desastre no km 514, na época cinco quilômetros à frente da estação. 
+Em 1928, servia aos distritos de Amarante, Casa Branca e [[Bação]].  Os moradores do [[Bação]] iam até a estação à cavalo e carona para viajar e pegar encomendas que vinham pela [[Estrada de Ferro Central do Brasil]] , pelos [[tropeiros]] e [[correio]]. 

@@ -1,0 +1,2 @@
+# Verbete 
+Vila Rica, atualmente chamado de [[Ouro Preto]], foi a capital mineira de 1711 até 1897 e o [[Bação]] foi filial da freguesia de Vila Rica de 1711 até 1923 . [[Dr. Senna]] foi prefeito da cidade por volta de 1908 ano, quando foi apoiado pelo [[padre Antônio Cândido]]. O professor de música da [[Casa da Banda]], chamado por [[professor Virgílio]], era de Vila Rica. 

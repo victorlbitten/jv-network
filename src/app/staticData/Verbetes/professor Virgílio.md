@@ -1,0 +1,1 @@
+Professor Virgílio de Carvalho era responsável por ensinar as crianças do [[Bação]] a ler e escrever. Foi ele quem chamou um professor de música que começou a [[Casa da Banda]] na cidade. 

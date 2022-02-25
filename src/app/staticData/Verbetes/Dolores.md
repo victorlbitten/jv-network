@@ -1,0 +1,10 @@
+# rascunho
+O interesse romântico de [[José Victor]], Dolores, era filha de [[Sr. Benjamin]], ela chamava atenção da população do [[Bação]] por sua beleza, era uma mulher vaidosa, que sempre andava com os cabelos arrumados e com pele hidratada com cremes chiques. Dolores também gostava de andar sempre na moda, que tinha contato através de revistas vindas do [[Rio de Janeiro]]. Quando morou em [[Belo Horizonte]], ela gostava de flannar pela Av. Afonso Pena, mostrando seus vestidos.
+
+## dolores + josé victor 
+O interesse romântico de [[José Victor]], Dolores, era filha de [[Sr. Benjamin]], ela chamava atenção da população do [[Bação]] por sua beleza, era uma mulher vaidosa, que sempre andava com os cabelos arrumados e com pele hidratada com cremes chiques.  O artesão a via nas missas, onde ele tocava o [[Harmônico]] e Dolores cantava no coral. Por conta de como funcionavam os namoros na época, [[José Victor]] não tentava se aproximar de Dolores para conversar. Mas ele chegou a pedir a pedir a mão dela em casamento para seu pai.  [[Sr. Benjamin]] acreditava que a filha não deveria se casar porque ela não se interessava pelas tarefas que envolviam cuidar de uma casa, nisso Dolores era diferente das mulheres da sua família, que faziam esse trabalhos de dona de casa. Mesmo assim, após o pedido de [[José Victor]], ele deixou que Dolores decidisse qual seria sua resposta. Em algum momento entre o pedido da mão dela pro [[Sr. Benjamin]]e a resposta de Dolores, o polímata decidiu que iria construir uma [[máquina de voar]], o episódio do [[Voo de José Victor]] foi justamente para pedir seu interesse romântico em casamento. Porém Dolores não se interessava por [[José Victor]] como um par romântico, achava-o pequeno e magrelo demais. O artesão quase não tinha cabelos na cabeça e ainda lhe faltavam alguns dentes, o que acarretou na recusa de seu pedido de casamento. 
+
+
+
+# miro
+![[Textos do Miro#Dolores]]
