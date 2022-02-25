@@ -21,20 +21,20 @@ export class DomServiceService {
 
   containerReference: any;
 
-  createReference () {
-    if (!this.containerReference) {
-      this.containerReference = this.componentFactoryResolver
-        .resolveComponentFactory(VerbatinContainerComponent)
-        .create(this.injector);
+  // createReference () {
+  //   if (!this.containerReference) {
+  //     this.containerReference = this.componentFactoryResolver
+  //       .resolveComponentFactory(VerbatinContainerComponent)
+  //       .create(this.injector);
   
-      this.appRef.attachView(this.containerReference.hostView);
+  //     this.appRef.attachView(this.containerReference.hostView);
   
-      const domElement = (this.containerReference.hostView as EmbeddedViewRef<any>)
-        .rootNodes[0] as HTMLElement;
+  //     const domElement = (this.containerReference.hostView as EmbeddedViewRef<any>)
+  //       .rootNodes[0] as HTMLElement;
   
-      document.body.appendChild(domElement);
-    }
-  }
+  //     document.body.appendChild(domElement);
+  //   }
+  // }
 
 
   appendComponentToBody (component:any, parameters:any) {

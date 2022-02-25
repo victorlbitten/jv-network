@@ -35,12 +35,28 @@ export class NetworkgraphComponent implements OnInit {
   // Constants used throughout the code
   chart: any;
   colorByGroup: any = {
-    "Ator": "#7cb5ec",
-    "Produção": "#434348",
-    "Local": "#90ed7d",
-    "Evento": "#f7a35c",
-    "Documento": "#8085e9"
+    "José Victor": "#8085e9",
+    "Produção": "#f7a35c",
+    "Local": "90ed7d",
+    "Evento": "#434348",
+    "Se relacionou com José Victor": "#7cb5ec",
+    "Escutou histórias sobre José Victor": "#DDAAFF",
+    "Conheceu José Victor": "#11F4F4",
+    "Documento": "#FF4A4A",
+    "Instituição": "#70F186"
   };
+
+  test:any = {
+    "José Victor": "#8085e9",
+    "Produção": "#f7a35c",
+    "Local": "90ed7d",
+    "Evento": "#434348",
+    "Se relacionou com José Victor": "#7cb5ec",
+    "Escutou histórias sobre José Victor": "#DDAAFF",
+    "Conheceu José Victor": "#11F4F4",
+    "Documento": "#FF4A4A",
+    "Instituição": "#70F186"
+  }
   radiusSizes: any = {
     default: 7,
     big: 9,
@@ -73,7 +89,9 @@ export class NetworkgraphComponent implements OnInit {
 
   getData() {
     this.allGroups = this.chartDataService.getGroups();
+    console.log(this.allGroups);
     this.filteredGroups = new Set(this.allGroups);
+    console.log(this.filteredGroups);
     this.allNodes = this.chartDataService.getNodesData();
     this.allLinks = this.chartDataService.getLinksData();
   }
@@ -110,9 +128,15 @@ export class NetworkgraphComponent implements OnInit {
   render() {
     this.filterData();
     this.chart = Highcharts.chart({
+      title: {
+        text: 'O que permanece sobre José Victor?',
+      },
+      credits: {
+        enabled: false
+      },
       chart: {
         type: 'networkgraph',
-        renderTo: 'container'
+        renderTo: 'container',
       },
       tooltip: {
         enabled: false
@@ -230,7 +254,7 @@ export class NetworkgraphComponent implements OnInit {
 
   toggleGroup(group: any) {
     const setSize = this.filteredGroups.size;
-    if (setSize === 5) {
+    if (setSize === 9) {
       this.filteredGroups.clear();
       this.filteredGroups.add(group);
     }
@@ -258,7 +282,7 @@ export class NetworkgraphComponent implements OnInit {
 
   // FUNCTIONS USED TO CREATE THE nci
   createReference() {
-    this.domService.createReference();
+    // this.domService.createReference();
   }
 
   openVerbatin(point:any) {
