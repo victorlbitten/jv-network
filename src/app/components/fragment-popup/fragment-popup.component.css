@@ -15,8 +15,8 @@
     border: var(--border);
 
     width: 57ch;
-    max-height: 20vh;
-    min-height: 200px;
+    max-height: 25vh;
+    min-height: 0px;
     padding-bottom: 10px;
 
     color: #fff;
