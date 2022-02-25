@@ -2,7 +2,9 @@
     <div class="card-header">
         <span class="card-title">{{title}}</span>
         <div class="card-action-btns">
-            <span (click)="destroySelf()">Close</span>
+            <div class="close-btn" (click)="destroySelf()">
+                <i>&times;</i>
+            </div>
         </div>
     </div>
     <div class="card-body">

@@ -36,14 +36,14 @@ export class NetworkgraphComponent implements OnInit {
   chart: any;
   colorByGroup: any = {
     "José Victor": "#8085e9",
-    "Produção": "#f7a35c",
-    "Local": "90ed7d",
-    "Evento": "#434348",
-    "Se relacionou com José Victor": "#7cb5ec",
-    "Escutou histórias sobre José Victor": "#DDAAFF",
-    "Conheceu José Victor": "#11F4F4",
-    "Documento": "#FF4A4A",
-    "Instituição": "#70F186"
+    "Produção": "#a5460e",
+    "Local": "#025939",
+    "Evento": "#f29f05",
+    "Se relacionou com José Victor": "#aeccf2",
+    "Escutou histórias sobre José Victor": "#65758c",
+    "Conheceu José Victor": "#060940",
+    "Documento": "#a6a6a6",
+    "Instituição": "#8c6d12"
   };
 
   radiusSizes: any = {

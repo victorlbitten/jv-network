@@ -16,7 +16,9 @@
     <div class="filters-placeholder"></div>
 
     <div class="filters-container">
-        <div class="filter-btn-retracted">Filtros</div>
+        <div class="filter-btn-retracted">
+            Filtros
+        </div>
         <div class="filters-body">
             <ng-container *ngFor="let item of colorByGroup | keyvalue">
                 <div class="group-element" (click)="toggleGroup(item.key)"
