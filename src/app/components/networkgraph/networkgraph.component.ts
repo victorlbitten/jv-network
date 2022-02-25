@@ -46,17 +46,6 @@ export class NetworkgraphComponent implements OnInit {
     "Instituição": "#70F186"
   };
 
-  test:any = {
-    "José Victor": "#8085e9",
-    "Produção": "#f7a35c",
-    "Local": "90ed7d",
-    "Evento": "#434348",
-    "Se relacionou com José Victor": "#7cb5ec",
-    "Escutou histórias sobre José Victor": "#DDAAFF",
-    "Conheceu José Victor": "#11F4F4",
-    "Documento": "#FF4A4A",
-    "Instituição": "#70F186"
-  }
   radiusSizes: any = {
     default: 7,
     big: 9,
@@ -75,6 +64,7 @@ export class NetworkgraphComponent implements OnInit {
   filteredLinks: any;
   filteredGroups: any;
   nodesToRender: any;
+  displayFilters:Boolean = false;
 
 
   ngOnInit(): void {
@@ -135,6 +125,8 @@ export class NetworkgraphComponent implements OnInit {
         enabled: false
       },
       chart: {
+        borderColor: "#ccc",
+        borderWidth: 1,
         type: 'networkgraph',
         renderTo: 'container',
       },
@@ -305,6 +297,10 @@ export class NetworkgraphComponent implements OnInit {
       node: this.getNodeByPointId(point.id)
     };
     this.verbatinReferenceByPointId[point.id] = this.domService.appendComponentToBody(FragmentPopupComponent, props);
+  }
+
+  toggleFiltersDisplay () {
+    this.displayFilters = !this.displayFilters;
   }
 
 }
