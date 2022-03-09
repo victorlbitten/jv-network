@@ -1,15 +1,17 @@
 <div id="cardContainer-{{title}}" class="card-container" draggable="true">
     <!-- header -->
     <div class="card-header">
-        <span class="card-title">{{title}}</span>
+        <span class="card-title">
+            {{title}}
+        </span>
         <div class="card-action-btns">
             <div class="close-btn" (click)="destroySelf()">
-                <i>&times;</i>
+                <i style="font-size: 1.6rem; font-weight: 600;">&times;</i>
             </div>
         </div>
     </div>
 
-    <div class="card-body">
+    <div class="card-body styled-scrollbars">
         <!-- <div class="image-placeholder"></div> -->
         <span class="card-fragment" id="cardBody-{{title}}">
             <ng-container *ngFor="let passage of passages">

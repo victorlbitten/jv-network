@@ -7,7 +7,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					José Victor foi um polímata que viveu no <a>Bação</a> no século XX, ele dominava as áreas da construção, escultura, filosofia, <a>música</a> e desenho. A <a>casa de José Victor</a>, que ele mesmo construiu, desde os <a>Tijolos</a> até as <a>Escultura de Anjos</a> que ficavam na fachada decorando a casa. Ele era um homem muito religioso, tinha um grande envolvimento com a <a>Igreja Católica</a>, mantendo relações próximas com o <a>padre Antônio Cândido</a>, nas missas ele tocava <a>harmônio</a> com uma habilidade sem igual e um dos seus trabalhos mais emblemáticos foi realizado para a <a>Matriz do Bação</a>, que é o <a>Relógio da torre da Matriz</a>.
+					José Victor foi um polímata que viveu no <a>Bação</a> no século XX, ele dominava as áreas da construção, escultura, filosofia, <a>música</a> e desenho. A <a>Casa de José Victor</a>, que ele mesmo construiu, desde os <a>Tijolos</a> até as <a>Escultura de Anjos</a> que ficavam na fachada decorando a casa. Ele era um homem muito religioso, tinha um grande envolvimento com a <a>Igreja Católica</a>, mantendo relações próximas com o <a>padre Antônio Cândido</a>, nas missas ele tocava <a>harmônio</a> com uma habilidade sem igual e um dos seus trabalhos mais emblemáticos foi realizado para a <a>Matriz do Bação</a>, que é o <a>Relógio da torre da Matriz</a>.
 				</div>`,
 				longText: `<div class="node-text">
 					Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallisNam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallisNam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis. Nam a nunc hendrerit dolor lobortis sagittis eu ac nibh. Ut facilisis lectus ut consequat rhoncus. Nunc tristique ex eros, sed lacinia ipsum bibendum et. Morbi ut ultricies neque. Sed sed purus vel libero dignissim lacinia eu sollicitudin elit. Fusce a dui sit amet quam interdum egestas. Morbi elementum aliquet augue convallis
@@ -73,7 +73,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					Na <a>casa de José Victor</a> havia um relógio que <a>José Victor</a> construiu com um funcionamento igual ao do <a>Relógio da torre da Matriz</a>, a única diferença é que esse relógio era em menor escala. 
+					Na <a>Casa de José Victor</a> havia um relógio que <a>José Victor</a> construiu com um funcionamento igual ao do <a>Relógio da torre da Matriz</a>, a única diferença é que esse relógio era em menor escala. 
 				</div>`,
 				longText: ""
 			}
@@ -87,10 +87,10 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					Dentre as produções de <a>José Victor</a>, os tijolos são emblemáticos por serem uma expressão da inventividade do artesão, que esculpia frases e datas nas formas para que os tijolos secassem com os escritos "impressos" em suas faces. Eles foram utilizados na <a>Construção da Matriz</a>, apesar do <a>Padre Frederico</a> ter pedido que viessem da <a>Estrada de Ferro Central do Brasil</a>. Os tijolos da <a>casa de José Victor</a> também foram produzidos pela artesão. Atualmente, no <a>Bação</a> ainda se encontram alguns exemplares desses tijolos, tantos soltos - que estão com <a>D. Divina</a> e <a>Jaber</a>- ou compondo construções em que não se sabe se o <a>José Victor</a> chegou a trabalhar, como é o caso da <a>Casa Flusser</a>. 
+					Dentre as produções de <a>José Victor</a>, os tijolos são emblemáticos por serem uma expressão da inventividade do artesão, que esculpia frases e datas nas formas para que os tijolos secassem com os escritos "impressos" em suas faces. Eles foram utilizados na <a>Construção da Matriz</a>, apesar do <a>Padre Frederico</a> ter pedido que viessem da <a>Estrada de Ferro Central do Brasil</a>. Os tijolos da <a>Casa de José Victor</a> também foram produzidos pela artesão. Atualmente, no <a>Bação</a> ainda se encontram alguns exemplares desses tijolos, tantos soltos - que estão com <a>D. Divina</a> e <a>Jaber</a>- ou compondo construções em que não se sabe se o <a>José Victor</a> chegou a trabalhar, como é o caso da <a>Casa Flusser</a>. 
 				</div>`,
 				longText: `
-					No <a>Livro de Tombos</a> está registrado que o engenheiro chamado para a <a>Construção da Matriz</a>, <a>Padre Frederico</a>, recomendou que tijolos viessem da <a>Estrada de Ferro Central do Brasil</a> por serem mais seguros. Como a <a>Estrada de Ferro Central do Brasil</a> era uma importante conexão para o <a>Bação</a>, acredito que o engenheiro fez essa recomendação para que os tijolos viessem de alguma indústria. Porém, no mesmo <a>Livro de Tombos</a>, há uma passagem escrita por <a>José Victor</a> no qual ele fala sobre a falta de materiais devido à <a>Gripe Espanhola</a>. Acredito que seja esse o motivo (ou talvez a falta de dinheiro comentada na <a>Missão de Padres do Caraça</a>) para que <a>José Victor</a> tenha sido responsável pela produção dos tijolos. Para que esses tijolos fossem feitos, foi construída uma olaria próxima à <a>casa de José Victor</a>, onde a <a>D. Divina</a> encontrou anos depois tijolos feitos pelo construtor. Os tijolos feitos por <a>José Victor</a> são feitos de argila, que é um material comum no território mineiro, nas formas de madeira o artesão talhou frases como "Ave Maria", "São Gonçalo" e "Deus abençoe a todos que trabalharam na construção dessa Matriz em 1917", há também tijolos com datas de 1920 e 1922, que ficam nas faces dos tijolos em que faz a junção com argamassa, impossibilitando que as pessoas que visitam locais em que eles foram utilizados na construção possam ver as inscrições. 
+					No <a>Livro de Tombos</a> está registrado que o engenheiro chamado para a <a>Construção da Matriz</a>, <a>Padre Frederico</a>, recomendou que tijolos viessem da <a>Estrada de Ferro Central do Brasil</a> por serem mais seguros. Como a <a>Estrada de Ferro Central do Brasil</a> era uma importante conexão para o <a>Bação</a>, acredito que o engenheiro fez essa recomendação para que os tijolos viessem de alguma indústria. Porém, no mesmo <a>Livro de Tombos</a>, há uma passagem escrita por <a>José Victor</a> no qual ele fala sobre a falta de materiais devido à <a>Gripe Espanhola</a>. Acredito que seja esse o motivo (ou talvez a falta de dinheiro comentada na <a>Missão de Padres do Caraça</a>) para que <a>José Victor</a> tenha sido responsável pela produção dos tijolos. Para que esses tijolos fossem feitos, foi construída uma olaria próxima à <a>Casa de José Victor</a>, onde a <a>D. Divina</a> encontrou anos depois tijolos feitos pelo construtor. Os tijolos feitos por <a>José Victor</a> são feitos de argila, que é um material comum no território mineiro, nas formas de madeira o artesão talhou frases como "Ave Maria", "São Gonçalo" e "Deus abençoe a todos que trabalharam na construção dessa Matriz em 1917", há também tijolos com datas de 1920 e 1922, que ficam nas faces dos tijolos em que faz a junção com argamassa, impossibilitando que as pessoas que visitam locais em que eles foram utilizados na construção possam ver as inscrições. 
 				`
 			}
 		]
@@ -131,7 +131,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					A fachada da <a>casa de José Victor</a> que dava para a R. <a>Dr. Senna</a> tem três colunas, uma em cada ponta e uma coluna no meio. Acompanhando as colunas da ponta, haviam anjos que <a>José Victor</a> esculpiu e colocou no telhado de sua casa. Existe uma suspeita que esses anjos tenham sido vendidos para um morador de <a>Mariana</a>.
+					A fachada da <a>Casa de José Victor</a> que dava para a R. <a>Dr. Senna</a> tem três colunas, uma em cada ponta e uma coluna no meio. Acompanhando as colunas da ponta, haviam anjos que <a>José Victor</a> esculpiu e colocou no telhado de sua casa. Existe uma suspeita que esses anjos tenham sido vendidos para um morador de <a>Mariana</a>.
 				</div>`,
 				longText: ""
 			}
@@ -629,7 +629,7 @@ export const nodes = [
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					É dito que as <a>Escultura de Anjos</a> que ficavam na <a>casa de José Victor</a> foram vendidas para uma pessoa que vivia em Mariana. 
+					É dito que as <a>Escultura de Anjos</a> que ficavam na <a>Casa de José Victor</a> foram vendidas para uma pessoa que vivia em Mariana. 
 				</div>`,
 				longText: ""
 			}
@@ -679,7 +679,7 @@ export const nodes = [
 	},
 	{
 		"id": 41,
-		"name": "Pedreira (checar nome)",
+		"name": "Pedreira do João Pedreiro",
 		"group": "Local",
 		verbatin: [
 			{
@@ -1043,7 +1043,7 @@ representava a República. A associação desse tipo de representação com a Re
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					<a>José Victor</a> tinha a curiosa mania de escrever nas paredes, algumas dessas inscrições são oficialmente encomendadas, como as inscrições que ele fez no <a>Adro da Matriz</a> e na sacristia da <a>Matriz do Bação</a> durante a <a>Construção da Matriz</a>. Outras inscrições foram anotações que <a>José Victor</a> fez próximo ao <a>Relógio da torre da Matriz</a> e também na <a>casa de José Victor</a>.
+					<a>José Victor</a> tinha a curiosa mania de escrever nas paredes, algumas dessas inscrições são oficialmente encomendadas, como as inscrições que ele fez no <a>Adro da Matriz</a> e na sacristia da <a>Matriz do Bação</a> durante a <a>Construção da Matriz</a>. Outras inscrições foram anotações que <a>José Victor</a> fez próximo ao <a>Relógio da torre da Matriz</a> e também na <a>Casa de José Victor</a>.
 				</div>`,
 				longText: `-TODO imagens`
 			}
@@ -1057,7 +1057,7 @@ representava a República. A associação desse tipo de representação com a Re
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					A bolsa foi uma constribuição concedida a <a>José Victor</a> pelo antigo prefeito de <a>Vila Rica</a>, <a>Dr. Senna</a>, para que o polímata continuasse trabalhando em suas invenções. Por a rua da <a>casa de José Victor</a> se chama R. <a>Dr. Senna</a>.  
+					A bolsa foi uma constribuição concedida a <a>José Victor</a> pelo antigo prefeito de <a>Vila Rica</a>, <a>Dr. Senna</a>, para que o polímata continuasse trabalhando em suas invenções. Por a rua da <a>Casa de José Victor</a> se chama R. <a>Dr. Senna</a>.  
 				</div>`,
 				longText: ""
 			}
@@ -1071,7 +1071,7 @@ representava a República. A associação desse tipo de representação com a Re
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>casa de José Victor</a>. 
+					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>Casa de José Victor</a>. 
 				</div>`,
 				longText: ""
 			}
@@ -1085,7 +1085,7 @@ representava a República. A associação desse tipo de representação com a Re
 			{
 				id: "",
 				shortText: `<div class="node-text">
-					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>casa de José Victor</a>. 
+					Os Muros de pedra do <a>Bação</a> datam do século XVI, era um tipo de construção comum nas cidades da colônia, <a>Vila Rica</a> também tinha vários Muros de pedra. Sua produção provavelmente se deu pela grande disponibilidade de pedras nos terrenos do local, que eram encaixadas uma sob as outras de tal forma que elas se travassem entre si. A mesma técnica aparece no <a>Adro da Matriz</a>, bem como no alicerce da <a>Casa de José Victor</a>. 
 				</div>`,
 				longText: ""
 			}
