@@ -46,6 +46,18 @@ export class NetworkgraphComponent implements OnInit {
     "José Victor": "#8085e9",
   };
 
+  orderedGroups = new Set([
+    "Produção",
+    "Documento",
+    "Evento",
+    "Local",
+    "Instituição",
+    "José Victor",
+    "Se relacionou com José Victor",
+    "Conheceu José Victor",
+    "Escutou histórias sobre José Victor"
+  ])
+
   radiusSizes: any = {
     default: 7,
     big: 9,

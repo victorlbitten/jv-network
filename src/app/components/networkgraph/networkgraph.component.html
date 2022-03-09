@@ -6,12 +6,12 @@
             Filtros
         </div>
         <div class="filters-body">
-            <ng-container *ngFor="let item of colorByGroup | keyvalue">
-                <div class="group-element" (click)="toggleGroup(item.key)"
-                    [ngClass]="{'selected-group': filteredGroups.has(item.key)}">
+            <ng-container *ngFor="let groupName of orderedGroups">
+                <div class="group-element" (click)="toggleGroup(groupName)"
+                    [ngClass]="{'selected-group': filteredGroups.has(groupName)}">
                     <div style="height: 15px; width: 15px; border-radius: 50%;"
-                        [ngStyle]="{'background-color': item.value}"></div>
-                    <span class="group-name">{{item.key}}</span>
+                        [ngStyle]="{'background-color': colorByGroup[groupName]}"></div>
+                    <span class="group-name">{{groupName}}</span>
                 </div>
             </ng-container> 
         </div>
