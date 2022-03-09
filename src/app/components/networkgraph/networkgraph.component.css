@@ -109,7 +109,8 @@
     position: absolute;
     box-shadow: -3px 2px 7px 1px #ddd;
     width: 33vw;
-    max-width: 750px;
+    max-width: 550px;
+    min-width: 400px;
     right: -34vw;
     height: 100%;
     padding: 15px;
@@ -165,4 +166,11 @@
     background-color: var(--bg-color);
     user-select: none;
     cursor: pointer;
+}
+
+.kb-mimic {
+    padding: 0px 9px;
+    background-color: var(--text-color-dark);
+    color: #fff;
+    border-radius: 4px;
 }
