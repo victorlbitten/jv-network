@@ -17,13 +17,13 @@
             <ng-container *ngFor="let passage of passages">
                 <div class="passage-card">
 
-                    <ng-container *ngIf="!expansionByPassageId[passage.id]">
+                    <span [hidden]="expansionByPassageId[passage.id]">
                         <span [innerHTML]="passage.shortText"></span>
-                    </ng-container>
+                    </span>
 
-                    <ng-container *ngIf="expansionByPassageId[passage.id]">
+                    <span [hidden]="!expansionByPassageId[passage.id]">
                         <span [innerHTML]="passage.longText"></span>
-                    </ng-container>
+                    </span>
 
                     <ng-container *ngIf="expansiblePassageIds.includes(passage.id)">
                         <div class="expand-arrow" (click)="toggleExpansionStateById(passage.id)">

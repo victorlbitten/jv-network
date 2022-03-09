@@ -68,10 +68,6 @@ export class DomServiceService {
     domElement.firstElementChild.style.right = firsImprecision;
     domElement.firstElementChild.style.top += secondImprecision;
 
-    console.log([firsImprecision, secondImprecision]);
-    console.log(domElement);
-
-
 
     // 4. Append DOM element to the body
     document.body.appendChild(domElement);

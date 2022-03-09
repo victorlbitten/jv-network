@@ -325,7 +325,6 @@ export class NetworkgraphComponent implements OnInit {
 
 
   desselectAll () {
-    console.log(this.chart)
     const selectedPoints = this.chart.getSelectedPoints();
     selectedPoints.forEach((point:any) => point.select(false, true))
   }
