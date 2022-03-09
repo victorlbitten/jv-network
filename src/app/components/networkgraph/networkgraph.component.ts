@@ -155,10 +155,10 @@ export class NetworkgraphComponent implements OnInit {
           radius: this.radiusSizes.default,
           states: {
             select: {
-              fillColor: 'red',
+              fillColor: '#fff',
               radius: this.radiusSizes.big,
-              lineColor: 'blue',
-              lineWidth: 3
+              lineColor: '#411a04',
+              lineWidth: 2
             }
           },
         },
