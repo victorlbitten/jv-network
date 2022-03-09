@@ -15,7 +15,6 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    border: var(--border);
 
     width: 72ch;
     max-height: 30vh;

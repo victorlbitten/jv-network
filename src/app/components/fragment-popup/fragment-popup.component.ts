@@ -122,7 +122,6 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
       link.style.fontFamily = "Alternate Gothic N2";
       link.style.fontSize = "18px";
       link.style.color = "#fff";
-      // link.style.fontWeight = 600;
       link.style.textDecoration = "underline";
       link.style.cursor = "pointer";
 
