@@ -1,13 +1,13 @@
 .card-container {
     --border: 1px solid #ddd;
-    --fragment-bg-color: #585252;
+    --fragment-bg-color: rgba(30, 14, 14, 0.7);;
 
     position: absolute;
     top: 50px;
     right: 10px;
     z-index: 20;
     
-    background-color: rgb(88 82 82 / 94%);
+    background-color: var(--fragment-bg-color);
     border-radius: 10px;
     overflow: hidden;
     display: flex;

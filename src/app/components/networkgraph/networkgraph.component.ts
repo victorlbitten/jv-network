@@ -165,12 +165,12 @@ export class NetworkgraphComponent implements OnInit {
         dataLabels: {
           enabled: true,
           linkFormat: '',
-          padding: 0,
           style: {
-            backgroundColor: "transparent",
             opacity: 1,
             transition: '',
-            fontSize: '14px'
+            fontSize: '1rem',
+            fontFamily: 'PT Serif',
+            color: '#444'
           },
         },
         point: {
