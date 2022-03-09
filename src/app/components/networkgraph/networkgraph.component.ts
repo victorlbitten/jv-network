@@ -80,6 +80,7 @@ export class NetworkgraphComponent implements OnInit {
 
 
   ngOnInit(): void {
+    // this.formatNodes();
     this.createGraph();
     this.createReference();
   }
@@ -340,6 +341,31 @@ export class NetworkgraphComponent implements OnInit {
     const selectedPoints = this.chart.getSelectedPoints();
     selectedPoints.forEach((point:any) => point.select(false, true))
   }
+
+  // formatNodes () {
+  //   const nodes = this.chartDataService.getNodesData();
+  //   console.log(nodes);
+  //   const longNodes = nodes.filter((node:any) => node.verbatin.some(
+  //     (passage:any) => passage.longText !== ""));
+
+    
+
+  //   longNodes.forEach((node:any) => {
+  //     node.verbatin.forEach((passage:any, index:number) => {
+  //       passage.id=`${node.id}${index+1}`;
+        
+  //       if(passage.longText !== "") {
+  //         const upArrow = `<span id="ua-${passage.id}" class="up-arrow">&uarr;</span>`;
+  //         const downArrow = `<span id="da-${passage.id}" class="down-arrow">&darr;</span>`;
+  
+  //         passage.longText += upArrow;
+  //         passage.shortText += downArrow;
+  //       }
+  //     })
+  //   })
+  //   console.log(nodes);
+  // }
+
 
 }
 

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { nodes } from '../staticData/nodes';
+// import { nodes } from '../staticData/nodes';
+import { nodes } from '../staticData/nodesTest';
 import { links } from '../staticData/links';
 
 @Injectable({
