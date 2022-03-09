@@ -26,7 +26,7 @@
 
 .card-header {
     display: flex;
-    padding: 10px 15px;
+    padding: 10px 15px 10px 25px;
     align-items: center;
     gap: 10px;
 }
@@ -52,7 +52,7 @@
 .card-body {
     display: flex;
     flex-grow: 1;
-    padding: 10px 15px;
+    padding: 10px 15px 10px 25px;
     padding-top: 0;
     font-size: 0.9rem;
     overflow: auto;
@@ -68,7 +68,6 @@
 .passage-card {
     line-height: 1rem;
     font-size: 1.5rem;
-    margin-bottom: 10px;
 }
 
 
