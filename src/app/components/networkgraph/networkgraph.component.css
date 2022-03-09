@@ -56,7 +56,6 @@
 
     display: flex;
     flex-direction: column;
-    gap: 1px;   
 }
 
 .filter-btn-retracted {
@@ -71,12 +70,12 @@
 }
 
 .filters-body {
-    padding: 10px;
+    padding: 10px 15px;
     border: 1px solid var(--text-color-dark);;
     border-radius: 0 0 7px 7px;
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 10px;
 }
 
 .filter-element {
