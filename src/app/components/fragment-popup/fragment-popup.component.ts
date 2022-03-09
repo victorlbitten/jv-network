@@ -30,7 +30,7 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
     this.setExpansionStateByPassageId();
     this.node.verbatin.forEach((passage:any, index:number) => {
       let trustedPassageHTML = {
-        id: `${this.node.name}-${index}`,
+        id: `${passage.id}`,
         shortText: this.sanitizer.bypassSecurityTrustHtml(passage.shortText),
         longText: this.sanitizer.bypassSecurityTrustHtml(passage.longText)
       };
@@ -39,6 +39,8 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
       if (passage.longText !== "") {
         this.expansiblePassageIds.push(trustedPassageHTML.id);
       }
+
+      console.log(this.expansiblePassageIds);
     })
   }
 
@@ -46,6 +48,7 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
     this.setListeners();
 
    this.renderLinks();
+   this.insertExpansion();
   }
 
   destroySelf () {
@@ -61,6 +64,7 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
   }
 
   toggleExpansionStateById (passageId:number) {
+    console.log(passageId);
     this.expansionByPassageId[passageId] = !this.expansionByPassageId[passageId];
   }
 
@@ -112,6 +116,8 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   renderLinks () {
     const linkElements = document.querySelectorAll('a');
+    const downArrowElements = Array.from(document.getElementsByClassName('down-arrow'));
+    const upArrowElements = Array.from(document.getElementsByClassName('up-arrow'));
     const passageElements = Array.from(document.getElementsByClassName('node-text'));
     passageElements.forEach((passage:any) => {
       passage.style.fontSize = "1.1rem";
@@ -129,6 +135,29 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
         this.openNode(event.target.innerHTML);
       })
     });
+
+    downArrowElements.forEach((da:any) => {
+      da.style.fontSize = "22px";
+      da.style.fontWeight = 600;
+      da.style.color = "#fff";
+      da.addEventListener("click", (event:any) => {
+        this.toggleExpansionStateById(da.id);
+      })
+    })
+
+    upArrowElements.forEach((ua:any) => {
+      ua.style.fontSize = "22px";
+      ua.style.fontWeight = 600;
+      ua.style.color = "#fff";
+      ua.addEventListener("click", (event:any) => {
+        this.toggleExpansionStateById(ua.id);
+      })
+    })
+
+  }
+
+  insertExpansion () {
+
   }
 
 
