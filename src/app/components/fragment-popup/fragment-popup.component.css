@@ -1,6 +1,6 @@
 .card-container {
     --border: 1px solid #ddd;
-    --fragment-bg-color: rgba(30, 14, 14, 0.7);;
+    --fragment-bg-color: rgba(30, 14, 14, 0.75);;
 
     position: absolute;
     top: 50px;
@@ -8,18 +8,18 @@
     z-index: 20;
     
     background-color: var(--fragment-bg-color);
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     border: var(--border);
 
-    width: 57ch;
-    max-height: 25vh;
+    width: 72ch;
+    max-height: 30vh;
     min-height: 0px;
     padding-bottom: 10px;
 
-    color: #fff;
+    color: var(--bg-color);
 }
 
 .card-header {
@@ -30,14 +30,16 @@
 }
 
 .card-title {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-weight: 600;
     flex: 1;
     min-width: 0;
+    font-family: "PT Serif";
 
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin: 0.75rem 0;
 }
 
 .card-action-btns {
@@ -49,6 +51,7 @@
     display: flex;
     flex-grow: 1;
     padding: 10px 15px;
+    padding-top: 0;
     font-size: 0.9rem;
     overflow: auto;
     gap: 15px;
@@ -60,10 +63,7 @@
 
 .passage-card {
     line-height: 1rem;
-    padding: 5px 10px;
     font-size: 1.5rem;
-    border-radius: 3px;
-    border: 1px solid #eee;
     margin-bottom: 10px;
 }
 
@@ -87,7 +87,8 @@
     font-weight: 800;
     padding: 2px 5px;
     border-radius: 6px;
-    border: 1px solid #fff;
+    border: 1px solid var(--bg-color);
+    color: var(--bg-color);
     display: flex;
     align-items: center;
     justify-content: center;
