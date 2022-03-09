@@ -1,7 +1,8 @@
 .card-container {
     --border: 1px solid #ddd;
-    --fragment-bg-color: rgba(30, 14, 14, 0.75);;
+    --fragment-bg-color: rgba(30, 14, 14, 0.75);
     --text-color: #E9E4D9;
+    --redish-text-color: #f6E4D9;
 
 
     position: absolute;
@@ -57,6 +58,8 @@
     font-size: 0.9rem;
     overflow: auto;
     gap: 15px;
+    margin-right: 2px;
+    margin-bottom: 5px;
 }
 
 .card-fragment {
@@ -89,8 +92,8 @@
     font-weight: 800;
     padding: 2px 5px;
     border-radius: 6px;
-    border: 1px solid var(--text-color);
-    color: var(--text-color);
+    border: 1px solid var(--redish-text-color);
+    color: var(--redish-text-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,3 +106,19 @@
     padding-top: 10px;
     margin-top: 1px solid #eee;
 }
+
+
+
+.styled-scrollbars {
+    /* Foreground, Background */
+    scrollbar-color: var(--redish-text-color) transparent;
+  }
+  .styled-scrollbars::-webkit-scrollbar {
+    width: 5px; /* Mostly for vertical scrollbars */
+  }
+  .styled-scrollbars::-webkit-scrollbar-thumb { /* Foreground */
+    background: var(--redish-text-color);
+  }
+  .styled-scrollbars::-webkit-scrollbar-track { /* Background */
+    background: transparent;
+  }
