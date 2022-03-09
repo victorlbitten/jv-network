@@ -112,18 +112,15 @@
     max-width: 750px;
     right: -34vw;
     height: 100%;
-    padding: 10px 15px 10px 35px;
+    padding: 15px;
+    padding-bottom: 45px;
+    padding-left: 45px;
     background-color: var(--bg-color);
     transition: all .19s ease-in-out;
 
     display: flex;
     flex-direction: column;
-}
-
-.close-helper-btn {
-    position: absolute;
-    top: calc(50% - 9px);
-    left: -19px;
+    justify-content: space-between;
 }
 
 .helper-title {
@@ -132,6 +129,28 @@
     font-size: 36px;
     color: var(--text-color-dark);
 }
+
+.helper-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.helper-section-subtitle {
+    font-family: "Alternate Gothic N2";
+    color: var(--text-color-dark);
+    font-size: 26px;
+}
+
+
+
+.close-helper-btn {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: -19px;
+}
+
 
 .deselect-btn {
     margin-top: 10px;
