@@ -679,7 +679,7 @@ export const nodes = [
 	},
 	{
 		"id": 41,
-		"name": "Pedreira (checar nome)",
+		"name": "Pedreira do João Pedreiro",
 		"group": "Local",
 		verbatin: [
 			{

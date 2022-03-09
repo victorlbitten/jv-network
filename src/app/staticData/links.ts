@@ -241,10 +241,10 @@ export const links = [
     },
     {
         "from": "Adro da Matriz",
-        "to": "Pedreira (checar nome)"
+        "to": "Pedreira do João Pedreiro"
     },
     {
-        "from": "Pedreira (checar nome)",
+        "from": "Pedreira do João Pedreiro",
         "to": "D. Divina"
     },
     {
@@ -497,7 +497,7 @@ export const links = [
     },
     {
         "from": "Padre Antônio Cândido",
-        "to": "Pedreira (checar nome)"
+        "to": "Pedreira do João Pedreiro"
     },
     {
         "from": "Ilariano Malta",
