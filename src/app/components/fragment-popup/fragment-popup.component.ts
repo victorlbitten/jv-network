@@ -114,8 +114,8 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
     const linkElements = document.querySelectorAll('a');
     const passageElements = Array.from(document.getElementsByClassName('node-text'));
     passageElements.forEach((passage:any) => {
-      passage.style.fontSize = "18px";
-      passage.style.lineHeight = "1.22rem";
+      passage.style.fontSize = "1.1rem";
+      passage.style.lineHeight = "1.3rem";
     })
 
     linkElements.forEach((link:any) => {
