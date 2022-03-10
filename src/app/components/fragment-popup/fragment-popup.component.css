@@ -71,7 +71,7 @@
 }
 
 
-.image-placeholder {
+.image-container {
     height: 100px;
     width: 30%;
     flex-shrink: 0;
