@@ -22,10 +22,14 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
   expansiblePassageIds:any = [];
   passages:any = [];
 
+  showMediasComponent:boolean | undefined;
+
 
   constructor(private sanitizer:DomSanitizer) { }
 
   ngOnInit(): void {
+    this.showMediasComponent = Boolean(this.node.medias.verbatin.length || this.node.medias.expansion.length);
+
     this.title = this.node.name;
     this.setExpansionStateByPassageId();
     this.node.verbatin.forEach((passage:any, index:number) => {
@@ -39,8 +43,6 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
       if (passage.longText !== "") {
         this.expansiblePassageIds.push(trustedPassageHTML.id);
       }
-
-      console.log(this.expansiblePassageIds);
     })
   }
 

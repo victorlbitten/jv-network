@@ -81,6 +81,7 @@ export class NetworkgraphComponent implements OnInit {
 
   ngOnInit(): void {
     // this.formatNodes();
+    // this.filesManipulator.processFiles();
     this.createGraph();
     this.createReference();
   }
@@ -365,6 +366,11 @@ export class NetworkgraphComponent implements OnInit {
   //   })
   //   console.log(nodes);
   // }
+
+
+  testing () {
+
+  }
 
 
 }

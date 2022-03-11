@@ -3,6 +3,24 @@ export const nodes = [
         "id": 1,
         "name": "José Victor",
         "group": "José Victor",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/jose-victor/jose-victor.png",
+                    "type": "image"
+                }
+            ],
+            "expansion": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/manuscrito/verbatin/manuscrito.jpeg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/manuscrito/verbatin/manuscrito-2.jpeg",
+                    "type": "image"
+                }
+            ]
+        },
         "verbatin": [
             {
                 "id": "11",
@@ -20,6 +38,60 @@ export const nodes = [
         "id": 2,
         "name": "Relógio da torre da Matriz do Bação",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/verbatin/relogio-4.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/verbatin/relogio-vid.mp4",
+                    "type": "video"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/verbatin/relogio-vid-2.mp4",
+                    "type": "video"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/verbatin/relogio.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/verbatin/relogio-3.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/verbatin/relogio-1.jpg",
+                    "type": "image"
+                },
+            ],
+            "expansion": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/expansion/relogio-8.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/expansion/relogio-9.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/expansion/relogio-7.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/expansion/relogio-10.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/expansion/relogio-5.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-torre-da-matriz/expansion/relogio-6.jpg",
+                    "type": "image"
+                },
+            ]
+        },
         "verbatin": [
             {
                 "id": "",
@@ -32,6 +104,15 @@ export const nodes = [
         "id": 3,
         "name": "Relógio da Feira Permanente de Amostras",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relogio-da-feira-de-amostras/verbatin/feira-de-amostras.jpg",
+                    "type": "image"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -44,6 +125,10 @@ export const nodes = [
         "id": 4,
         "name": "Relógio de Belo Vale",
         "group": "Produção",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -56,6 +141,10 @@ export const nodes = [
         "id": 5,
         "name": "Relógio da casa de José Victor",
         "group": "Produção",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -68,6 +157,23 @@ export const nodes = [
         "id": 6,
         "name": "Tijolos",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/tijolos/tijolo.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/tijolos/tijolo-3.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/tijolos/tijolo-2.jpg",
+                    "type": "image"
+                },
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "61",
@@ -80,6 +186,15 @@ export const nodes = [
         "id": 7,
         "name": "Escultura do Cemitério",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/escultura-do-cemiterio/verbatin/escultura_do_cemiterio.jpg",
+                    "type": "image"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -92,6 +207,19 @@ export const nodes = [
         "id": 8,
         "name": "Pia de Batismo",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/pia-de-batismo/verbatin/pia_de_batismo_3.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/pia-de-batismo/verbatin/pia_de_batismo.jpg",
+                    "type": "image"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "81",
@@ -104,6 +232,10 @@ export const nodes = [
         "id": 9,
         "name": "Escultura de Anjos",
         "group": "Produção",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -116,6 +248,15 @@ export const nodes = [
         "id": 10,
         "name": "Máquina de Voar",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/maquina-de-voar/expansion/valdecir-1-maquina-de-voar.mp4",
+                    "type": "video"
+                },
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "101",
@@ -128,6 +269,35 @@ export const nodes = [
         "id": 11,
         "name": "Casa de José Victor",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {   
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-de-jose-victor/verbatin/casa-jose-victor.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-de-jose-victor/verbatin/casa-de-jose-victor.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-de-jose-victor/expansion/sala-casa-jose-victor.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-de-jose-victor/expansion/parede-nova-casa-jose-victor.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-de-jose-victor/expansion/parede-case-jose-victor.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-de-jose-victor/expansion/valdecir-2-pedra-cantaria-tijolosr.mp4",
+                    "type": "video"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -140,6 +310,10 @@ export const nodes = [
         "id": 12,
         "name": "Adro da Matriz",
         "group": "Produção",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -152,6 +326,23 @@ export const nodes = [
         "id": 13,
         "name": "Matriz do Bação",
         "group": "Local",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/matriz-do-bacao/matriz-bacao-3.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/matriz-do-bacao/matriz-bacao-2.jpg",
+                    "type": "image"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/matriz-do-bacao/matriz-bacao.jpg",
+                    "type": "image"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -164,6 +355,10 @@ export const nodes = [
         "id": 14,
         "name": "Construção da Matriz do Bação",
         "group": "Evento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "141",
@@ -176,6 +371,15 @@ export const nodes = [
         "id": 15,
         "name": "Padre Antônio Cândido",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/padre-antonio-candido/padre-antonio-candido.jpg",
+                    "type": "image"
+                },
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "151",
@@ -188,6 +392,15 @@ export const nodes = [
         "id": 16,
         "name": "Mudança de Freguesia",
         "group": "Evento",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/mudanca-de-freguesia/expansion/freguesia.mp4",
+                    "type": "video"
+                },
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "161",
@@ -200,6 +413,10 @@ export const nodes = [
         "id": 17,
         "name": "Missão de Padres do Caraça",
         "group": "Evento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -212,6 +429,10 @@ export const nodes = [
         "id": 18,
         "name": "Itabira do Campo",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -224,6 +445,10 @@ export const nodes = [
         "id": 19,
         "name": "Vila Rica",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -236,6 +461,20 @@ export const nodes = [
         "id": 20,
         "name": "Padre Bernardo",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/padre-bernardo/verbatin/padre-bernardo.jpg",
+                    "type": "image"
+                }
+            ],
+            "expansion": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/padre-bernardo/expansion/padre-bernardo.mp4",
+                    "type": "video"
+                },
+            ]
+        },
         "verbatin": [
             {
                 "id": "201",
@@ -258,6 +497,10 @@ export const nodes = [
         "id": 21,
         "name": "Belo Horizonte",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -270,6 +513,10 @@ export const nodes = [
         "id": 22,
         "name": "Belo Vale",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -282,6 +529,10 @@ export const nodes = [
         "id": 23,
         "name": "Zé Relojoeiro",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -294,6 +545,15 @@ export const nodes = [
         "id": 24,
         "name": "Layla",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/layla/verbatin/layla.mp4",
+                    "type": "video"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -306,6 +566,15 @@ export const nodes = [
         "id": 25,
         "name": "Adilson",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/adilson/Adilson.mp4",
+                    "type": "video"
+                },
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -318,6 +587,10 @@ export const nodes = [
         "id": 26,
         "name": "D. Divina",
         "group": "Conheceu José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -330,6 +603,10 @@ export const nodes = [
         "id": 27,
         "name": "Neymer",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -342,6 +619,15 @@ export const nodes = [
         "id": 28,
         "name": "Dr. Senna",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/dr-senna/expansion/dr-senna.mp4",
+                    "type": "video"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "281",
@@ -359,6 +645,10 @@ export const nodes = [
         "id": 29,
         "name": "Reportagem Estado de Minas",
         "group": "Documento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -371,6 +661,10 @@ export const nodes = [
         "id": 30,
         "name": "Relógio ou reportagem na Alemanha",
         "group": "Documento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -383,6 +677,20 @@ export const nodes = [
         "id": 31,
         "name": "Casa Flusser",
         "group": "Local",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-flusser/verbatin/casa-flusser.jpg",
+                    "type": "image"
+                },
+            ],
+            "expansion": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/casa-flusser/expansion/casa flusser.mp4",
+                    "type": "video"
+                },
+            ]
+        },
         "verbatin": [
             {
                 "id": "",
@@ -395,6 +703,10 @@ export const nodes = [
         "id": 32,
         "name": "Jaber",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -407,6 +719,10 @@ export const nodes = [
         "id": 33,
         "name": "Cemitério do Bação",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -419,6 +735,10 @@ export const nodes = [
         "id": 34,
         "name": "Bação",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -431,6 +751,15 @@ export const nodes = [
         "id": 35,
         "name": "Valdecir",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/valdecir/dupla-faceta.mp4",
+                    "type": "video"
+                },
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -443,6 +772,10 @@ export const nodes = [
         "id": 36,
         "name": "Livro de Tombos",
         "group": "Documento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "361",
@@ -495,6 +828,10 @@ export const nodes = [
         "id": 37,
         "name": "Mariana",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -507,6 +844,10 @@ export const nodes = [
         "id": 38,
         "name": "D. Lia",
         "group": "Conheceu José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -519,6 +860,10 @@ export const nodes = [
         "id": 39,
         "name": "Dolores",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -531,6 +876,10 @@ export const nodes = [
         "id": 40,
         "name": "Voo do 14-bis",
         "group": "Evento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "401",
@@ -543,6 +892,10 @@ export const nodes = [
         "id": 41,
         "name": "Pedreira do João Pedreiro",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -555,6 +908,15 @@ export const nodes = [
         "id": 42,
         "name": "Grupo de Teatro do Bação",
         "group": "Instituição",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/grupo-de-teatro-do-bacao/verbatin/WhatsApp Image 2021-01-18 at 16.52.30 (1).jpeg",
+                    "type": "image"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -567,6 +929,10 @@ export const nodes = [
         "id": 43,
         "name": "José Bastos Bittencourt",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "431",
@@ -579,6 +945,15 @@ export const nodes = [
         "id": 44,
         "name": "Capsula do Tempo",
         "group": "Documento",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/capsula-do-tempo/expansion/capsula-do-tempo.mp4",
+                    "type": "video"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "441",
@@ -591,6 +966,10 @@ export const nodes = [
         "id": 45,
         "name": "Itabirito",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -603,6 +982,15 @@ export const nodes = [
         "id": 46,
         "name": "Música",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/harmonio/harmonio.jpg",
+                    "type": "image"
+                },
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -615,6 +1003,10 @@ export const nodes = [
         "id": 47,
         "name": "Casa da Banda",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "471",
@@ -627,6 +1019,10 @@ export const nodes = [
         "id": 48,
         "name": "Totonho",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -639,6 +1035,10 @@ export const nodes = [
         "id": 49,
         "name": "Vânia",
         "group": "Conheceu José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -651,6 +1051,10 @@ export const nodes = [
         "id": 50,
         "name": "Rio de Janeiro",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -663,6 +1067,10 @@ export const nodes = [
         "id": 51,
         "name": "Seu Benjamin",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -675,6 +1083,10 @@ export const nodes = [
         "id": 52,
         "name": "Grupo de Seresteiros",
         "group": "Instituição",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "521",
@@ -687,6 +1099,10 @@ export const nodes = [
         "id": 53,
         "name": "Semana Santa",
         "group": "Evento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "531",
@@ -699,6 +1115,15 @@ export const nodes = [
         "id": 54,
         "name": "Relato da viagem",
         "group": "Documento",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/relato-da-viagem/expansion/jaber-viagem.mp4",
+                    "type": "video"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -711,6 +1136,19 @@ export const nodes = [
         "id": 55,
         "name": "Comércios na R. das Pimentas",
         "group": "Local",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/comercios-na-r-da-pimenta/moda do rj.mp4",
+                    "type": "video"
+                },
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/comercios-na-r-da-pimenta/comércios no bação.mp4",
+                    "type": "video"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "551",
@@ -723,6 +1161,10 @@ export const nodes = [
         "id": 56,
         "name": "Marilene",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -735,6 +1177,10 @@ export const nodes = [
         "id": 57,
         "name": "Estrada de Ferro Central do Brasil",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -747,6 +1193,10 @@ export const nodes = [
         "id": 58,
         "name": "Agostinho Rodrigues",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -759,6 +1209,10 @@ export const nodes = [
         "id": 59,
         "name": "Luiz Cheffer",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -771,6 +1225,10 @@ export const nodes = [
         "id": 60,
         "name": "Ilariano Malta",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -783,6 +1241,10 @@ export const nodes = [
         "id": 61,
         "name": "Estação Engenheiro Correa",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -795,6 +1257,10 @@ export const nodes = [
         "id": 62,
         "name": "Declaração da República",
         "group": "Evento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "621",
@@ -807,6 +1273,10 @@ export const nodes = [
         "id": 63,
         "name": "Padre Frederico",
         "group": "Se relacionou com José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -819,6 +1289,10 @@ export const nodes = [
         "id": 64,
         "name": "Colégio Arnaldo",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -831,6 +1305,15 @@ export const nodes = [
         "id": 65,
         "name": "Inscrições",
         "group": "Produção",
+        "medias": {
+            "verbatin": [
+                {
+                    "link": "https://storage.cloud.google.com/jvmedias/inscricoes/escrito-parede-torre.jpg",
+                    "type": "image"
+                }
+            ],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "651",
@@ -843,6 +1326,10 @@ export const nodes = [
         "id": 67,
         "name": "Bolsa",
         "group": "Evento",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -855,6 +1342,10 @@ export const nodes = [
         "id": 68,
         "name": "Muros de pedra",
         "group": "Local",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
@@ -867,6 +1358,10 @@ export const nodes = [
         "id": 69,
         "name": "Cabral",
         "group": "Escutou histórias sobre José Victor",
+        "medias": {
+            "verbatin": [],
+            "expansion": []
+        },
         "verbatin": [
             {
                 "id": "",
