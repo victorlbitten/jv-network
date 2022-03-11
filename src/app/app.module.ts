@@ -9,6 +9,7 @@ import { FragmentPopupComponent } from './components/fragment-popup/fragment-pop
 import { ImageCarouselComponent } from './components/image-carousel/image-carousel.component';
 import { VerbatinContainerComponent } from './components/verbatin-container/verbatin-container.component';
 import { HomeComponent } from './home/home.component';
+import { MediasComponent } from './medias/medias.component';
 
 
 const routes:Routes = [
@@ -27,6 +28,7 @@ const routes:Routes = [
     ImageCarouselComponent,
     VerbatinContainerComponent,
     HomeComponent,
+    MediasComponent,
   ],
   imports: [
     BrowserModule,

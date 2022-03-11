@@ -10,32 +10,23 @@
             </div>
         </div>
     </div>
-
+    <!-- Card body -->
     <div class="card-body styled-scrollbars">
-        <div class="image-placeholder"></div>
+        <!-- Medias -->
+        <div class="medias-container" *ngIf="showMediasComponent">
+            <app-medias [medias]="node.medias"></app-medias>
+        </div>
         <span class="card-fragment" id="cardBody-{{title}}">
             <ng-container *ngFor="let passage of passages">
                 <div class="passage-card">
-
+                    <!-- Short passage -->
                     <span [hidden]="expansionByPassageId[passage.id]">
                         <span [innerHTML]="passage.shortText"></span>
                     </span>
-
+                    <!-- Long passage -->
                     <span [hidden]="!expansionByPassageId[passage.id]">
                         <span [innerHTML]="passage.longText"></span>
                     </span>
-
-                    <!-- <ng-container *ngIf="expansiblePassageIds.includes(passage.id)">
-                        <div class="expand-arrow" (click)="toggleExpansionStateById(passage.id)">
-                            <span *ngIf="!expansionByPassageId[passage.id]">
-                                Expandir
-                            </span>
-                            <span *ngIf="expansionByPassageId[passage.id]">
-                                Retrair
-                            </span>
-                        </div>
-                    </ng-container> -->
-
                 </div>
             </ng-container>
         </span>

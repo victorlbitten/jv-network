@@ -3,6 +3,7 @@
     --fragment-bg-color: rgba(30, 14, 14, 0.75);
     --text-color: #E9E4D9;
     --redish-text-color: #f6E2D7;
+    --picture-dimension: 250px;
 
 
     position: absolute;
@@ -16,8 +17,8 @@
     display: flex;
     flex-direction: column;
 
-    width: 72ch;
-    max-height: 30vh;
+    max-width: 85ch;
+    max-height: 45vh;
     min-height: 0px;
     padding-bottom: 10px;
 
@@ -71,13 +72,20 @@
 }
 
 
-.image-placeholder {
-    height: 100px;
-    width: 30%;
+.medias-container {
+    height: 100%;
+    min-height: var(--picture-dimension);
+    width: var(--picture-dimension);
+    overflow: auto;
     flex-shrink: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.media-picture {
+    /* height: var(--picture-dimension); */
 }
 
 .close-btn {

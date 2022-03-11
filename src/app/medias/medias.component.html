@@ -1,0 +1,26 @@
+<div style="display: flex; flex-direction: column; justify-content: flex-start; gap: 10px; height: 100%">
+    <button (click)="toggleExpansion()">
+        <span *ngIf="!expanded">Expand</span>
+        <span *ngIf="expanded">Retract</span>
+    </button>
+    
+    <ng-container>
+        <ng-container *ngFor="let verbatinMedia of medias.verbatin">
+            <img *ngIf="verbatinMedia.type === 'image'" [src]="verbatinMedia.link" alt="">
+            <video *ngIf="verbatinMedia.type === 'video'" [src]="verbatinMedia.link" type="video/MP4" controls></video>
+        </ng-container>
+    </ng-container>
+
+    <ng-container *ngIf="expanded">
+        <ng-container *ngFor="let expansionMedia of medias.expansion">
+            <img *ngIf="expansionMedia.type === 'image'" [src]="expansionMedia.link" alt="">
+            <video *ngIf="expansionMedia.type === 'video'" [src]="expansionMedia.link" type="video/MP4" controls></video>
+        </ng-container>
+    </ng-container>
+    
+    
+    
+    
+    
+</div>
+
