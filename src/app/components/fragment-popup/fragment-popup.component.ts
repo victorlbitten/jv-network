@@ -119,8 +119,8 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   renderLinks () {
     const linkElements = document.querySelectorAll('a');
-    const downArrowElements = Array.from(document.getElementsByClassName('mdi-arrow-down-bold-box'));
-    const upArrowElements = Array.from(document.getElementsByClassName('mdi-arrow-up-bold-box'));
+    const downArrowElements = Array.from(document.getElementsByClassName('down-arrow'));
+    const upArrowElements = Array.from(document.getElementsByClassName('up-arrow'));
     const passageElements = Array.from(document.getElementsByClassName('node-text'));
     passageElements.forEach((passage:any) => {
       passage.style.fontSize = "1.1rem";

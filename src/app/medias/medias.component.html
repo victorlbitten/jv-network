@@ -1,8 +1,8 @@
 <div style="display: flex; flex-direction: column; justify-content: flex-start; gap: 10px; height: 100%">
-    <button (click)="toggleExpansion()">
-        <span *ngIf="!expanded">Mais mídias</span>
-        <span *ngIf="expanded">Menos mídias</span>
-    </button>
+    <div (click)="toggleExpansion()" style="width: min-content;">
+        <span *ngIf="!expanded" class="mdi mdi-arrow-down-bold-box expansion-arrow"></span>
+        <span *ngIf="expanded" class="mdi mdi-arrow-up-bold-box expansion-arrow"></span>
+    </div>
     
     <ng-container>
         <ng-container *ngFor="let verbatinMedia of medias.verbatin">
