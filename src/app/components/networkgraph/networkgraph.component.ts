@@ -20,6 +20,7 @@ noData(Highcharts);
 networkgraph(Highcharts);
 
 import { ChartDataService } from 'src/app/services/chart-data.service';
+import { FilesManipulatorService } from 'src/app/files-manipulator.service';
 
 @Component({
   selector: 'networkgraph',
@@ -29,7 +30,8 @@ import { ChartDataService } from 'src/app/services/chart-data.service';
 export class NetworkgraphComponent implements OnInit {
   constructor(
     private chartDataService: ChartDataService,
-    private domService: DomServiceService
+    private domService: DomServiceService,
+    private filesManipulator: FilesManipulatorService
   ) { }
 
   // Constants used throughout the code
