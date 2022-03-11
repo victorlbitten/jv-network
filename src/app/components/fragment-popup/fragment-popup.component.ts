@@ -68,6 +68,7 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
   toggleExpansionStateById (passageId:number) {
     console.log(passageId);
     this.expansionByPassageId[passageId] = !this.expansionByPassageId[passageId];
+    console.log(this.expansionByPassageId);
   }
 
   setListeners () {
@@ -118,8 +119,8 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
 
   renderLinks () {
     const linkElements = document.querySelectorAll('a');
-    const downArrowElements = Array.from(document.getElementsByClassName('down-arrow'));
-    const upArrowElements = Array.from(document.getElementsByClassName('up-arrow'));
+    const downArrowElements = Array.from(document.getElementsByClassName('mdi-arrow-down-bold-box'));
+    const upArrowElements = Array.from(document.getElementsByClassName('mdi-arrow-up-bold-box'));
     const passageElements = Array.from(document.getElementsByClassName('node-text'));
     passageElements.forEach((passage:any) => {
       passage.style.fontSize = "1.1rem";
@@ -139,7 +140,8 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
     });
 
     downArrowElements.forEach((da:any) => {
-      da.style.fontSize = "22px";
+      da.style.fontSize = "20px";
+      da.style.cursor = 'pointer';
       da.style.fontWeight = 600;
       da.style.color = "#fff";
       da.addEventListener("click", (event:any) => {
@@ -148,7 +150,8 @@ export class FragmentPopupComponent implements OnInit, AfterViewInit {
     })
 
     upArrowElements.forEach((ua:any) => {
-      ua.style.fontSize = "22px";
+      ua.style.fontSize = "20px";
+      ua.style.cursor = 'pointer';
       ua.style.fontWeight = 600;
       ua.style.color = "#fff";
       ua.addEventListener("click", (event:any) => {
