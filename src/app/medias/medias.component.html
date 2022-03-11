@@ -6,21 +6,28 @@
     
     <ng-container>
         <ng-container *ngFor="let verbatinMedia of medias.verbatin">
-            <img *ngIf="verbatinMedia.type === 'image'" [src]="verbatinMedia.link" alt="">
+            <img *ngIf="verbatinMedia.type === 'image'" [src]="verbatinMedia.link" alt=""
+                (click)="enlargeImage(verbatinMedia.link)">
             <video *ngIf="verbatinMedia.type === 'video'" [src]="verbatinMedia.link" type="video/MP4" controls></video>
         </ng-container>
     </ng-container>
 
     <ng-container *ngIf="expanded">
         <ng-container *ngFor="let expansionMedia of medias.expansion">
-            <img *ngIf="expansionMedia.type === 'image'" [src]="expansionMedia.link" alt="">
+            <img *ngIf="expansionMedia.type === 'image'" [src]="expansionMedia.link" alt=""
+                (click)="enlargeImage(expansionMedia.link)">
             <video *ngIf="expansionMedia.type === 'video'" [src]="expansionMedia.link" type="video/MP4" controls></video>
         </ng-container>
     </ng-container>
-    
-    
-    
-    
-    
 </div>
 
+<ng-container *ngIf="enlargedMediaLink !== ''">
+    <div class="enlarged-container">
+        <div style="padding: 15px 15px; background-color:#fff; border: 1px solid #ccc; border-radius: 10px; height: 85vh; box-shadow: 4px 4px 5px 1px #ccc; display: flex; flex-direction: column;">
+            <div style="height: 40px; display: flex; justify-content: flex-end;">
+                <div style="padding: 6px 15px; background-color: #401A04; border-radius: 5px;width: max-content; height: max-content; cursor: pointer;" (click)="enlargedMediaLink=''">Fechar</div>
+            </div>
+            <img [src]="enlargedMediaLink" alt="" class="enlarged-image" style="height: calc(100% - 40px)">
+        </div>
+    </div>
+</ng-container>

@@ -11,6 +11,7 @@ export class MediasComponent implements OnInit {
   constructor() { }
 
   expanded = false;
+  enlargedMediaLink:string = "";
 
   ngOnInit(): void {
     console.log(this.medias);
@@ -18,6 +19,10 @@ export class MediasComponent implements OnInit {
 
   toggleExpansion () {
     this.expanded = !this.expanded;
+  }
+
+  enlargeImage (link:string) {
+      this.enlargedMediaLink = link;
   }
 
 }
